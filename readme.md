@@ -154,7 +154,7 @@ The Javascript intepreter is responsible for implementing the code written in Ja
 &nbsp;
 &nbsp;
 ### **UI Backend**
-
+The UI backend component plays the simple roll of displaying and drawing certain elements in the browser, such as check boxs, windows, and widgets. The operating system is what powers this process underneath the UI functions. 
 
 &nbsp;
 &nbsp;
@@ -268,6 +268,19 @@ https://www.google.com.au/books/edition/Computer_Science_Programming_Basics_in_R
 ## **Question 5 -  Describe the features of interpreters and compilers and how they are different.**
 &nbsp;  
 &nbsp;
+### **Features of Interpreters**
+
+### **Features of Compilers**
+
+### **Differences betwen Interpreters and Compilers**
+
+https://www.businessinsider.in/difference-between-compiler-and-interpreter/articleshow/69523408.cms#:~:text=Interpreter%20translates%20just%20one%20statement,the%20process%20is%20much%20slower 
+
+Source - https://www.programiz.com/article/difference-compiler-interpreter 
+
+https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/ 
+
+
 ## **Question 6 -  Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.**
 &nbsp;  
 &nbsp;  
