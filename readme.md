@@ -82,23 +82,40 @@ For a web browser to be able to display contents on the page, there are a series
 &nbsp;  
 &nbsp;
 ![Image of Web Browser Components Diagram](browserengine.png)
-### _Image Source: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Resources_
+#### _Image Source: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Resources_
+&nbsp; 
+&nbsp; 
 ### **User Interface**
 &nbsp;
 The user interface is responsible for displaying what the user can interact with when they open the web browser. The components of the user interface include elements such as toolbars, address bars, and home buttons.  It must be noted here that the user interface does not include the actual web page display. It only includes the components that are in the browser whether a web page loads or not. 
 &nbsp;  
 &nbsp;  
 ### **Browser Engine**
-&nbsp;
-&nbsp;   
 The browser engine is located behind the user interface and is considered to be a sort of intermediary which helps to connect the user interface with the rendering engine. 
-
+&nbsp;  
+&nbsp; 
 ### **Rendering Engine**
 The rendering engine is responsible for displaying the elements and code which are written in HTML, XML, CSS, and Javascript. In order for the rendering engine to be able to translate the code into a visual display form on the web browser, the rendering engine must complete a  series of steps. The rendering engine is an important component of a web browser, and without it, the user would not be able to view anything upon opening a web page. Each browser uses a different kind of rendering engine, some of the major rendering engines, according to Neild (2020), are: 
 
 - Webkit (used in Safari)
 - Gecko (used in Firefox)
 - Blink (used in Chrome)
+
+The rendering engine goes through several steps in order to complete the process of rendering, which can be seen in the diagram below: 
+
+![Rendering Engine Diagram](render.png)
+### *source - https://www.browserstack.com/guide/browser-rendering-engine*
+
+From this diagram we can see that the rendering engine is undertaking a lot of processes to make sure that the web browser is displaying the web page correctly. A basic overview of the steps required (seen in the diagram above) are outlined below: 
+
+1. The HTML must be parsed initially, which means that the HTML code must be interpreted and broken down into small chunks (or nodes) in order to create what is called a DOM tree. The CSS is also constructed into its own tree called the CSSOM.
+2. Secondly, render tree is constructed, whereby the rendering engine determine what kind of order the DOM tree will be displayed in. 
+3. After construction, the rendering engine moves on to implement the layout of the tree. This is where the engine will decide what the dimensions and layout values are going to be, and it will attempt to make an accurate depiction of what it is instructed to do through the HTML and CSS code. Once the tree has been constructed, the rendering engine moves through the tree from the top of the tree to the bottom, ignoring any elements in the DOM and CSSOM trees which are not required to be displayed. 
+4. Once the layout of the tree has been finalized, the rending engine moves onto the last step of painting the rener tree. This involves colorization of pixels, and converts the information in the render tree to actual visible pictures which are visible in the browser (Unadkat 2019)(Grigorik). 
+
+**Unadkat (2019)**https://www.browserstack.com/guide/browser-rendering-engine 
+
+**Grigorik** https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction 
 
 
 Neild (2020) https://www.gizmodo.com.au/2020/12/which-browser-engine-powers-your-web-browsingand-why-does-it-matter/ 
@@ -107,11 +124,14 @@ The rendering engine does not pull the data and code from any random place, but 
 
 https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda Zlatkov (2018)
 ### **Networking**
-The networking component is used for undertaking requests and calls to the network using protocols such as HTTP. Before making this request, however, web browsers will check to see if the local computer has a HTTP cache, which allows the page to load quicker. If a user has cleared their cache files previously, or if they have never visited a particular website, the networking layer will need to make a HTTP request to retrieve these files. The networking layer plays a crucial part in delivering load speed and response times when loading web pages, or particular elements on web pages. 
+The networking
+layer plays a crucial part in delivering load speed and 
+response times when loading web pages, or particular 
+elements on web pages. The networking component is used for undertaking requests and calls to the network using protocols such as HTTP. Before making this request, however, web browsers will check to see if the local computer has a HTTP cache, which allows the page to load quicker. If a user has cleared their cache files previously, or if they have never visited a particular website, the networking layer will need to
 &nbsp;  
 &nbsp;
 ### **Javascript Interpreter** 
-The Javascript intepreter is responsible for implementing the code written in Javascript to be displayed correctly in a web browser. 
+The Javascript intepreter is responsible for implementing the code written in Javascript to be displayed correctly in a web browser. Before the Javascript interpreter allows the Javascript code to be displayed, it must go through a process of evaluating the code to best decide how the 
 
 
 
@@ -119,6 +139,8 @@ The Javascript intepreter is responsible for implementing the code written in Ja
 &nbsp;
 &nbsp;
 ### **UI Backend**
+
+
 &nbsp;
 &nbsp;
 ### **Data Storage/Persistence**
@@ -284,43 +306,83 @@ Outcome: “25”
 As you can see, the integer has now changed into a string and it is surrounded by the double quotation marks. 
 &nbsp;  
 &nbsp;   
-## **Q10 Explain data types, using examples** 
+## **Question 10 - Explain data types, using examples** 
 There are various different data types in programming languages, and each data type has its own unique classification which tells the program what kind of data type it is. The classification that each data type has allows the program to know how to input or output that particular piece of data. Without data types, individual data would be unrecognizable from other data, and the computer would not know what to do with each piece of data. By assigning data a data type, the computer is able to figure out what to do with each piece of data. 
-Numbers (Integer)
+&nbsp;  
+&nbsp;  
+## **Numbers** 
+
+### **Integer**
 Integers are a data type which are made up of whole numbers, without decimals. Examples of integers are - 
 1, 2, 3, 4, 5, 6.
 4 + 4 = 8 
 Some languages, such as Ruby, cannot handle commas when large number integers are typed to the program, and therefore ruby relies on the underscore “_” to separate the numbers just like a comma would in the English language. 
 Numbers (Float)
-Floats are different from integers in that they have decimal points, and thus are able to be numbers other than whole numbers. Floats allow the computer to perform calculations that require decimal points. If only integer data types existed, computers would not be able to accurately input and output data, as the decimal places would be left out of the equations. Examples of float numbers are -
-1.1, 2.1, 3.1, 4.1, 5.1, 6.1. 
-64.58
-104.20
-Boolean
+Floats are different from integers in that they have decimal points, and thus are able to be numbers other than whole numbers. Floats allow the computer to perform calculations that require decimal points. If only integer data types existed, computers would not be able to accurately input and output data, as the decimal places would be left out of the equations.
+&nbsp;  
+&nbsp;  
+*Examples of float numbers are:* 
+- 1.1, 2.1, 3.1, 4.1, 5.1, 6.1. 
+&nbsp;  
+&nbsp;
+- 64.58
+&nbsp;  
+&nbsp;
+- 104.20
+&nbsp;  
+&nbsp;  
+### **Boolean**
 A boolean is a data type which has two different values - true and false. These values are a fundamental data type in computer science, and they play an important role in programming. The boolean can be used when asking if two objects are the same as each other, or if they are not the same as each other. 
+&nbsp;  
+&nbsp;  
+*Examples of booleans are:*
+- True
+- False
 
 https://developer.mozilla.org/en-US/docs/Glossary/Boolean 
 https://www.rubyguides.com/2019/02/ruby-booleans/ 
 
-String
-A string is a line of characters or words which usually represent a line of text. When strings are used in programming they are surrounded by either single quotation, or double quotation marks.  Examples of strings are - 
-“Hello World”
-‘Hello World’
-“I am 50 years old”
-“50”
-Q11
+### **String**
+A string is a line of characters or words which usually represent a line of text. When strings are used in programming they are surrounded by either single quotation, or double quotation marks.  
+&nbsp;  
+&nbsp;Examples of strings are -
+&nbsp;  
+&nbsp; 
+- “Hello World”
+- ‘Hello World’
+- “I am 50 years old”
+- “50”
+&nbsp;  
+&nbsp;
+
+
+Notice that the last string which is "50" looks like a number/integer. Although the number 50 is indeed a number, the presence double quotation marks in the Ruby programming language means that the number is considered to be a string.
+&nbsp;  
+&nbsp;
+
+## **Question - 11**
 Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
  - Identify the classes you would use to solve the problem
  - Write a short explanation of why you would use the classes you have identified
-Q12
+&nbsp;  
+&nbsp;  
+## **Question - 12**
 Identify and explain the error in the code snippet below that is preventing correct execution of the program
-Q13
+&nbsp;  
+&nbsp;  
+## **Question - 13**
 The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
-Q14
+&nbsp;  
+&nbsp;
+## **Question - 14**
+
 Demonstrate your algorithmic thinking through completing the following two tasks, in order:
  1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
  2. Write pseudocode for the process outlined in your flowchart
-Q15
+&nbsp;  
+&nbsp;
+## **Question - 15**
+
 Write pseudocode OR Ruby code for the following problem:
 You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
 
@@ -334,9 +396,10 @@ Else if temperature = >=15 + not_raining
 Puts = “it’s warm but not raining”
 Else if …. Otherwise? 
 Puts = “it’s warm and raining”.
+&nbsp;  
+&nbsp;  
 
-
-Q16
+## **Question - 16**
 ACME Corporation are hiring a new junior developer, as part of their hiring criteria they've created a "coding skill score" based on the specific competencies they require for this role; the more important the skill is for ACME corp, the more points it contributes to the "coding skill score" The skills are weighted as follows:
  - Python (1)
  - Ruby (2)
@@ -350,6 +413,7 @@ ACME Corporation are hiring a new junior developer, as part of their hiring crit
  Write a program that allows a user to input their skills and then tells them 
  a) Their overall "coding skill score" 
  b) Skills they may want to learn, and how much each one would improve their score
+
 
 
 
