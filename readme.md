@@ -6,7 +6,7 @@ Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 &nbsp;  
 
 # Questions - 
-## ****Question 1 - Identify and explain common and important components and concepts of web development markup languages**
+## **Question 1 - Identify and explain common and important components and concepts of web development markup languages**
 asdf
 &nbsp;
 &nbsp;  
@@ -17,9 +17,9 @@ asdf
 &nbsp;  
 
 ## **Question 2 - Define the features of the following technologies that are essential in terms of the development of the internet:**
-&nbsp;  
+&nbsp;
 ### **Introduction**
-Since the development of the internet in the 1960s, there have been a number of components which make up the internet that are still a core part of how the internet operates today.
+Since the development of the internet in the 1960s, there have been a number of components which have made up the internet that are still a core part of how the internet operates today.
 &nbsp;   
 &nbsp;  
 ### **IP addresses (IPv4 and IPv6)**
@@ -67,12 +67,14 @@ The emergence and implementation of the Domain Name System was a significant dev
 &nbsp;  
 ### **TCP**
 TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish.
-Transmission Control Protocol/Internet Protocol - IBM Documentation
+
+*Source - https://www.ibm.com/docs/en/aix/7.1?topic=management-transmission-control-protocolinternet-protocol* 
 &nbsp;  
 &nbsp;  
 
 ### **HTTP and HTTPS**
 HTTPS is different from HTTP in that it provides a layer of encryption, and thus is more secure than the HTTP protocol. If a similar form were to be submitted on both HTTP and HTTPS, someone attempting to hack the form would find it easier to access the information from the HTTP protocol, and would have trouble accessing the information via HTTPS. The encryption feature in HTTPS is an invaluable tool for websites, as it gives the company running the website an extra layer of trust and reputability. This layer of trust is an important development of client and server communication. With the development of the internet, the number of  hackers has also grown, and therefore, the invention of HTTPS is a fundamental feature in the development of the internet over time.
+
 **Source** https://www.cloudflare.com/learning/ssl/why-use-https/ 
 &nbsp;  
 &nbsp;  
@@ -235,15 +237,30 @@ Source for Arrays - https://www.google.com.au/books/edition/Ruby_Programming_for
 
 
 ### **Hashes**
-Hashes are similar to arrays, in that they store a group of data. One difference between hashes and arrays is that elements within an array do not need to be assigned a value or key. However, for a hash to be correctly written in code, the elements within the hash must be assigned both a value and a key. Unlike the array, the hash is not ordered with an index. Instead, the keys and values within the hashes are called upon when writing the code to retrieve a piece of data from within the hash. 
+Hashes are similar to arrays, in that they store a group of data. There are two main diffences between hashes and array. Firstly, the elements within an array do not need to be assigned a value or key. Secondly, the hashes are in an unordered index, unlike arrays. For a hash to be correctly written in code, the elements within the hash must be assigned both a value and a key. The keys and values within the hashes are called upon when writing the code to retrieve a piece of data from within the hash. Acording to Castello (2020) some basic use cases for hashes include: listening vocabulary in languages which provide a varieyty of definitions. Each definition would be a new value/key pair. Also, lists of people's names, or usernames. 
 Here is a basic example of what a basic hash data structure may look like: 
-Days = {1 => “ Monday”, 2 => “Tuesday”, 3=> “Wednesday”, 4 => “Thursday”}
-Source for hashes - https://www.google.com.au/books/edition/Learning_Ruby/pYS_Fm5LqUYC?hl=en&gbpv=1&dq=introduction+to+ruby&printsec=frontcover - Chapter 7, page 107
+
+Days = {"1" => “ Monday”, "2" => “Tuesday”, "3" => “Wednesday”, "4" => “Thursday”}
+
+Similar to arrays, hashes also use an index to allow retrieval of individual data items. If a specific value from the hash index was required for retrieval, a similar process to the arrays takes place A basic example of this is below: 
+
+## *********insert example here of retrieving a value from hash index.******
+
+
+*Source for hashes - https://www.google.com.au/books/edition/Learning_Ruby/pYS_Fm5LqUYC?hl=en&gbpv=1&dq=introduction+to+ruby&printsec=frontcover - Chapter 7, page 107*
+
+*Source for hashes -https://books.google.com.au/books/about/Ruby_Programming_for_Beginners.html?id=3lWSzQEACAAJ&redir_esc=y* page 158 
+
+*Castello (2020) - https://www.rubyguides.com/2020/05/ruby-hash-methods/* 
 
 ### **Trees**
 &nbsp;
 &nbsp;  
-Trees are another common data structure in the Ruby programming language, and they play a similar role as an array and hash data structure. However, trees are different from arrays and hashes by the way that they store and structure the stored data in the tree. 
+Trees are another common data structure in the Ruby programming language, and they play a similar role as an array and hash data structure. However, trees are different from arrays and hashes by the way that they store and structure the stored data in a non-linear way. A tree data structure is a top down structure, unlike the arrays and hashes which are left to right. The tree is structured with a root at the very top, and with nodes branching off the root below to the left, and to the right. The nodes which branch off the branches above are called children, as they are descendents of the branches above. Because the tree is structured literally like the structure of a tree in the real world, the term used for searching the tree is "tree traversal", which is different from searching a linear index like a hash or an array. 
+
+A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. 
+
+*Source https://www.programiz.com/dsa/trees*
 Source for Trees - https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf - page 93
 http://www.cs.uni.edu/~wallingf/teaching/agile-may2010/ruby/programming-ruby.pdf (page 14 for hashes and arrays)
 https://www.rubyguides.com/2019/04/ruby-data-structures/ 
