@@ -100,11 +100,15 @@ The rendering engine is responsible for displaying the elements and code which a
 - Webkit (used in Safari)
 - Gecko (used in Firefox)
 - Blink (used in Chrome)
+&nbsp;  
+&nbsp;
 
 The rendering engine goes through several steps in order to complete the process of rendering, which can be seen in the diagram below: 
+&nbsp;  
+&nbsp;
 
 ![Rendering Engine Diagram](render.png)
-### *source - https://www.browserstack.com/guide/browser-rendering-engine*
+### *Image source - https://www.browserstack.com/guide/browser-rendering-engine*
 
 From this diagram we can see that the rendering engine is undertaking a lot of processes to make sure that the web browser is displaying the web page correctly. A basic overview of the steps required (seen in the diagram above) are outlined below: 
 
@@ -172,12 +176,18 @@ Data structures in programming languages contain collections of data, big or sma
 #### **Identify**
 Arrays are a data structure which holds a list of variables in an index. The 
 An important note to make about arrays is that they are not the same as arrays in other programming languages. Arrays in other programming languages are considered to be static, while arrays in Ruby are considered to be dynamic. This means that static arrays in other programming languages must input the specific size of the array when it is first being added, and its size cannot be modified once it has been created. However, in Ruby’s case, a dynamic array is able to be modified and changed, long after the array has been created. 
-A basic array data structure may look something like this: 
-Countries = [Australia, Japan, China, Germany]
-When the elements within an array are ordered, they are automatically ordered starting from 0 (zero). In the above example the index would look like this - 
+A basic array data structure may look something like this:
+&nbsp;  
+&nbsp; 
 
-
-[ 1 Australia, 1. Japan, 2. China, 3. Germany] 
+Countries = [Australia, Japan, China, Germany] 
+&nbsp;   
+&nbsp;
+&nbsp;  
+The elements within an array are ordered in an index, and they are automatically ordered starting from 0 (zero). This allows for data retrieval of particular elements within the array simply by calling upon the index number in the index. In the above example the index would look like this - 
+&nbsp;
+&nbsp;  
+[0, 1, 2, 3,] 
 &nbsp;  
 &nbsp;  
 #### **Explain the Reasons**
