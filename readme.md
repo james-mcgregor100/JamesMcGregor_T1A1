@@ -7,7 +7,7 @@ Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 
 # Questions - 
 ## **Question 1 - Identify and explain common and important components and concepts of web development markup languages**
-asdf
+
 &nbsp;
 &nbsp;  
 &nbsp; 
@@ -274,6 +274,7 @@ https://www.google.com.au/books/edition/Computer_Science_Programming_Basics_in_R
 
 ### **Differences betwen Interpreters and Compilers**
 
+Source - https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
 https://www.businessinsider.in/difference-between-compiler-and-interpreter/articleshow/69523408.cms#:~:text=Interpreter%20translates%20just%20one%20statement,the%20process%20is%20much%20slower 
 
 Source - https://www.programiz.com/article/difference-compiler-interpreter 
