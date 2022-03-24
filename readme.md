@@ -81,8 +81,9 @@ Web browsers have made many strides in their development since some of the first
 For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page. There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
 &nbsp;  
 &nbsp;
+![Image of Web Browser Components Diagram](browserengine.png)
+### _Image Source: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Resources_
 ### **User Interface**
-&nbsp;
 &nbsp;
 The user interface is responsible for displaying what the user can interact with when they open the web browser. The components of the user interface include elements such as toolbars, address bars, and home buttons.  It must be noted here that the user interface does not include the actual web page display. It only includes the components that are in the browser whether a web page loads or not. 
 &nbsp;  
@@ -91,16 +92,30 @@ The user interface is responsible for displaying what the user can interact with
 &nbsp;
 &nbsp;   
 The browser engine is located behind the user interface and is considered to be a sort of intermediary which helps to connect the user interface with the rendering engine. 
-Rendering Engine
-The rendering engine is responsible for displaying the elements and code which are written in HTML, CSS and Javascript. In order for the rendering engine to be able to translate the code into a visual display form on the web browser, the rendering engine must complete a  series of steps. The rendering engine is an important component of a web browser, and without it, the user would not be able to view anything upon opening a web page. Each browser uses a different kind of rendering engine, some of the major rendering engines are: 
+
+### **Rendering Engine**
+The rendering engine is responsible for displaying the elements and code which are written in HTML, XML, CSS, and Javascript. In order for the rendering engine to be able to translate the code into a visual display form on the web browser, the rendering engine must complete a  series of steps. The rendering engine is an important component of a web browser, and without it, the user would not be able to view anything upon opening a web page. Each browser uses a different kind of rendering engine, some of the major rendering engines, according to Neild (2020), are: 
+
+- Webkit (used in Safari)
+- Gecko (used in Firefox)
+- Blink (used in Chrome)
+
+
+Neild (2020) https://www.gizmodo.com.au/2020/12/which-browser-engine-powers-your-web-browsingand-why-does-it-matter/ 
  
- 
- 
+The rendering engine does not pull the data and code from any random place, but it is constantly communicating with the networking component of the web browser in order to receive the information to begin rendering. 
+
 https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda Zlatkov (2018)
 ### **Networking**
-&nbsp;
+The networking component is used for undertaking requests and calls to the network using protocols such as HTTP. Before making this request, however, web browsers will check to see if the local computer has a HTTP cache, which allows the page to load quicker. If a user has cleared their cache files previously, or if they have never visited a particular website, the networking layer will need to make a HTTP request to retrieve these files. The networking layer plays a crucial part in delivering load speed and response times when loading web pages, or particular elements on web pages. 
+&nbsp;  
 &nbsp;
 ### **Javascript Interpreter** 
+The Javascript intepreter is responsible for implementing the code written in Javascript to be displayed correctly in a web browser. 
+
+
+
+**Source - Conrad (2018) https://softwareengineeringdaily.com/2018/10/03/javascript-and-the-inner-workings-of-your-browser/**
 &nbsp;
 &nbsp;
 ### **UI Backend**
