@@ -46,9 +46,10 @@ As mentioned above, IP addresses are the addresses which are the actual addresse
 An important component of DNS is ‘caching’. Caching is essentially a repository of data on your computer which stores information of previously visited websites. This data is kept on your computer for a fixed amount of time, and allows your computer to open up the cache files to find the details of a website that you are trying to connect to. If your computer does have this data stored in its cache, then it will be able to connect to a website quicker than if it had to find the details of the website externally, which would involve a process of anywhere between five to eight steps in order to successfully fulfill the user’s request. 
 
 
-Explain how each technology has contributed to the development of the internet.
- IP addresses (IPv4 and IPv6)
- Packets
+## **Explain how each technology has contributed to the development of the internet.**
+IP addresses 
+(IPv4 and IPv6)
+Packets
 Routers and Routing
 
 **Domains and DNS**
@@ -110,12 +111,21 @@ The rendering engine goes through several steps in order to complete the process
 ![Rendering Engine Diagram](render.png)
 ### *Image source - https://www.browserstack.com/guide/browser-rendering-engine*
 
-From this diagram we can see that the rendering engine is undertaking a lot of processes to make sure that the web browser is displaying the web page correctly. A basic overview of the steps required (seen in the diagram above) are outlined below: 
+From this diagram we can see that the rendering engine is completing a range of processes to make sure that the web browser is displaying the web page correctly. A basic overview of the steps required (seen in the diagram above) are outlined below: 
+&nbsp;    
+&nbsp;
 
 1. The HTML must be parsed initially, which means that the HTML code must be interpreted and broken down into small chunks (or nodes) in order to create what is called a DOM tree. The CSS is also constructed into its own tree called the CSSOM.
 2. Secondly, render tree is constructed, whereby the rendering engine determine what kind of order the DOM tree will be displayed in. 
 3. After construction, the rendering engine moves on to implement the layout of the tree. This is where the engine will decide what the dimensions and layout values are going to be, and it will attempt to make an accurate depiction of what it is instructed to do through the HTML and CSS code. Once the tree has been constructed, the rendering engine moves through the tree from the top of the tree to the bottom, ignoring any elements in the DOM and CSSOM trees which are not required to be displayed. 
 4. Once the layout of the tree has been finalized, the rending engine moves onto the last step of painting the rener tree. This involves colorization of pixels, and converts the information in the render tree to actual visible pictures which are visible in the browser (Unadkat 2019)(Grigorik). 
+&nbsp;    
+&nbsp;  
+
+The rendering engine does not pull the data and code from
+any random place, but it is constantly communicating with
+the networking component of the web browser in order to 
+receive the information to begin rendering. 
 
 **Unadkat (2019)**https://www.browserstack.com/guide/browser-rendering-engine 
 
@@ -124,7 +134,6 @@ From this diagram we can see that the rendering engine is undertaking a lot of p
 
 Neild (2020) https://www.gizmodo.com.au/2020/12/which-browser-engine-powers-your-web-browsingand-why-does-it-matter/ 
  
-The rendering engine does not pull the data and code from any random place, but it is constantly communicating with the networking component of the web browser in order to receive the information to begin rendering. 
 
 https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda Zlatkov (2018)
 ### **Networking**
@@ -148,7 +157,25 @@ The Javascript intepreter is responsible for implementing the code written in Ja
 &nbsp;
 &nbsp;
 ### **Data Storage/Persistence**
+The data storage component is responsible for storing various types of data related to the user's interactions with web pages through the browser. The browser is able to collect, track, and store the user's data, using different methods of data storage. Some types of data storage include:
+&nbsp;  
 &nbsp;
+- Session storage
+- Local storage
+- Cookies
+ 
+*source for local storage - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage* 
+
+*source for session storage - https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage*
+
+&nbsp;  
+The first type of data storage is session storage, where the data is stored in each tab in a browser. If a browser is closed, the data that was entered into or retrieved from the browser will be erased. Session storage thus only provides a temporary form of storage in the browser. Local Storage is similar to session storage, however its expiration date is much longer; it does not expire, even after the user has closed the browser or ended the session.
+&nbsp;  
+&nbsp;  
+Cookies are also a form of storage used to enable faster load times. When  user visits a page, the history of their visit, and their activity on the website is stored in cookies. If the user is to return in the future to the same webpage, these cookies will allow the browser to remember the user, and thus will provide a streamlined experience. The storing of cookies can bring into question possible security risks or data breaches for the user, as they are having their every movement tracked in a web browser. However, over the years browsers and web pages have implemented a permission form that pop-up asking users if they wish to have their cookies stored or not. 
+
+*source - https://www.kaspersky.com/resource-center/definitions/cookies*
+&nbsp;  
 &nbsp;
 ### **Developer Tools**
 One important feature of web browsers that are used by many developers around the world are the developer tools. The developer tools function in modern day web browsers allows users to inspect the source code that makes up the webpage they are currently viewing. When developers are having problems with certain areas of their code, developer tools allows developers to inspect very specific areas of the web page in order to debug a problem if there is a problem with their code. Developer tools don’t only allow for inspecting code to spot errors or bugs, but they allow for users to change certain elements in the code in real time, and they output the code changes in real time in the browser for the developer to see. 
@@ -172,7 +199,6 @@ Data structures in programming languages contain collections of data, big or sma
 &nbsp;  
 ### **Arrays**
 &nbsp;
-&nbsp;  
 #### **Identify**
 Arrays are a data structure which holds a list of variables in an index. The 
 An important note to make about arrays is that they are not the same as arrays in other programming languages. Arrays in other programming languages are considered to be static, while arrays in Ruby are considered to be dynamic. This means that static arrays in other programming languages must input the specific size of the array when it is first being added, and its size cannot be modified once it has been created. However, in Ruby’s case, a dynamic array is able to be modified and changed, long after the array has been created. 
@@ -185,7 +211,7 @@ Countries = [Australia, Japan, China, Germany]
 &nbsp;
 &nbsp;  
 The elements within an array are ordered in an index, and they are automatically ordered starting from 0 (zero). This allows for data retrieval of particular elements within the array simply by calling upon the index number in the index. In the above example the index would look like this - 
-&nbsp;
+&nbsp;  
 &nbsp;  
 [0, 1, 2, 3,] 
 &nbsp;  
@@ -193,15 +219,14 @@ The elements within an array are ordered in an index, and they are automatically
 #### **Explain the Reasons**
 Arrays are an important data structure to use in programming as they allow the program to hold blocks of important data, which contain many elements. Storing many elements in one index allows the program to access, retrieve or store large amounts of data, and to locate specific pieces of data accurately and easily. Arrays store data in a numerical order, starting from zero. Therefore, it is easy for a piece of data to be located in the array as it has its own unique location among the other data in the array. This can be very convenient when needing to retrieve specific data objects from an array.
 
-Moreover, arrays are a particularly great data structure to use to store a group of data that are related to each other. For example, if a program were created about selling animals online, an array may be used to store the data of all dog breeds, or all cat breeds that are bought and sold on the website or application. 
+Arrays are a particularly great data structure to use to store a group of data that are related to each other. For example, if a program were created about selling animals online, an array may be used to store the data of all dog breeds, or all cat breeds that are bought and sold on the website or application. Moreover, arrays only use one variable to give a value to the array, as opposed to a 
+list of individual variables, this uses less memory in the program and allows for faster search times.
 
 Another reason why an array may be a better option over another data structure is because of its ability to be two dimensional. 
 
 
 A possible reason for deciding not to use arrays could be because of an array’s fixed size, and it’s fixed memory. Unfortunately, if extra data needed to be added to the array
 
-Save memory 
-Use only one variable to call the array, as opposed to a list of individual variables. 
 
 Source for Arrays - https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf - page 10-page 11 
 Source for Arrays - https://www.google.com.au/books/edition/Learning_Ruby/pYS_Fm5LqUYC?hl=en&gbpv=1&dq=introduction+to+ruby&printsec=frontcover page 93 
