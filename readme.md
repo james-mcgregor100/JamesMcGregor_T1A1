@@ -269,25 +269,26 @@ https://www.google.com.au/books/edition/Computer_Science_Programming_Basics_in_R
 Computers programs are written using high-level language, meaning its language is close to human languages, more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs called *interpreters* and *compilers* to convert the high-level language code , into low-level language code, otherwise known as "machine language".
 &nbsp;  
 &nbsp;
-### **Features of Interpreters**
- 
+### **Features of Compilers and Interpreters**
+ According to Interviewbit (2022), interpreters and compilers share similar features, with some exceptions. 
 &nbsp;  
 &nbsp;  
-### **Features of Compilers**
-&nbsp;  
-&nbsp;  
-### **Differences betwen Interpreters and Compilers**
 
-### **Method Used**
+*Source https://www.guru99.com/compiler-design-phases-of-compiler.html* 
+
+### **Differences betwen Interpreters and Compilers**
+&nbsp;
+&nbsp;
+#### **Method Used**
 The primary difference between interpreters and compilers is the method that each use to convert the program into code. In the case of the compiler, the program is analyzed, and the whole program is converted in code in one setting. This is distinctly different to the interpreter which analyzes small chunks of the program, and converts them into code, one by one. Because the interpreter is constantly analyzing the program line by line, it is providing feedback of any errors that may occur every step of the way (Tripathi 2021). However, because the compiler analyzes and converts the program into code from start to finish in one setting, any errors that are present in the lines of code will not show up until the compiler has finished the conversion (Tripathi 2021).  
 &nbsp;
 &nbsp;
-### **Execution Speed**
+#### **Execution Speed**
 Since the interpreter and compiler both use different methods to convert the source code into machine code, the duration of the conversion varies markedly between the two. Interpreters are able to translate source code quickly, however, because the interpreter stops at each line, the overall conversion time is long. The compiler, on the other hand, is slower to initially translate the source code, but overall duration time is faster, because it does not stop to scan errors line by line like the interpreter (Programiz).
 &nbsp;  
 &nbsp;
-### **Compatible Programming Languages** 
-
+#### **Compatible Programming Languages** 
+Finally, the other distinct difference between the interpreter and the compiler is the issue of compatibility of languages. Not all languages are compatible with the interpreter and the compiler. The interpreter is compatible with programming languages such as: Python, Ruby, Javascript and MATLAB. And the compiler is compatible with programming languages such as: C, C++, and C#. 
 &nbsp;  
 &nbsp; 
 
