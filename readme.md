@@ -277,7 +277,20 @@ Computers programs are written using high-level language, meaning its language i
 &nbsp;  
 &nbsp;  
 ### **Differences betwen Interpreters and Compilers**
+
+### **Method Used**
 The primary difference between interpreters and compilers is the method that each use to convert the program into code. In the case of the compiler, the program is analyzed, and the whole program is converted in code in one setting. This is distinctly different to the interpreter which analyzes small chunks of the program, and converts them into code, one by one. Because the interpreter is constantly analyzing the program line by line, it is providing feedback of any errors that may occur every step of the way (Tripathi 2021). However, because the compiler analyzes and converts the program into code from start to finish in one setting, any errors that are present in the lines of code will not show up until the compiler has finished the conversion (Tripathi 2021).  
+&nbsp;
+&nbsp;
+### **Execution Speed**
+Since the interpreter and compiler both use different methods to convert the source code into machine code, the duration of the conversion varies markedly between the two. Interpreters are able to translate source code quickly, however, because the interpreter stops at each line, the overall conversion time is long. The compiler, on the other hand, is slower to initially translate the source code, but overall duration time is faster, because it does not stop to scan errors line by line like the interpreter (Programiz).
+&nbsp;  
+&nbsp;
+### **Compatible Programming Languages** 
+
+&nbsp;  
+&nbsp; 
+
 
 
 Source - https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
@@ -292,8 +305,6 @@ Source - https://www.interviewbit.com/blog/difference-between-compiler-and-inter
 
 ## **Question 6 -  Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.**
 &nbsp;  
-&nbsp;  
-
 ## **Identify two commonly used programming languages**
 &nbsp;
 - Javascript
