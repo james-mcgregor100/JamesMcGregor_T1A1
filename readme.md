@@ -266,13 +266,19 @@ http://www.cs.uni.edu/~wallingf/teaching/agile-may2010/ruby/programming-ruby.pdf
 https://www.rubyguides.com/2019/04/ruby-data-structures/ 
 https://www.google.com.au/books/edition/Computer_Science_Programming_Basics_in_R/T84ocHBqvEUC?hl=en&gbpv=0 
 ## **Question 5 -  Describe the features of interpreters and compilers and how they are different.**
+Computers programs are written using high-level language, meaning its language is close to human languages, more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs called *interpreters* and *compilers* to convert the high-level language code , into low-level language code, otherwise known as "machine language".
 &nbsp;  
 &nbsp;
 ### **Features of Interpreters**
-
+ 
+&nbsp;  
+&nbsp;  
 ### **Features of Compilers**
-
+&nbsp;  
+&nbsp;  
 ### **Differences betwen Interpreters and Compilers**
+The primary difference between interpreters and compilers is the method that each use to convert the program into code. In the case of the compiler, the program is analyzed, and the whole program is converted in code in one setting. This is distinctly different to the interpreter which analyzes small chunks of the program, and converts them into code, one by one. Because the interpreter is constantly analyzing the program line by line, it is providing feedback of any errors that may occur every step of the way (Tripathi 2021). However, because the compiler analyzes and converts the program into code from start to finish in one setting, any errors that are present in the lines of code will not show up until the compiler has finished the conversion (Tripathi 2021).  
+
 
 Source - https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
 https://www.businessinsider.in/difference-between-compiler-and-interpreter/articleshow/69523408.cms#:~:text=Interpreter%20translates%20just%20one%20statement,the%20process%20is%20much%20slower 
@@ -280,6 +286,8 @@ https://www.businessinsider.in/difference-between-compiler-and-interpreter/artic
 Source - https://www.programiz.com/article/difference-compiler-interpreter 
 
 https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/ 
+
+Source - https://www.interviewbit.com/blog/difference-between-compiler-and-interpreter/
 
 
 ## **Question 6 -  Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.**
