@@ -415,13 +415,34 @@ The Privacy Act (1988) and the frameworks within the Act are helpful in assistin
 &nbsp;  
 &nbsp; 
 ## **Ethical Issue 2**
+ ### ***Identify Issue*** 
+ - Criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, and terrorism
+&nbsp;  
+&nbsp;  
+### ***Discuss the extent to which an IT professional is ethically responsible in terms of the issue*** 
+
+&nbsp;    
+&nbsp;  
+### ***Identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)*** 
+
+&nbsp;  
+&nbsp;  
+
+### ***Conduct research into a case study of ONE of the ethical issues you have chosen.***
+&nbsp;    
+### ***Case Study - VW Emissions Scandal*** 
 &nbsp;
-&nbsp;
-&nbsp;  
-&nbsp;  
-### ***Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)***
-&nbsp;  
-&nbsp; 
+I have chosen to research the case study about the Volkswagen fraud scandal committed in Europe. The Volkswagen fraud scandal was uncovered in 2014, and they were found to have installed a secret piece of computer software in a specific model of their car to mislead the authorities about the car's emissions output. The computer software was used to change the emissions output when it was being tested by the authorities, and once testing was finished, the cars produced a much higher output. VW faced a major backlash, and faced criminal charges for evasion of U.S emissions standards, and were fined $2.8billion. This case study is a perfect example to discuss about ethical issues for IT professionals, as the scandal revolves around secret software being sold to Volkswagen, and also secret software being implemented by Volkswagen. 
+
+It is clear that the actions by the staff at Volkswagen were unethical, and also illegal, but it is difficult to discuss how an ethical IT professional should have approached the situation at Volkswagen while the scandal was occurring. It is difficult because there is evidence to suggest, such as the article penned by Santos (2016), that the autocratic leadership that was at the helm of Volkswagen was one of the primary reasons the scandal took place. The head of Volkswagen (during the period of the scandal) as an "autocratic leader" (Santos 2016) who would never take no for an answer, and engineers were terminated from the company if they did not follow orders. This leadership style seeped down into the corporate culture of the company, regardless of what was written in the company's Code of Conduct about upholding values and ethics in the workplace.
+
+### ***Discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)***
+
+
+
+
+Source (Santos 2016) - https://ideas.darden.virginia.edu vw-emissions-and-the-3-factors-that-drive-ethical-breakdown 
+
 ## **Q8 Explain control flow, using examples from the Ruby programming language**
 &nbsp;
 &nbsp; 
