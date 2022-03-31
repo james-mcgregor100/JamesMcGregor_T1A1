@@ -97,6 +97,14 @@ the internet over time. Since the early days of the internet, more and more webs
 &nbsp;
 &nbsp;
 
+https://kinsta.com/knowledgebase/tls-vs-ssl/ 
+https://aboutssl.org/ssl-guide/ 
+https://cheapsslsecurity.com/blog/http-vs-https-security-the-differences-between-these-protocols/ 
+https://www.globalsign.com/en/blog/ssl-vs-tls-difference 
+https://www.cloudflare.com/en-gb/learning/ssl/why-use-https/ 
+https://www.acunetix.com/blog/articles/tls-security-what-is-tls-ssl-part-1/ 
+
+
 ### **Web Browsers (requests, rendering and developer tools)**
 Web browsers have made many strides in their development since some of the first browsers were developed and used in 1994, such as Mosaic and Nexus. Today, some of the most popular web browsers used are Google Chrome, Internet Explorer, Mozilla Firefox, and Microsoft Edge. 
 For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page. There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
@@ -376,20 +384,39 @@ Source - https://www.imaginarycloud.com/blog/python-vs-javascript/ - 2021
 Source (Kumar 2021) - https://www.rtinsights.com/why-python-is-best-for-ai-ml-and-deep-learning/#:~:text=The%20benefits%20of%20making%20Python,the%20popularity%20of%20the%20language. 
 Source - -https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python)  - McCurdy 
 ## **Q7 Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.**
-
-5 Ethical Issues in Technology to Watch for in 2021 | CompTIA 
-Ethical Issues in Information Technology (IT) - GeeksforGeeks
-
-List of topics containing ethical issues:
+&nbsp;
+&nbsp;
+## **Ethical Issue 1**
  - Data Privacy - Access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
- - Criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism
- - GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
- - Freedom of thought, conscience, speech and the media
- - Trading of shares on the stock exchange OR crypto-currencies_ 
+
+ ### ***Identify Issue***
+
+&nbsp;  
+&nbsp; 
 
 
-For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)
-Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)
+
+### ***Discuss the extend to which an IT professional is ethically responsible in terms of the issue***
+&nbsp;  
+&nbsp; 
+ ### ***Identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)***
+&nbsp;  
+&nbsp;  
+### **Identify**
+The federal Privacy Act 1988 (Commonwealth) of Australia is the primary source of legal information relating to the issues surrounding data privacy and data breaches. The Act (1988) states that businesses (and its employees) are required to protect their customer’s information from a range of threats, including: theft, unauthorised access, misuse, modification and disclosure (Australian Government 2021). The Act (1988) also includes a framework titled the “13 Australian Privacy Principles” which determine the way a business must operate when dealing with the privacy of their customer’s data.
+&nbsp;  
+&nbsp;  
+### **Discuss**
+The Privacy Act (1988) and the frameworks within the Act are helpful in assisting a developer to act in an ethical way when dealing with the company’s software, and its customer’s private data. The Act is robust, and provides a wealth of information, including supporting hotlines and government departments who can be contacted if the employee needs any assistance or clarification. The frameworks are very easy to understand, and follow, however, the Privacy Act (1988) unfortunately cannot stop a rogue IT professional from illegally accessing data, or illegally leaking the data. Rogue employees do not follow ethical principles and act outside of the law.
+
+&nbsp;  
+&nbsp; 
+## **Ethical Issue 2**
+&nbsp;
+&nbsp;
+&nbsp;  
+&nbsp;  
+### ***Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)***
 &nbsp;  
 &nbsp; 
 ## **Q8 Explain control flow, using examples from the Ruby programming language**
