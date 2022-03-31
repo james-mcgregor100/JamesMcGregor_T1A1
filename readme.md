@@ -428,20 +428,32 @@ The Privacy Act (1988) and the frameworks within the Act are helpful in assistin
 &nbsp;  
 &nbsp;  
 
-### ***Conduct research into a case study of ONE of the ethical issues you have chosen.***
-&nbsp;    
+### ***Conduct research into a case study of ONE of the ethical issues you have chosen. Discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)***
+&nbsp;  
 ### ***Case Study - VW Emissions Scandal*** 
-&nbsp;
+&nbsp;  
 I have chosen to research the case study about the Volkswagen fraud scandal committed in Europe. The Volkswagen fraud scandal was uncovered in 2014, and they were found to have installed a secret piece of computer software in a specific model of their car to mislead the authorities about the car's emissions output. The computer software was used to change the emissions output when it was being tested by the authorities, and once testing was finished, the cars produced a much higher output. VW faced a major backlash, and faced criminal charges for evasion of U.S emissions standards, and were fined $2.8billion. This case study is a perfect example to discuss about ethical issues for IT professionals, as the scandal revolves around secret software being sold to Volkswagen, and also secret software being implemented by Volkswagen. 
+&nbsp;
+&nbsp; 
+### **Discuss how an ethical IT professional should respond**
 
-It is clear that the actions by the staff at Volkswagen were unethical, and also illegal, but it is difficult to discuss how an ethical IT professional should have approached the situation at Volkswagen while the scandal was occurring. It is difficult because there is evidence to suggest, such as the article penned by Santos (2016), that the autocratic leadership that was at the helm of Volkswagen was one of the primary reasons the scandal took place. The head of Volkswagen (during the period of the scandal) as an "autocratic leader" (Santos 2016) who would never take no for an answer, and engineers were terminated from the company if they did not follow orders. This leadership style seeped down into the corporate culture of the company, regardless of what was written in the company's Code of Conduct about upholding values and ethics in the workplace.
-
-### ***Discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)***
-
+It is clear that the actions by the staff at Volkswagen were unethical, and also illegal, but it is also difficult to discuss how an ethical IT professional should have approached the situation at Volkswagen while the scandal was occurring. It is difficult precisely because there is evidence to suggest, such as the article penned by Santos (2016), that the autocratic leadership that was at the helm of Volkswagen was one of the primary reasons the scandal took place. The head of Volkswagen (during the period of the scandal) was an "autocratic leader" who would never take no for an answer, and engineers were terminated from the company if they did not follow orders (Santos 2016). This leadership style seeped down into the corporate culture of the company, regardless of what was written in the company's Code of Conduct about upholding values and ethics in the workplace.
+&nbsp;  
+&nbsp;  
+If the case study is to be approached by using the highest of ethical 
+standards - regardless of the company's culture - then the IT professional involved could have taken ethical action in a variety of ways. If the IT professional had discovered illegal activity within the organisation, regardless of how much pressure they were under to complete their job, they could have blown the whistle and contacted the relevant authorities. 
 
 
 
 Source (Santos 2016) - https://ideas.darden.virginia.edu vw-emissions-and-the-3-factors-that-drive-ethical-breakdown 
+
+https://europe.autonews.com/automakers/german-engineering-firm-iav-pleads-guilty-vw-emissions-scandal 
+
+Robert Merkel and Oliver Burmeister (2015)https://theconversation.com/a-code-of-ethics-in-it-just-lip-service-or-something-with-bite-32807 
+5 Ethical Issues in Technology to Watch for in 2021 | CompTIA 
+Ethical Issues in Information Technology (IT) – GeeksforGeeks 
+https://www.natlawreview.com/article/australia-s-online-privacy-bill-and-privacy-act-discussion-paper-first-steps-towards 
+ 
 
 ## **Q8 Explain control flow, using examples from the Ruby programming language**
 &nbsp;
