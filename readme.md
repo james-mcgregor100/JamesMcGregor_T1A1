@@ -387,16 +387,19 @@ Source - -https://www.toptal.com/python/beginners-guide-to-concurrency-and-paral
 &nbsp;
 &nbsp;
 ## **Ethical Issue 1**
- - Data Privacy - Access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
 
- ### ***Identify Issue***
-
+  ### ***Identify Issue*** 
+  - Data Privacy - Access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
 &nbsp;  
 &nbsp; 
+### ***Discuss the extent to which an IT professional is ethically responsible in terms of the issue***
+According to the Australian Computer Society's Code of Conduct, and Code of Ethics (Australian Computer Society 2014), the IT professional has a number of ethical responsibilities to uphold. Central to the ACS's Code is the value of placing the interests of society at large, and the public good, above all else, including personal, or business interests. 
 
+Within this primary value, the ACS's Code outlines a range of specific values and actions that an IT professional must uphold. In 1.2.1 subheading J of the Code, the ACS explains that the IT professional must "endeavour to preserve the confidentiality and privacy of the information of others (2014)." This is a clear indication that the IT professional is ethically responsible to protect the privacy of customer's data and sensitive information to the best of their ability and knowledge. 
 
+The developer is responsible for implementing software programs which are collecting, analyzing and distributing customer's private data in accordance with the ACS's Code. 
 
-### ***Discuss the extend to which an IT professional is ethically responsible in terms of the issue***
+The issue with ethical responsibility lies in the fact that not all actions deemed unethical are illegal according to certain laws in Australia. Therefore, a IT professional may unintentionally carry out their job role in an unethical manner without realising it.  
 &nbsp;  
 &nbsp; 
  ### ***Identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)***
