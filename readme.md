@@ -73,19 +73,37 @@ TCP stands as Transmission Control Protocol, which is a protocol which standardi
 &nbsp;  
 
 ### **HTTP and HTTPS**
-HTTPS is different from HTTP in that it provides a layer of encryption, and thus is more secure than the HTTP protocol. If a similar form were to be submitted on both HTTP and HTTPS, someone attempting to hack the form would find it easier to access the information from the HTTP protocol, and would have trouble accessing the information via HTTPS. The encryption feature in HTTPS is an invaluable tool for websites, as it gives the company running the website an extra layer of trust and reputability. This layer of trust is an important development of client and server communication. With the development of the internet, the number of  hackers has also grown, and therefore, the invention of HTTPS is a fundamental feature in the development of the internet over time.
-
+HTTPS is different from HTTP in that it provides a layer of encryption, and thus is more secure than the HTTP protocol. If a similar form were to be submitted on both HTTP and HTTPS, someone attempting to hack the form would find it easier to access the information from the HTTP protocol, and would have trouble accessing the information via HTTPS. The encryption feature in HTTPS is an invaluable tool for websites, as it gives the company running the website an extra layer of trust and reputability.  
 **Source** https://www.cloudflare.com/learning/ssl/why-use-https/ 
 &nbsp;  
 &nbsp;  
+![Diagram of http vs https](https.png)
+##### _Image Source - https://cheapsslsecurity.com/blog/http-vs-https-security-the-differences-between-these-protocols/_
+&nbsp; 
+From the diagram above, we can see that a HTTP website sends plaintext data over the internet to a website server, however, there is no data encryption taking place. These packets of data being sent over the internet are vulnerable to being exploited by hositle actors. HTTPS websites, on the other hand, encrypt their packets of data when they are sent from the website to the server. HTTPS websites are designed for protecting the user's sensitive data, such as their credit card details, passwords, and other sensitive personal information which should not be shared with third parties. The easiest way to determine whether a website is HTTP or HTTPS is whether or not a small padlock symbol is placed in front of the website's url. If the symbol is present, the website is secure - if there is no symbol, the website is not secure. 
+&nbsp;
+#### **TLS and SSL Encryption**
+The main feature of a HTTPS website which facilitates the encryption process is called "Transport Layer Security", or TLS. Before the TLS protocol was implemented, the Security Socket Layer (SSL) was the main security protocol responsible for providing encryption of data sent over the internet. 
+
+&nbsp;  
+&nbsp;
+
+This layer of trust is an important development of 
+client and server communication. With the 
+development of the internet, the number of  hackers 
+has also grown, and therefore, the invention of 
+HTTPS is a fundamental feature in the development of
+the internet over time. Since the early days of the internet, more and more websites have made the change from HTTP to HTTPS for obvious reasons, and the security protocols layers protecting the HTTPS websites have also gone through its own development.
+&nbsp;
+&nbsp;
 
 ### **Web Browsers (requests, rendering and developer tools)**
 Web browsers have made many strides in their development since some of the first browsers were developed and used in 1994, such as Mosaic and Nexus. Today, some of the most popular web browsers used are Google Chrome, Internet Explorer, Mozilla Firefox, and Microsoft Edge. 
 For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page. There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
 &nbsp;  
-&nbsp;
+&nbsp;  
 ![Image of Web Browser Components Diagram](browserengine.png)
-#### _Image Source: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Resources_
+##### _Image Source - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Resources_
 &nbsp; 
 &nbsp; 
 ### **User Interface**
@@ -442,7 +460,7 @@ A string is a line of characters or words which usually represent a line of text
 &nbsp;
 
 
-Notice that the last string which is "50" looks like a number/integer. Although the number 50 is indeed a number, the presence double quotation marks in the Ruby programming language means that the number is considered to be a string.
+Notice that the last string which is "50" looks like a number/integer. Although the number 50 is indeed a number, the presence of double quotation marks in the Ruby programming language means that the number is considered to be a string.
 &nbsp;  
 &nbsp;
 
@@ -453,13 +471,14 @@ Here’s the problem: “There is a restaurant serving a variety of food. The cu
 &nbsp;  
 &nbsp;  
 ## **Question - 12**
-Identify and explain the error in the code snippet below that is preventing correct execution of the program
+Identify and explain the error in the code snippet below that is preventing correct execution of the program.
 &nbsp;  
 &nbsp;  
 ## **Question - 13**
 The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 &nbsp;  
 &nbsp;
+
 ## **Question - 14**
 
 Demonstrate your algorithmic thinking through completing the following two tasks, in order:
