@@ -7,10 +7,34 @@ Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 
 # Questions - 
 ## **Question 1 - Identify and explain common and important components and concepts of web development markup languages**
+Web development markup languages are different from computer programming languages. Web development markup languages are languages which arranges the elements on a page, and decides how the page's elements should be formatted. 
+
 
 &nbsp;
+&nbsp;    
+### **HTML**
+HTML stands for Hyper Text Markup Language, which is the language which which allows the user to view all webpages in a web browser. The role of HTML is to visually display data on a web page, which differentiates HTML from other markup languages, as will be explained in the paragraphs below. The HTML language provides web pages with meaning, and achieves this by assigning specific HTML elements to the content which is being displayed on the web browser. For example, when an ordered list of items needs to be displayed, the HTML will use a specific element called "ordered list" to assign it to the list of items. The HTML languages uses something called a "tag" which is what encapsulates or wraps the piece of text, and the tag is assigned a specific element depending on what element the web developer would like to implement. Another important feature of the HTML language is its way of assigning specific areas of the website (top, bottom, left, right, center) to specific elements. This helps to provide a general structure for how the page will be displayed, and provides meaning to the developer and the user. 
 &nbsp;  
-&nbsp; 
+&nbsp;     
+On all HTML pages, there are a number of specific HTML components which must be used to provide a basic structure to the website, before more specific elements are added. 
+
+![HTML snippet](html.png)
+
+
+One of the main components that can be found in HTML pages are "links". The HTML pages are able to display hyperlinks in the html file which allows users to navigate from one page to another. An example of a "link" component in HTML is presented below - 
+
+The HTML markup language also has a range of other components, including: 
+
+&nbsp;  
+&nbsp;
+### **XML**
+&nbsp;  
+&nbsp;
+### **SGML** 
+&nbsp;  
+Source - https://developer.mozilla.org/en-US/docs/Web/HTML 
+Source - https://www.semrush.com/blog/markup-language/
+Source - https://www.howtogeek.com/721685/what-is-a-markup-language/ 
 &nbsp;
 &nbsp; 
 &nbsp;  
