@@ -19,8 +19,13 @@ HTML stands for Hyper Text Markup Language, which is the language which which al
 On all HTML pages, there are a number of specific HTML components which must be used to provide a basic structure to the website, before more specific elements are added. 
 
 ![HTML snippet](html.png)
+#### ***Source - https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics***
+&nbsp;  
+The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The <html> tag is used to wrap the whole page in HTML language. The roll of the <head> tag is to have a title (<title> tag) which will display a page title on the tabs of a browser window. And the <meta> tag communicates to the code editor what language the code is being written in. 
 
-
+Outside of the this are the <body> and <image> tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the <image> obviously wraps around an image of a link so that it can be displayed in the HTML document. 
+&nbsp;  
+&nbsp;  
 One of the main components that can be found in HTML pages are "links". The HTML pages are able to display hyperlinks in the html file which allows users to navigate from one page to another. An example of a "link" component in HTML is presented below - 
 
 The HTML markup language also has a range of other components, including: 
