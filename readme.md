@@ -7,7 +7,7 @@ Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 
 # Questions - 
 ## **Question 1 - Identify and explain common and important components and concepts of web development markup languages**
-Web development markup languages are different from computer programming languages. Web development markup languages are languages which arranges the elements on a page, and decides how the page's elements should be formatted. 
+Web development markup languages are different from computer programming languages. Web development markup languages are languages which arrange the elements on a page, and it decides how the page's elements should be formatted and structured. Markup languages are different from programming languages in that they do not use programming syntax - rather, they use standard human language. 
 
 
 &nbsp;
@@ -23,23 +23,46 @@ On all HTML pages, there are a number of specific HTML components which must be 
 &nbsp;  
 The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The <html> tag is used to wrap the whole page in HTML language. The roll of the <head> tag is to have a title (<title> tag) which will display a page title on the tabs of a browser window. And the <meta> tag communicates to the code editor what language the code is being written in. 
 
-Outside of the this are the <body> and <image> tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the <image> obviously wraps around an image of a link so that it can be displayed in the HTML document. 
+Outside of the this are the <body> and <image> tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the <image> obviously wraps around an image of a link so that it can be displayed in the HTML document. Aside from these elements there are a range of other fundamental components which can be found in most HTML pages when they are constructed, including: <h1><, <h2>, <h3> elements which indicate different sized headings, the <p> tag which indicates a paragraph of text, and the <br> tag which indicates a line break on the HTML page. 
 &nbsp;  
 &nbsp;  
-One of the main components that can be found in HTML pages are "links". The HTML pages are able to display hyperlinks in the html file which allows users to navigate from one page to another. An example of a "link" component in HTML is presented below - 
+One of the main components that can be found in HTML pages are "links", which are written as <a> in a HTML page. The HTML pages are able to display hyperlinks in the HTML file which allows users to navigate from one page to another. An example of a "link" component in HTML is presented below - 
 
-The HTML markup language also has a range of other components, including: 
 
 &nbsp;  
 &nbsp;
 ### **XML**
 &nbsp;  
+XML stands for Extensible Markup Language, and is one of the other main markup languages alongside HTML. One of the main differences between XML and HTML is that HTML is used to display data and text on the screen, whereas XML is used to store data as "structured information" (Loshin, Linthicum, Giza). Some important features of XML, which differentiate it from HTML, include: XML's tags are not predefined like HTML tags, and closing tags must be implemented throughout the document, whereas HTML is not as strict with closing tags.   
+&nbsp;  
 &nbsp;
 ### **SGML** 
 &nbsp;  
+SGML (Standard Generalized Markup Language), and is known as the "standard for defining generelized markup language for documents (GeeksForGeeks 2021). HTML is said to have been developed from the SGML language. In other words, HTML is just one kind of a markup language according to the standards outlined in the SGML standards (Muellner and Walsh 1999). SGML code looks similar to HTML and XML, but its components have its own unique characteristics, and differs from HTML and XML. SGML code has the following components: 
+
+#### ***Components of SGML***
+&nbsp;  
+&nbsp;  
+**SGML Declaration**
+&nbsp;  
+&nbsp;
+**Document Type Definition**
+&nbsp;  
+&nbsp;
+**Document Instance** 
+
+
+
+
+
+van Herwijnen, E. (1994). Components of an SGML system. In: Practical SGML. Springer, Boston, MA. https://doi.org/10.1007/978-1-4615-2752-7_3  - Source for SGML, website - https://link.springer.com/chapter/10.1007/978-1-4615-2752-7_3?noAccess=true 
+https://www.geeksforgeeks.org/sgml-full-form/ (2021)
+https://www.google.com.au/books/edition/DocBook_The_Definitive_Guide/wQ3a1kBygkcC?hl=en&gbpv=0 - Walsh, Muellner (1999)
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics 
 Source - https://developer.mozilla.org/en-US/docs/Web/HTML 
 Source - https://www.semrush.com/blog/markup-language/
 Source - https://www.howtogeek.com/721685/what-is-a-markup-language/ 
+Source - Loshin, Linthicum, Giza (https://whatis.techtarget.com/definition/XML-Extensible-Markup-Language)
 &nbsp;
 &nbsp; 
 &nbsp;  
@@ -179,10 +202,7 @@ From this diagram we can see that the rendering engine is completing a range of 
 &nbsp;    
 &nbsp;  
 
-The rendering engine does not pull the data and code from
-any random place, but it is constantly communicating with
-the networking component of the web browser in order to 
-receive the information to begin rendering. 
+The rendering engine does not pull the data and code from any random place, but it is constantly communicating with the networking component of the web browser in order to receive the information to begin rendering. 
 
 **Unadkat (2019)**https://www.browserstack.com/guide/browser-rendering-engine 
 
