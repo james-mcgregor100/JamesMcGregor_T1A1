@@ -20,7 +20,7 @@ On all HTML pages, there are a number of specific HTML components which must be 
 ![HTML snippet](html.png)
 #### ***Source - https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics***
 &nbsp;  
-The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The <html> tag is used to wrap the whole page in HTML language. The roll of the <head> tag is to have a title (<title> tag) which will display a page title on the tabs of a browser window. And the <meta> tag communicates to the code editor what language the code is being written in. 
+The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The <html> tag is used to wrap the whole page in HTML language. The roll of the <head> tag is to have a title <title> tag which will display a page title on the tabs of a browser window. And the <meta> tag communicates to the code editor what language the code is being written in. 
 
 Outside of the this are the <body> and <image> tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the <image> obviously wraps around an image of a link so that it can be displayed in the HTML document. Aside from these elements there are a range of other fundamental components which can be found in most HTML pages when they are constructed, including: <h1>, <h2>, <h3> elements which indicate different sized headings, the <p> tag which indicates a paragraph of text, and the <br> tag which indicates a line break on the HTML page. 
 &nbsp;  
@@ -98,7 +98,12 @@ The main difference between the IPv4 IP address and the IPv6 IP address is the a
 &nbsp;  
 &nbsp;     
 ### **Packets**
-When one enquires into the information and data being sent to and from these IP addresses in the digital world, it will become apparent that this “data” or “information” is not just an abstract idea. A piece of data is a very real thing, and in order for this data to be able to travel through digital space and time through the internet, it must be broken down into something called “packets”.
+When one enquires into the information and data being sent to and from these IP addresses in the digital world, it will become apparent that this “data” or “information” is not just an abstract idea. A piece of data is a very real thing, and in order for this data to be able to travel through digital space and time through the internet, it must be broken down into something called “packets”. For the data to be sent more efficiently over the internet, it must be broken down into packets. This process of breaking data down into packets allows for more data to be sent over the internet simultaneously. By allowing multiple packet from the same piece of data to be sent over the network at the same time - a process called "packet switching" - data is able to flow freely over the network without being caught in a backlog (Cloudfare).
+
+When the data is broken up in to multiple packets to be sent and received over the internet, the data is not simply broken up until a random series of data packets. Rather, the data packets are split up into a logical set of packets, which contain special information. Packets include a variety of components, with the main one being a packet "header". The header is given specific information pertaining to the packet's sender and receiver addresses (Gralla 1998, page 14-15). The information found in the header allows the packet to travel to its intended destination, and is also able to be sent back to the origin of the sender in case the data packet is corrupted and needs to be resent.
+
+https://www.cloudflare.com/en-au/learning/network-layer/what-is-a-packet/ 
+https://computer.howstuffworks.com/question525.htm 
 &nbsp;   
 &nbsp;  
 ### **Routers and Routing**
@@ -210,7 +215,6 @@ From this diagram we can see that the rendering engine is completing a range of 
 
 1. The HTML must be parsed initially, which means that the HTML code must be interpreted and broken down into small chunks (or nodes) in order to create what is called a DOM tree. The CSS is also constructed into its own tree called the CSSOM.
 2. Secondly, render tree is constructed, whereby the rendering engine determine what kind of order the DOM tree will be displayed in. 
-3. After construction, the rendering engine moves on to implement the layout of the tree. This is where the engine will decide what the dimensions and layout values are going to be, and it will attempt to make an accurate depiction of what it is instructed to do through the HTML and CSS code. Once the tree has been constructed, the rendering engine moves through the tree from the top of the tree to the bottom, ignoring any elements in the DOM and CSSOM trees which are not required to be displayed. 
 4. Once the layout of the tree has been finalized, the rending engine moves onto the last step of painting the rener tree. This involves colorization of pixels, and converts the information in the render tree to actual visible pictures which are visible in the browser (Unadkat 2019)(Grigorik). 
 &nbsp;    
 &nbsp;  
@@ -594,7 +598,34 @@ Here’s the problem: “There is a restaurant serving a variety of food. The cu
  - Identify the classes you would use to solve the problem
  - Write a short explanation of why you would use the classes you have identified
 &nbsp;  
-&nbsp;  
+&nbsp; 
+Enter User Details Class 
+    Dine in or takeaway?
+    Table Number (if eating in)
+    Card/Payment Details
+
+Menu Class
+  Food Class
+    Stir-Fry Items
+    Stir-Fry Price
+    Curry Items
+    Curry Price
+    Chef Special Items
+    Chef Special Price
+    Fried Rice Items
+    Fried Rice Price
+  Drinks Class
+    Alcoholic Drink Items
+    Alcoholic Drink Price
+    Non-Alcoholic Drink Items
+    Alcoholic Drink Price
+  Dessert Class
+    Mango & Sticky Rice Item
+    Mango & Stick Rice Price
+    Coconut Icecream Item
+    Coconut Icecream Price 
+
+Checkout Class 
 ## **Question - 12**
 Identify and explain the error in the code snippet below that is preventing correct execution of the program.
 &nbsp;  
