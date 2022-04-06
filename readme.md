@@ -100,29 +100,36 @@ The main difference between the IPv4 IP address and the IPv6 IP address is the a
 ### **Packets**
 When one enquires into the information and data being sent to and from these IP addresses in the digital world, it will become apparent that this “data” or “information” is not just an abstract idea. A piece of data is a very real thing, and in order for this data to be able to travel through digital space and time through the internet, it must be broken down into something called “packets”. For the data to be sent more efficiently over the internet, it must be broken down into packets. This process of breaking data down into packets allows for more data to be sent over the internet simultaneously. By allowing multiple packet from the same piece of data to be sent over the network at the same time - a process called "packet switching" - data is able to flow freely over the network without being caught in a backlog (Cloudfare).
 
-When the data is broken up in to multiple packets to be sent and received over the internet, the data is not simply broken up until a random series of data packets. Rather, the data packets are split up into a logical set of packets, which contain special information. Packets include a variety of components, with the main one being a packet "header". The header is given specific information pertaining to the packet's sender and receiver addresses (Gralla 1998, page 14-15). The information found in the header allows the packet to travel to its intended destination, and is also able to be sent back to the origin of the sender in case the data packet is corrupted and needs to be resent.
+When the data is broken up in to multiple packets to be sent and received over the internet, the data is not simply broken up until a random series of data packets. Rather, the data packets are split up into a logical set of packets, which contain special information. Packets include a variety of components, with the main one being a packet "header". The header is given specific information pertaining to the packet's sender and receiver addresses (Gralla 1998, page 14-15). The information found in the header allows the packet to travel to its intended destination, and is also able to be sent back to the origin of the sender in case the data packet is corrupted and needs to be resent. Without the help of routers, the packets would struggle to travel in the right direction to their final destination. Routers play an important role in intercepting packets along the journey over the network, by interpreting their contents, and forwarding them on to the next router, and finally to help send it on to its final destination. 
+&nbsp; 
+&nbsp; 
+## **Explain how Packets have contributed to the development of the internet.**
+Packet switching (previously known as "message blocks) came out of the Cold War era, which was developed by people such as Paul Baran. The idea came from Paul's career at the RAND corporation and was initially implemented on local networks, however packet switching eventually became used on ARPANET, and of course, the internet as it is known today. The main idea behind packet switching was so switch from a centralized network, to a distributed network, where nodes (and later routers) were distributed throughout the network, with no centralized node running the network. Packets were also a part of this development and were designed to be able to travel along other nodes, if certain nodes were attacked and wiped out by the United States' enemys during the height of the Cold War (Paul Baran, 1964).
 
+https://www.rand.org/pubs/research_memoranda/RM3420.html 
 https://www.cloudflare.com/en-au/learning/network-layer/what-is-a-packet/ 
 https://computer.howstuffworks.com/question525.htm 
 &nbsp;   
 &nbsp;  
 ### **Routers and Routing**
-The words ‘router’ and ‘routing’ give us clues already as to what they are, and what their function is in relation to the internet. Routers play an integral part of the internet by acting as intermediaries between a sender and a receiver of information, and data. The routers are responsible for initially analyzing the contents of the packets once it arrives at the router, and once analyzed, they are then forwarded on to the next router on the route to its destination. In order for a packet of information to be sent from one computer to another, it must travel along digital pathways, and on these digital pathways there are a number of routers spread at different points throughout the network to receive and forward on data. However, the pathways that data travels from its sender to its receiver do not always occur in straight line from point A to point B, and sometimes data may need be ‘re-routed’ to a router which may branch off in a different direction, and eventually, it will be ‘rerouted’ onwards to its final destination. (Page 37, How the Internet Works by Preston 
-Gralla, 1998)
+The words ‘router’ and ‘routing’ give us clues already as to what they are, and what their function is in relation to the internet. Routers play an integral part of the internet by acting as intermediaries between a sender and a receiver of information, and data. The routers are responsible for initially analyzing the contents of the packets once it arrives at the router, and once analyzed, they are then forwarded on to the next router on the route to its destination. In order for a packet of information to be sent from one computer to another, it must travel along digital pathways, and on these digital pathways there are a number of routers spread at different points throughout the network to receive and forward on data. However, the pathways that data travels from its sender to its receiver do not always occur in straight line from point A to point B, and sometimes data may need be ‘re-routed’ to a router which may branch off in a different direction, and eventually, it will be ‘rerouted’ onwards to its final destination. (Page 37, How the Internet Works by Preston Gralla, 1998)
 &nbsp;  
 &nbsp; 
+## **Explain how Routers and Routing have contributed to the development of the internet.**
+Routers and routing's main contribution to the development of the internet have been the role that they play in allowing packets of data to be able to travel between sender and receiver, through the routers. Since the internet has changed from a centralized network of nodes, to become a distributed network, routers play a crucial role in allowing data to flow all around the world. 
+
+&nbsp;  
+&nbsp;
+
 ### **Domains and DNS**
 As mentioned above, IP addresses are the addresses which are the actual addresses of websites, and websites have been given domain names in order to help people remember easily how to find a particular website. Try to imagine for a moment if you were required to remember a random string of numbers instead of the phrase ‘www.facebook.com’. It would make remembering website names much more complex if we were to use IP addresses as opposed to domain names. 
 An important component of DNS is ‘caching’. Caching is essentially a repository of data on your computer which stores information of previously visited websites. This data is kept on your computer for a fixed amount of time, and allows your computer to open up the cache files to find the details of a website that you are trying to connect to. If your computer does have this data stored in its cache, then it will be able to connect to a website quicker than if it had to find the details of the website externally, which would involve a process of anywhere between five to eight steps in order to successfully fulfill the user’s request. 
-
-
-## **Explain how each technology has contributed to the development of the internet.**
-IP addresses 
-(IPv4 and IPv6)
-Packets
-Routers and Routing
-
-**Domains and DNS**
+&nbsp;  
+&nbsp;
+## **Explain how Domains and DNS have contributed to the development of the internet.**
+The domain and DNS have played a crucial role in the development of the internet since they they were invented in the 1980s. Due to the growing number of users on the internet, the number of IP addresses grew exponentially, and a solution was needed to store and identify. The domain name system was invented in the 1980s to deal with this issue of scaling IP addresses by storing all of the IP addresses and its computer host name in a structured list (Danielle Kehl 2015). This allowed the number of IP addresses to grow into the millions, and is the reason for allowing computers to connect to specific IP addresses without the user needing to remember each individual IP address when visiting websites . 
+https://nap.nationalacademies.org/read/11258/chapter/4 
+https://slate.com/technology/2015/05/icann-transition-the-interesting-history-of-the-internet-domain-name-system.html
 &nbsp;
 &nbsp;  
 The emergence and implementation of the Domain Name System was a significant development in the history of the Internet. Initially, all devices connected to the internet were recorded on a .TXT file titled HOSTS.txt. Over time the .TXT file was unable to handle the large amount of records being kept in the file, and subsequently, technologists designed what we now call the Domain Name System to mitigate scalability issues with the HOSTS.txt file. 
