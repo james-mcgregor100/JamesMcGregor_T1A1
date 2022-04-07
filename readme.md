@@ -454,20 +454,33 @@ Two commonly used programming languages are Python and Javascript. Both Python a
 ## **Javascript**
 ### **Benefits**
 
-Javascript is known to be a programming language which can be used effectively both in the front-end and in the back-end. Its versatility of use cases means that people can essentially use Javascript by itself, without having to rely on another language for the front-end of the web application, or vice versa with the back-end. This is a major benefit of choosing to program using Javascript. Although Javascript is used on the back-end in development, its reason for its popularity is its effectiveness on the front-end. 
+Javascript is known for being programming language which can be used effectively both on the front-end and on the back-end. Its versatility of use cases means that people can essentially use Javascript by itself, without having to rely on another language for the front-end of the web application, or vice versa with the back-end. This is a major benefit of choosing to program using Javascript. Although Javascript is used on the back-end in development, the main reason for its popularity is its effectiveness on the front-end, and developers are able to build beautiful, dynamic, and responsive websites (Mukherjee 2020).
 &nbsp;  
 &nbsp;  
-Javascript is known for its speed compared to other languages such as python. This is because it uses client side script, which means that the Javascript code is actually in the client’s browser, and thus reduces response time as the user is not waiting for the 
+Javascript is known for its speed compared to other languages such as python. This is because it uses client side script, which means that the Javascript code is actually in the client’s browser, and thus allows the developer to create an entire website with just a single programming language (Lasn 2019). This highlights how flexible Javascript is for a programming language, and it provides beginner programmers a pathway into both front end and back end development without having to learn other languages. 
+
+Another benefit of using Javascript is the amount of libraries and frameworks which can be used when building websites and
+applications. Javascript has a range of frameworks which allow developers to implement while developing front end and back end programs. Front end libraries such as Angular, React and Vue are all related to Javascript, and these allow the developer to streamline the process of writing code (Pandit 2021). 
+
+
+https://www.c-sharpcorner.com/article/what-and-why-reactjs/#:~:text=js%3F-,React.,to%20create%20reusable%20UI%20components. 
+https://betterprogramming.pub/what-makes-javascript-javascript-b9ab51ad983a 
+https://opensource.com/article/20/11/javascript-popular - Mukherjee
 https://www.tutorialspoint.com/javascript/javascript_overview.htm 
 https://data-flair.training/blogs/advantages-disadvantages-javascript/ 
+&nbsp;
+&nbsp;
 
-
-One of Javascript’s strengths lies in its ability to create dynamic web pages and applications
-
+https://itechnolabs.ca/millions-of-developers-use-javascript-for-frontend/ 
 ### **Drawbacks**
-One of the major cons of Javascript is that Javascript is 
+Although Javascript is one of the most popular programming languages in the world, it is still a language that has flaws - particularly when it comes to security. One of the major cons of Javascript is that Javascript code on the front end is written in the browser, and this can leave the client-side open to security threats from hackers or hostile actors. If the programmer who designed the front-end of a website or application with Javascript neglected to implement specific security precautions, there is the potential for malicious code to be injected into the web browser. This could result in user's passwords or sensitive information being stolen from a website, or even more seriously, a computer may be taken over by a hacker (Agarwal 2017).
+
+Another drawback when using Javascript the problem of interoperability between different browsers. Javascript is known for producing different results on the web browser, depending on which version browser the website is being viewed on. Although this is a drawback of Javascript, there are ways to solve this issue, such as implementing a jQuery into the code (Mozilla 2022).
 &nbsp;  
 &nbsp;  
+https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript - (Mozilla 2022)
+https://www.algoworks.com/blog/security-concerns-with-javascript-development/ 
+https://weeklyhow.com/pros-and-cons-of-javascript/ - Polidario 2020 
 ## **Python**
 ### **Benefits**
 
