@@ -380,23 +380,33 @@ Trees are another common data structure in the Ruby programming language, and th
 &nbsp;  
 &nbsp;  
 #### **Reasons for using a Tree**
-A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. Another reason a programmer may opt to us a tree over other data structure types is due to the hierarchical nature of a tree. If a particular data set requires the the data to be structured in a hierarchical manner, the tree might be the perfect option for this use case. Indeed, it is important to weigh the pros and cons of using a tree, and to determine if your data set requires a more linear approach like a hash and array, or a hierarchical structure like a tree.
+A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. Another reason a programmer may opt to us a tree over other data structure types is due to the hierarchical nature of a tree. If a particular data set requires the the data to be structured in a hierarchical manner, the tree might be the perfect option for this use case (Indeed 2021). Indeed, it is important to weigh the pros and cons of using a tree, and to determine if your data set requires a more linear approach like a hash and array, or a hierarchical structure like a tree.
 
+
+https://in.indeed.com/career-advice/finding-a-job/what-is-tree-data-structure 
 *Source https://www.programiz.com/dsa/trees*
 Source for Trees - https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf - page 93
 http://www.cs.uni.edu/~wallingf/teaching/agile-may2010/ruby/programming-ruby.pdf (page 14 for hashes and arrays)
 https://www.rubyguides.com/2019/04/ruby-data-structures/ 
 https://www.google.com.au/books/edition/Computer_Science_Programming_Basics_in_R/T84ocHBqvEUC?hl=en&gbpv=0 
 ## **Question 5 -  Describe the features of interpreters and compilers and how they are different.**
-Computer programs are written using high-level language, meaning its language is similar to that of human languages; more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs such as *interpreters* and *compilers* to convert the high-level language code into low-level language code, otherwise known as "machine language".
+Computer programs are written using high-level language, meaning its language is similar to that of human languages; more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs such as *interpreters* and *compilers* to convert the high-level language code into low-level language code, otherwise known as "machine language". According to Interviewbit (Interviewbit 2022), interpreters and compilers share similar features, with some
+exceptions. 
 &nbsp;  
 &nbsp;
 ### **Features of Compilers and Interpreters**
-According to Interviewbit (2022), interpreters and compilers share similar features, with some exceptions. 
 &nbsp;  
 &nbsp;  
-
-*Source https://www.guru99.com/compiler-design-phases-of-compiler.html* 
+#### **Compiler**
+The compiler is a program which translates source code into machine code. It goes through single cycle, starting from the reading of the source code, the assembling of the source code, and then the output into machine language. The compiler must go through one full cycle of this before it can produce any feedback on any errors that were found during the compiling process. Once the errors are communicated at the end of the compiling process, they must be resolved by the compiler can perform its next compile cycle, and before it finally produces the machine language. The compiler typically runs through each cycle quickly, as it does not need to stop to check for errors whenever they are discovered. Another feature of the the compiler is that it must go through the entire process of compiling the language before the program can be run. It cannot run the program line by line as it is compiling the language. If any errors are discovered, only after the adjustments are made, and the compiling process has been completed a second time will the compiler be able to produce the new output. Depending on what the requirements are for the programmer, the execution speed could be fast, because it does not stop at every line - however, it could also be slow for debugging and testing purposes as the errors cannot be found and fixed line by line (John Smith 2022).
+&nbsp;  
+&nbsp;
+https://www.guru99.com/difference-compiler-vs-interpreter.html 
+#### **Interpreter**
+The Interpreter is also a program which translates the source code into machine code. However, the method which the interpreter uses is different from the compiler's method. One of the interpreter's main feature lies in the way it executes the process from intepreting source code to outputting machine code. The interpreter carefully goes through the source code in a line by line fashion, and provides information every time an error is found on a line of code. The interpreter does this line by line until it reaches the end of the code, and finally outputs the code into machine code. Because the interpreter uses a line by line method to interpret the code, it allows the source code to be adjusted during the intepretation process. Depending on the programmer's objectives, the line by line method that the interpreter uses could be very beneficial in helping the programmer find and fix any bugging issues as they arise. Because of the unique characteristics of the interpreter, it may be suitable for developing websites, where fast load times are necessary. The instant feedback from the interpreter can be a huge benefit to programmers needing to make quick changes to their program (John Smith 2022).
+&nbsp;  
+&nbsp; 
+*Source https://www.guru99.com/compiler-design-phases-of-compiler.html* - John Smith 
 
 ### **Differences betwen Interpreters and Compilers**
 &nbsp;
@@ -414,8 +424,6 @@ Finally, the other distinct difference between the interpreter and the compiler 
 &nbsp;  
 &nbsp; 
 
-
-
 Source - https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
 https://www.businessinsider.in/difference-between-compiler-and-interpreter/articleshow/69523408.cms#:~:text=Interpreter%20translates%20just%20one%20statement,the%20process%20is%20much%20slower 
 
@@ -426,7 +434,7 @@ https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/
 Source - https://www.interviewbit.com/blog/difference-between-compiler-and-interpreter/
 
 
-## **Question 6 -  Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.**
+## **Question 6 - Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.**
 &nbsp;  
 ## **Identify two commonly used programming languages**
 &nbsp;
@@ -435,7 +443,7 @@ Source - https://www.interviewbit.com/blog/difference-between-compiler-and-inter
 &nbsp;     
 &nbsp;  
 
-Two commonly used programming languages are Python and Javascript. Both Python and Javascript are two of the most popular programming languages in the world right now, and they both equally possess drawbacks and benefits. 
+Two commonly used programming languages are Python and Javascript. Both Python and Javascript are two of the most popular programming languages in the world right now, and they both have their own unique drawbacks and benefits. 
 &nbsp;  
 &nbsp;  
 
@@ -463,10 +471,7 @@ One of the major cons of Javascript is that Javascript is
 ## **Python**
 ### **Benefits**
 
-One of the main benefits of using Python is its popularity among tech communities, because it is open source and free for everyone to use. Surveys suggest that Python is one of the most popular programming languages in the world.
-Is a versatile language which can be used for a variety of purposes, including: web development, machine learning, data analysis. However, it really excels with machine learning, data analysis and artificial intelligence. Kumar (2021) explains that Python is one of the better languages to use for AI and machine learning because of its access to a wide array of libraries and communities of developers. They facilitate an increase in the language being widely used, and the knowledge base grows as a result. 
-Unlike some other languages, it is also available on a range of operating systems, and as such, developers who are using specific operating systems are not excluded from programming with Python.
-Python is considered to be a high-level language, meaning its syntax is close to the syntax of human languages, and is considered an easy programming language to learn (Kumar 2021). This allows more people to get involved in the community, and the amount of people contributing to the development of AI and machine learning algorithms in the Python libraries expand as a result. 
+One of the main benefits of using Python is its popularity among tech communities, because it is open source and free for everyone to use. Surveys suggest that Python is one of the most popular programming languages in the world.It is a versatile language which can be used for a variety of purposes, including: web development, machine learning, data analysis. However, it really excels with machine learning, data analysis and artificial intelligence. Kumar (2021) explains that Python is one of the better languages to use for AI and machine learning because of its access to a wide array of libraries and communities of developers. They facilitate an increase in the language being widely used, and the knowledge base grows as a result. Unlike some other languages, it is also available on a range of operating systems, and as such, developers who are using specific operating systems are not excluded from programming with Python. Python is considered to be a high-level language, meaning its syntax is close to the syntax of human languages, and is considered an easy programming language to learn (Kumar 2021). This allows more people to get involved in the community, and the amount of people contributing to the development of AI and machine learning algorithms in the Python libraries expand as a result. 
 
 
 ### **Drawbacks**
