@@ -52,7 +52,7 @@ Similar to a HTML document, a SGML document must state at the beginning of the d
 &nbsp;  
 &nbsp;
 **Document Instance** 
-Finally, the document instance is actually the SGML file, with all of the code contained inside of it. The document will comprise of markup language, and of course, the contents of the document (Herwijnen, 1994, page 25-26 ). 
+Finally, the document instance is actually the SGML file, with all of the code contained inside of it. The document will comprise of markup language, and of course, the contents of the document (Herwijnen, 1994, page 25-26). 
 &nbsp;  
 &nbsp;  
 ## **Part Two** 
@@ -88,15 +88,19 @@ Since the development of the internet in the 1960s, there have been a number of 
 &nbsp;   
 &nbsp;  
 ### **IP addresses (IPv4 and IPv6)**
-IP addresses, or Internet Protocols (both IPv4 and IPv6) is an address used by both the end of the sender, and receiver, of information on the internet.
+IP addresses, or Internet Protocols (both IPv4 and IPv6) are an address used by both devices. They are a personal identity and a unique address of a device, which allows each device to know where exactly they will be sending their data to across the internet.
 
-Most people think of the website domain names as being the primary address for a website in the ecosystem of the internet, however, the website domain name is used for reasons of simplicity and expediency. Behind every domain name for a website exists a unique IP address, which is considered to be the actual address for a website. 
+Most people think of website domain names as being the primary address for a website in the ecosystem of the internet, however, the website domain name is used for reasons of simplicity and expediency. Behind every domain name for a website exists a unique IP address, which is considered to be the actual address for a website. 
 
-The main difference between the IPv4 IP address and the IPv6 IP address is the amount of IP addresses that are able to be created on the network. It is believed that the IPv4 style of IP addresses will eventually run out of space to create new addresses, and this will lead to the adoption of the new, larger scale version of IP addresses, which is known as IPv6. For comparison, the IPv4 style of IP address has approximately ____________ number of IP addresses in the world. Due to the explosion of the human population, increasing technological adoption by the world’s population, and increasing number of computers, the IPv6 style of address will need to be used. It is believed that the IPv6 style will hold approximately _______________ number of addresses, which IT experts believe will be a sufficient amount for the foreseeable future.
-
- This address is what helps to send information and data accurately from one device at one location, to another device at another location - “Devin Shah, 2009, A Complete Guide to Internet and Web Programming”. If one thinks about this in terms of the development of the internet, the invention of Internet Protocols has allowed the world to become more interconnected technologically, and has allowed for communication barriers to be removed between people around the world. 
+The main difference between the IPv4 IP address and the IPv6 IP address is the amount of IP addresses that are able to be created on the network. It is believed that the IPv4 style of IP addresses will eventually run out of space to create new addresses, and this will lead to the adoption of the new, larger scale version of IP addresses, which is known as IPv6. For comparison, the IPv4 style of IP address has 32bits, where as IPv6 has 128bits (Lawrence Williams 2022). Due to the explosion of the human population, increasing technological adoption by the world’s population, and increasing number of computers, the IPv6 style of address will need to be used. It is believed that the IPv6 style will be able to hold a larger number of addresses than IPv4, which IT experts believe will be a sufficient amount for the foreseeable future (Josh Fruhlinger 2022).
+&nbsp;  
+&nbsp;
+## **Explain how Packets have contributed to the development of the internet.**
+If one thinks about this in terms of the development of the internet, the invention of Internet Protocols has allowed the world to become more interconnected technologically, and has allowed for communication barriers to be removed between people around the world. IP addresses in general have allowed information to be sent from its original sender to its destination. It has given unique identities for each device on the internet and allows a seamless way for data or information to be sent to one device to another without it being lost, or sent to the wrong device.
 &nbsp;  
 &nbsp;     
+
+Laurence Williams - https://www.guru99.com/difference-ipv4-vs-ipv6.html 
 ### **Packets**
 When one enquires into the information and data being sent to and from these IP addresses in the digital world, it will become apparent that this “data” or “information” is not just an abstract idea. A piece of data is a very real thing, and in order for this data to be able to travel through digital space and time through the internet, it must be broken down into something called “packets”. For the data to be sent more efficiently over the internet, it must be broken down into packets. This process of breaking data down into packets allows for more data to be sent over the internet simultaneously. By allowing multiple packet from the same piece of data to be sent over the network at the same time - a process called "packet switching" - data is able to flow freely over the network without being caught in a backlog (Cloudfare).
 
@@ -127,23 +131,23 @@ An important component of DNS is ‘caching’. Caching is essentially a reposit
 &nbsp;  
 &nbsp;
 ## **Explain how Domains and DNS have contributed to the development of the internet.**
-The domain and DNS have played a crucial role in the development of the internet since they they were invented in the 1980s. Due to the growing number of users on the internet, the number of IP addresses grew exponentially, and a solution was needed to store and identify. The domain name system was invented in the 1980s to deal with this issue of scaling IP addresses by storing all of the IP addresses and its computer host name in a structured list (Danielle Kehl 2015). This allowed the number of IP addresses to grow into the millions, and is the reason for allowing computers to connect to specific IP addresses without the user needing to remember each individual IP address when visiting websites . 
+The domain and DNS have played a crucial role in the development of the internet since they they were invented in the 1980s. Due to the growing number of users on the internet, the number of IP addresses grew exponentially, and a solution was needed to store and identify. Initially, all devices connected to the internet were recorded on a .TXT file titled HOSTS.txt. Over time the 
+.TXT file was unable to handle the large amount of records being kept in the file, and subsequently, technologists designed what we now call the Domain Name System to mitigate 
+scalability issues (Shaw and Fruhlinger 2020). The domain name system was invented in the 1980s to deal with this issue of scaling IP addresses by storing all of the IP addresses and its computer host name in a structured list (Danielle Kehl 2015). This allowed the number of IP addresses to grow into the millions, and is the reason for allowing computers to connect to specific IP addresses without the user needing to remember each individual IP address when visiting websites. 
 https://nap.nationalacademies.org/read/11258/chapter/4 
 https://slate.com/technology/2015/05/icann-transition-the-interesting-history-of-the-internet-domain-name-system.html
 &nbsp;
 &nbsp;  
-The emergence and implementation of the Domain Name System was a significant development in the history of the Internet. Initially, all devices connected to the internet were recorded on a .TXT file titled HOSTS.txt. Over time the .TXT file was unable to handle the large amount of records being kept in the file, and subsequently, technologists designed what we now call the Domain Name System to mitigate scalability issues with the HOSTS.txt file. 
-&nbsp;  
-&nbsp; 
 **source** - (Signposts in Cyberspace: The Domain Name System and Internet Navigation, 2005 - page 41, 42 file on my PC*******) 
 &nbsp;  
 &nbsp;  
-**source**What is DNS? – Introduction to DNS - AWS (amazon.com)
-
 ## **Question 3 - Define the features of the following technologies that are essential in terms of the development of the internet:**
 &nbsp;  
 ### **TCP**
 TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish.
+&nbsp;  
+&nbsp;  
+### **Explain how TCP has contributed to the development of client and server communication over the internet (50 - 150 words for TCP)** 
 
 *Source - https://www.ibm.com/docs/en/aix/7.1?topic=management-transmission-control-protocolinternet-protocol* 
 &nbsp;  
@@ -174,14 +178,16 @@ the internet over time. Since the early days of the internet, more and more webs
 &nbsp;
 &nbsp;
 
+### **Explain how HTTP/HTTPS has contributed to the development of client and server communication over the internet (50 - 150 words for HTTP/HTTPS)** 
+
 https://kinsta.com/knowledgebase/tls-vs-ssl/ 
 https://aboutssl.org/ssl-guide/ 
 https://cheapsslsecurity.com/blog/http-vs-https-security-the-differences-between-these-protocols/ 
 https://www.globalsign.com/en/blog/ssl-vs-tls-difference 
 https://www.cloudflare.com/en-gb/learning/ssl/why-use-https/ 
 https://www.acunetix.com/blog/articles/tls-security-what-is-tls-ssl-part-1/ 
-
-
+&nbsp;  
+&nbsp;
 ### **Web Browsers (requests, rendering and developer tools)**
 Web browsers have made many strides in their development since some of the first browsers were developed and used in 1994, such as Mosaic and Nexus. Today, some of the most popular web browsers used are Google Chrome, Internet Explorer, Mozilla Firefox, and Microsoft Edge. 
 For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page. There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
@@ -247,8 +253,6 @@ elements on web pages. The networking component is used for undertaking requests
 ### **Javascript Interpreter** 
 The Javascript intepreter is responsible for implementing the code written in Javascript to be displayed correctly in a web browser. Before the Javascript interpreter allows the Javascript code to be displayed, it must go through a process of evaluating the code to best decide how the 
 
-
-
 **Source - Conrad (2018) https://softwareengineeringdaily.com/2018/10/03/javascript-and-the-inner-workings-of-your-browser/**
 &nbsp;
 &nbsp;
@@ -294,6 +298,10 @@ https://www.browserstack.com/guide/browser-rendering-engine - Browser Source - U
 https://plg.uwaterloo.ca/~migod/papers/2006/jsme-browserRefArch.pdf - A reference Architecture for Web Browsers - Alan Grosskurth
 &nbsp;  
 &nbsp;  
+### **Explain how the Web Browser has contributed to the development of client and server communication over the internet (50 - 150 words for Web Browser)** 
+
+&nbsp;  
+&nbsp;
 ## **Q4 Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.**
 Data structures in programming languages contain collections of data, big or small, and have a number of uses. Primarily, the data structures that hold groups of data are there for someone to access the data, retrieve a piece of data, delete a piece of data, or add a piece of data. In programming, there are more than one way to store and collate data, and these different methods of structuring and storing data are called “data structures”. Three commonly known data structures in the Ruby programming language are: arrays, hashes, and binary trees. 
 &nbsp;  
