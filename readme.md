@@ -314,18 +314,16 @@ https://www.ionos.com/digitalguide/websites/web-development/server-side-and-clie
 &nbsp;  
 &nbsp;
 ## **Q4 Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.**
-Data structures in programming languages contain collections of data, big or small, and have a number of uses. Primarily, the data structures that hold groups of data are there for someone to access the data, retrieve a piece of data, delete a piece of data, or add a piece of data. In programming, there are more than one way to store and collate data, and these different methods of structuring and storing data are called “data structures”. Three commonly known data structures in the Ruby programming language are: arrays, hashes, and binary trees. 
+Data structures in programming languages contain collections of data, big or small, and have a number of use cases. Primarily, the data structures that hold groups of data are there for someone to access the data, retrieve a piece of data, delete a piece of data, or insert a piece of data. In programming, there are more than one way to store and collate data, and these different methods of structuring and storing data are called “data structures”. Three commonly known data structures in the Ruby programming language are: arrays, hashes, and binary trees. 
 &nbsp;  
 &nbsp;  
 ### **Arrays**
 &nbsp;
 #### **Identify**
-Arrays are a data structure which holds a list of variables in an index. The 
-An important note to make about arrays is that they are not the same as arrays in other programming languages. Arrays in other programming languages are considered to be static, while arrays in Ruby are considered to be dynamic. This means that static arrays in other programming languages must input the specific size of the array when it is first being added, and its size cannot be modified once it has been created. However, in Ruby’s case, a dynamic array is able to be modified and changed, long after the array has been created. 
+Arrays are a data structure which holds a list of variables in an index. An important note to make about arrays is that they are not the same as arrays in other programming languages. Arrays in other programming languages are considered to be static, while arrays in Ruby are considered to be dynamic. This means that static arrays in other programming languages must input the specific size of the array when it is first being added, and its size cannot be modified once it has been created. However, in Ruby’s case, a dynamic array is able to be modified and changed, long after the array has been created. 
 A basic array data structure may look something like this:
 &nbsp;  
 &nbsp; 
-
 Countries = [Australia, Japan, China, Germany] 
 &nbsp;   
 &nbsp;
@@ -336,16 +334,12 @@ The elements within an array are ordered in an index, and they are automatically
 [0, 1, 2, 3,] 
 &nbsp;  
 &nbsp;  
-#### **Explain the Reasons**
-Arrays are an important data structure to use in programming as they allow the program to hold blocks of important data, which contain many elements. Storing many elements in one index allows the program to access, retrieve or store large amounts of data, and to locate specific pieces of data accurately and easily. Arrays store data in a numerical order, starting from zero. Therefore, it is easy for a piece of data to be located in the array as it has its own unique location among the other data in the array. This can be very convenient when needing to retrieve specific data objects from an array.
+#### **Reasons for using an Array**
+Arrays are an important data structure to use in programming as they allow the program to hold blocks of important data, which contain many elements. Storing many elements in one index allows the program to access, retrieve or store large amounts of data, and to locate specific pieces of data accurately and easily. Arrays store data in an index in numerical order, starting from the number zero (0). Therefore, it is easy for a piece of data to be located in the array as it has its own unique location among the other data in the array. This can be very convenient when needing to retrieve specific data objects from an array.
 
-Arrays are a particularly great data structure to use to store a group of data that are related to each other. For example, if a program were created about selling animals online, an array may be used to store the data of all dog breeds, or all cat breeds that are bought and sold on the website or application. Moreover, arrays only use one variable to give a value to the array, as opposed to a 
-list of individual variables, this uses less memory in the program and allows for faster search times.
+Arrays are a particularly great data structure to use to store a group of data that are related to each other. For example, if a program were created about selling animals online, an array may be used to store the data of all dog breeds, or all cat breeds that are bought and sold on the website or application. Moreover, arrays only use one variable to give a value to the array, as opposed to a list of individual variables, and this uses less memory in the program and allows for faster search times.
 
-Another reason why an array may be a better option over another data structure is because of its ability to be two dimensional. 
-
-
-A possible reason for deciding not to use arrays could be because of an array’s fixed size, and it’s fixed memory. Unfortunately, if extra data needed to be added to the array
+Although there are several reasons for opting to use an array to store and retrieve data, a Hash could also be a good option, depending on the use cases and the requirements of the company needing access to the data. 
 
 
 Source for Arrays - https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf - page 10-page 11 
@@ -357,12 +351,20 @@ Source for Arrays - https://www.google.com.au/books/edition/Ruby_Programming_for
 ### **Hashes**
 Hashes are similar to arrays, in that they store a group of data. There are two main diffences between hashes and array. Firstly, the elements within an array do not need to be assigned a value or key. Secondly, the hashes are in an unordered index, unlike arrays. For a hash to be correctly written in code, the elements within the hash must be assigned both a value and a key. The keys and values within the hashes are called upon when writing the code to retrieve a piece of data from within the hash. Acording to Castello (2020) some basic use cases for hashes include: listening vocabulary in languages which provide a varieyty of definitions. Each definition would be a new value/key pair. Also, lists of people's names, or usernames. 
 Here is a basic example of what a basic hash data structure may look like: 
+&nbsp;  
+&nbsp;
 
-Days = {"1" => “ Monday”, "2" => “Tuesday”, "3" => “Wednesday”, "4" => “Thursday”}
+Days = {"Monday" => 1, "Tuesday" => 2, "Wednesday" => 3, "Thursday" => 4}
+&nbsp;  
+&nbsp;
+In the above example, the word "Day" is the name of the hash, the word "Monday" is the key of the hash, and the number '1' is the value associated with the key word "Monday".
+&nbsp;  
+&nbsp;
+#### **Reasons for using a Hash**
+Similar to arrays, hashes also use an index to allow retrieval of individual data items, except the index for an array is different to the index hash's index. In a hash, the index is the "value" (refer to above), as opposed to the strictly set out index numbers that are set out automatically by the programming language.
 
-Similar to arrays, hashes also use an index to allow retrieval of individual data items. If a specific value from the hash index was required for retrieval, a similar process to the arrays takes place A basic example of this is below: 
+A reason for opting to use a hash instead of an array might be because of the programmer's choice to set whatever string or integer of their choice to the hash's values. This gives the programmer more freedom in deciding how the hash will be indexed, and how it's "values" will be labeled. For specific circumstances, a programmer might feel this is a better option when building out a data structure for their program. 
 
-## *********insert example here of retrieving a value from hash index.******
 
 
 *Source for hashes - https://www.google.com.au/books/edition/Learning_Ruby/pYS_Fm5LqUYC?hl=en&gbpv=1&dq=introduction+to+ruby&printsec=frontcover - Chapter 7, page 107*
@@ -375,8 +377,10 @@ Similar to arrays, hashes also use an index to allow retrieval of individual dat
 &nbsp;
 &nbsp;  
 Trees are another common data structure in the Ruby programming language, and they play a similar role as an array and hash data structure. However, trees are different from arrays and hashes by the way that they store and structure the stored data in a non-linear way. A tree data structure is a top down structure, unlike the arrays and hashes which are left to right. The tree is structured with a root at the very top, and with nodes branching off the root below to the left, and to the right. The nodes which branch off the branches above are called children, as they are descendents of the branches above. Because the tree is structured literally like the structure of a tree in the real world, the term used for searching the tree is "tree traversal", which is different from searching a linear index like a hash or an array. 
-
-A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. 
+&nbsp;  
+&nbsp;  
+#### **Reasons for using a Tree**
+A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. Another reason a programmer may opt to us a tree over other data structure types is due to the hierarchical nature of a tree. If a particular data set requires the the data to be structured in a hierarchical manner, the tree might be the perfect option for this use case. Indeed, it is important to weigh the pros and cons of using a tree, and to determine if your data set requires a more linear approach like a hash and array, or a hierarchical structure like a tree.
 
 *Source https://www.programiz.com/dsa/trees*
 Source for Trees - https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf - page 93
@@ -384,11 +388,11 @@ http://www.cs.uni.edu/~wallingf/teaching/agile-may2010/ruby/programming-ruby.pdf
 https://www.rubyguides.com/2019/04/ruby-data-structures/ 
 https://www.google.com.au/books/edition/Computer_Science_Programming_Basics_in_R/T84ocHBqvEUC?hl=en&gbpv=0 
 ## **Question 5 -  Describe the features of interpreters and compilers and how they are different.**
-Computers programs are written using high-level language, meaning its language is close to human languages, more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs called *interpreters* and *compilers* to convert the high-level language code , into low-level language code, otherwise known as "machine language".
+Computer programs are written using high-level language, meaning its language is similar to that of human languages; more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs such as *interpreters* and *compilers* to convert the high-level language code into low-level language code, otherwise known as "machine language".
 &nbsp;  
 &nbsp;
 ### **Features of Compilers and Interpreters**
- According to Interviewbit (2022), interpreters and compilers share similar features, with some exceptions. 
+According to Interviewbit (2022), interpreters and compilers share similar features, with some exceptions. 
 &nbsp;  
 &nbsp;  
 
