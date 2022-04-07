@@ -99,7 +99,6 @@ The main difference between the IPv4 IP address and the IPv6 IP address is the a
 If one thinks about this in terms of the development of the internet, the invention of Internet Protocols has allowed the world to become more interconnected technologically, and has allowed for communication barriers to be removed between people around the world. IP addresses in general have allowed information to be sent from its original sender to its destination. It has given unique identities for each device on the internet and allows a seamless way for data or information to be sent to one device to another without it being lost, or sent to the wrong device.
 &nbsp;  
 &nbsp;     
-
 Laurence Williams - https://www.guru99.com/difference-ipv4-vs-ipv6.html 
 ### **Packets**
 When one enquires into the information and data being sent to and from these IP addresses in the digital world, it will become apparent that this “data” or “information” is not just an abstract idea. A piece of data is a very real thing, and in order for this data to be able to travel through digital space and time through the internet, it must be broken down into something called “packets”. For the data to be sent more efficiently over the internet, it must be broken down into packets. This process of breaking data down into packets allows for more data to be sent over the internet simultaneously. By allowing multiple packet from the same piece of data to be sent over the network at the same time - a process called "packet switching" - data is able to flow freely over the network without being caught in a backlog (Cloudfare).
@@ -145,10 +144,22 @@ https://slate.com/technology/2015/05/icann-transition-the-interesting-history-of
 &nbsp;  
 ### **TCP**
 TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish.
-&nbsp;  
-&nbsp;  
-### **Explain how TCP has contributed to the development of client and server communication over the internet (50 - 150 words for TCP)** 
+&nbsp;    
+&nbsp;
+The TCP/IP architecture consists of four important layers. The layers are - the link layer, the internet layer, the transport layer, and the application layer. A brief explanation will be given below regarding the role that each layer plays in the TCP/IP architecture: 
 
+#### **Link Layer**
+#### **Internet Layer**
+
+#### **Transport Layer**
+
+#### **Application Layer**
+&nbsp;  
+&nbsp;
+### **Explain how TCP has contributed to the development of client and server communication over the internet (50 - 150 words for TCP)** 
+The TCP has contributed immensely to the development of the internet by providing an architecture which would allow any kind of computer to communicate with another computer (Edwards 2021). This was a big breakthrough which allowed interoperability between different computers, regardless of what operating system each computer is running (Williams 2022).  TCP's main legacy is the fact it has achieved to provide an architecture to allow communication of data on the internet, from all over the world, to any device connected to the internet (Edwards 2021).
+
+*Source - Edwards (2021) - https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
 *Source - https://www.ibm.com/docs/en/aix/7.1?topic=management-transmission-control-protocolinternet-protocol* 
 &nbsp;  
 &nbsp;  
@@ -169,16 +180,12 @@ The main feature of a HTTPS website which facilitates the encryption process is 
 &nbsp;  
 &nbsp;
 
-This layer of trust is an important development of 
-client and server communication. With the 
-development of the internet, the number of  hackers 
-has also grown, and therefore, the invention of 
-HTTPS is a fundamental feature in the development of
-the internet over time. Since the early days of the internet, more and more websites have made the change from HTTP to HTTPS for obvious reasons, and the security protocols layers protecting the HTTPS websites have also gone through its own development.
+This layer of trust is an important development of client and server communication. With the development of the internet, the number of  hackers has also grown, and therefore, the invention of HTTPS is a fundamental feature in the development of the internet over time. Since the early days of the internet, more and more websites have made the change from HTTP to HTTPS for obvious reasons, and the security protocols layers protecting the HTTPS websites have also gone through its own development.
 &nbsp;
 &nbsp;
 
 ### **Explain how HTTP/HTTPS has contributed to the development of client and server communication over the internet (50 - 150 words for HTTP/HTTPS)** 
+HTTP from its inception was designed for the purpose of allowing document exchange, and document retrieval (MDN Contributers (Mozilla) 2022). This allowed for exchange over the internet, particularly data exchange, which was not possible before Tim Berners Lee came up with the idea of the Hyper Text Transfer Protocol. 
 
 https://kinsta.com/knowledgebase/tls-vs-ssl/ 
 https://aboutssl.org/ssl-guide/ 
@@ -299,7 +306,11 @@ https://plg.uwaterloo.ca/~migod/papers/2006/jsme-browserRefArch.pdf - A referenc
 &nbsp;  
 &nbsp;  
 ### **Explain how the Web Browser has contributed to the development of client and server communication over the internet (50 - 150 words for Web Browser)** 
+The contribution to client and server communication that web browers is a significant one. The web browser has been responsible for allowing the client to interact with the server by making requests to pull images and data from the server, and the web browser is then responsible for displaying those images and data once the request has been fulfilled (Ionos). One of the specific contributions was the development of the Mosaic browser in the 1990s, which allowed for images, video clips, and graphics to be displayed on the client side instead of the previous browers which only displayed plain text websites (Hart 2004). 
 
+
+https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100274&org=NSF 
+https://www.ionos.com/digitalguide/websites/web-development/server-side-and-client-side-scripting-the-differences/ 
 &nbsp;  
 &nbsp;
 ## **Q4 Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.**
