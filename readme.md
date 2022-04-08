@@ -322,7 +322,7 @@ Data structures in programming languages contain collections of data, big or sma
 #### **Identify**
 Arrays are a data structure which holds a list of variables in an index. An important note to make about arrays is that they are not the same as arrays in other programming languages. Arrays in other programming languages are considered to be static, while arrays in Ruby are considered to be dynamic. This means that static arrays in other programming languages must input the specific size of the array when it is first being added, and its size cannot be modified once it has been created. However, in Ruby’s case, a dynamic array is able to be modified and changed, long after the array has been created. 
 A basic array data structure may look something like this:
-&nbsp;  
+&nbsp;    
 &nbsp; 
 Countries = [Australia, Japan, China, Germany] 
 &nbsp;   
@@ -332,6 +332,8 @@ The elements within an array are ordered in an index, and they are automatically
 &nbsp;  
 &nbsp;  
 [0, 1, 2, 3,] 
+
+0 = Australia, 1 = Japan, 2 = China, 3 = Germany
 &nbsp;  
 &nbsp;  
 #### **Reasons for using an Array**
@@ -491,7 +493,7 @@ One of the main benefits of using Python is its popularity among tech communitie
 One of Python’s main drawbacks is that it is considered by many in the tech industry to be a “slow” language. It must pass through a process of interpretation between writing the code and implementing the code. According to Hull (2021) a dynamically typed language such as Python needs to have its code interpreted by an interpreter before transforming into executed code. Other static languages do not have this issue as their variables are 
 https://towardsdatascience.com/why-is-python-so-slow-and-how-to-speed-it-up-485b5a84154e 
 https://www.geeksforgeeks.org/what-makes-python-a-slow-language/#:~:text=Internally%20Python%20code%20is%20interpreted,PVM%20(Python%20Virtual%20Machine). 
-Further research regarding the slow processing speed of Python suggests that the main cause of Python’s slow speed as a dynamically typed language (compared to other dynamically typed languages) is because of its Global Interpreter Lock (GIL). According to McCurdy Python has issues with processing speeds when it is undertaking multi-threaded processes, processing multiple threads simultaneously (McCurdy). However, although Python does have issues relating to processing speeds of multi-threads, people such as McCurdy have figured out ways to get around these issues, such as multiprocessing.
+Further research regarding the slow processing speed of Python suggests that the main cause of Python’s slow speed as a dynamically typed language (compared to other dynamically typed languages) is because of its Global Interpreter Lock (GIL). According to McCurdy (McCurdy) Python has issues with processing speeds when it is undertaking multi-threaded processes, processing multiple threads simultaneously (McCurdy). However, although Python does have issues relating to processing speeds of multi-threads, people such as McCurdy have figured out ways to get around these issues, such as multiprocessing.
 https://www.infoworld.com/article/3637073/python-stands-to-lose-its-gil-and-gain-a-lot-of-speed.html 
 Although Python and Javascript both have their own unique drawbacks, they are both very powerful languages, and are also able to compliment each other. As Berga and Ferreira (2021) noted, Python is used on the back-end of Instagram, and Javascript is used on the front-end. This is a perfect example of both languages being used in one of the most popular applications in the world while complimenting each other. 
 Source - https://www.imaginarycloud.com/blog/python-vs-javascript/ - 2021
@@ -674,13 +676,48 @@ Menu Class
 Checkout Class 
 ## **Question - 12**
 Identify and explain the error in the code snippet below that is preventing correct execution of the program.
+&nbsp;    
+&nbsp;  
+
+### **Original Code Snippet**
+&nbsp;  
+&nbsp;
+![Q12_Snippet](12snippet.png)
+&nbsp;  
+&nbsp;  
+### **Fixed Code Snippet**
+&nbsp;  
+&nbsp;  
+```ruby
+puts "\nProgram to convert temperature from celcius to fahrenheit"
+puts "=========================================================="
+sleep(3)
+puts "\nTo convert the temperature from celcius to fahrenheit, please type in the temperature in celsius below:"
+celsius = gets.chomp.to_i
+fahrenheit = (celsius * 9 / 5) + 32
+sleep(2)
+puts "\nThe answer is: #{fahrenheit} " + "degrees fahrenheit."
+```
 &nbsp;  
 &nbsp;  
 ## **Question - 13**
 The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 &nbsp;  
-&nbsp;
-
+&nbsp;  
+![Q13_Snippet](13snippet.png)
+&nbsp;    
+&nbsp;  
+```ruby
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0 
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+    i += 1 
+end 
+    arr[i], arr[i + 1] = arr[i + 1], arr[i]
+puts arr
+```
+&nbsp;  
+&nbsp;  
 ## **Question - 14**
 
 Demonstrate your algorithmic thinking through completing the following two tasks, in order:
@@ -692,20 +729,27 @@ Demonstrate your algorithmic thinking through completing the following two tasks
 
 Write pseudocode OR Ruby code for the following problem:
 You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
-
-Raining = true 
-Not_raining = false
-If temperature = <15 
-Puts = “it’s wet and cold”
-else temperature = <15 + not_raining
-Puts = “it’s not raining but cold”
-Else if temperature = >=15 + not_raining
-Puts = “it’s warm but not raining”
-Else if …. Otherwise? 
-Puts = “it’s warm and raining”.
 &nbsp;  
-&nbsp;  
+&nbsp; 
+```ruby
+puts "Is it raining?"
+raining = gets.chomp 
 
+puts "What is the temperature?"
+temperature = gets.chomp.to_i
+
+if raining == "yes" && temperature <= 15 
+    puts "It's wet and cold"
+elsif raining == "no" && temperature <= 15
+    puts "It's not raining but cold"
+elsif raining == "no" && temperature >= 15 
+    puts "It's warm but not raining"
+else 
+    puts "It's warm and raining"
+end 
+```
+&nbsp;  
+&nbsp;
 ## **Question - 16**
 ACME Corporation are hiring a new junior developer, as part of their hiring criteria they've created a "coding skill score" based on the specific competencies they require for this role; the more important the skill is for ACME corp, the more points it contributes to the "coding skill score" The skills are weighted as follows:
  - Python (1)

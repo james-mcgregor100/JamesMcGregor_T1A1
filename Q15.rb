@@ -1,4 +1,4 @@
-
+```ruby
 puts "Is it raining?"
 raining = gets.chomp 
 
@@ -14,3 +14,4 @@ elsif raining == "no" && temperature >= 15
 else 
     puts "It's warm and raining"
 end 
+```
