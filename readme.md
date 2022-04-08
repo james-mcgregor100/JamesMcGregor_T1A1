@@ -685,7 +685,29 @@ Identify and explain the error in the code snippet below that is preventing corr
 ![Q12_Snippet](12snippet.png)
 &nbsp;  
 &nbsp;  
+
+### **Identify the error in the code snippet**
+The error in this code snippet is a very simple error. On line number 1 the gets method was taking in the input of a number into the variable called "celcius", which is not a number. The problem with this is that when celcius was being calculated on line 2, the number that was given as input to the "celsius" variable was not able to be calculated, because the number had not been converted to an integer. Therefore, when the program was ran, the program came up with an error on line 2, and could not execute the code. 
+&nbsp;  
+&nbsp;  
 ### **Fixed Code Snippet**
+&nbsp;  
+&nbsp;  
+```ruby
+puts "\nProgram to convert temperature from celcius to fahrenheit"
+puts "=========================================================="
+sleep(3)
+puts "\nTo convert the temperature from celcius to fahrenheit, please type in the temperature in celsius below:"
+celsius = gets.chomp.to_i
+fahrenheit = (celsius * 9 / 5) + 32
+sleep(2)
+puts "\nThe answer is: #{fahrenheit} " + "degrees fahrenheit."
+```
+&nbsp;  
+&nbsp;  
+### **Explanation of my thought process**
+My thought process for this coding problem was very simple. I identified that I needed to add a ".to_i" to the end of gets on line 1 to make sure that whatever number was given as input would be converted into an integer. This would allow the program to run properly on line 2 when it came time to use celsius as an integer to calculate the conversion from celsius to fahrenheit. 
+
 &nbsp;  
 &nbsp;  
 ```ruby
@@ -707,7 +729,6 @@ The code snippet below looks for the first two elements that are out of order an
 ### **Original Code Snippet**
 &nbsp;  
 &nbsp;  
-
 ![Q13_Snippet](13snippet.png)
 &nbsp;    
 &nbsp;  
@@ -725,13 +746,37 @@ puts arr
 ```
 &nbsp;  
 &nbsp;  
+### **Explanation of my thought process**
+&nbsp;  
+&nbsp;  
+It must be noted from the outset that I struggled immensely while trying to understand, and solve this coding problem. It took me several days, and I had to go through dozens of websites and web pages to try and find information relevant to swapping elements in an array such as this one. 
+
+The first step I took in solving the problem was to reverse engineer the lines of code, and slowly delete certain pieces of code to see what the output would be. I learnt a great deal during this process, and it was a great learning experience for me. Initially, I was confused as to why the number '3' kept being printed in the terminal when I ran the program. However, after many hours of trying to solve the problem, I realised the progam was stuck on index position number '3'. Initially I had no idea why it was on three, and what I needed to do. But after going slowly through each line of code, I realised that the program was stuck at the perfect spot where 39 and 19 were, but it wasn't swapping the numbers around. 
+
+Eventually I realised that the program was not printing out the actual array, like it was supposed to. This is when I realised that I needed to delete the 'puts i' on line 5, because it was not necessary to have this line of code in the program. There was no need to be printing out the current index that the program was stuck on, because the objective was to print out the array in its correct order (with 39 being swapped with 19). Once I deleted the 'puts i' I realised that the array was not being printed out after the program had run through all of the lines of code. I needed to shift line 6 and 7 up, and then insert 'puts arr' which printed out the whole array.
+
+After deleting the puts i and inserting the puts arr at the end of the program, I realised that line 6 and 7 were not written properly. When I printed out the array, I could see that 39 had disappeared, and 19 had taken the place of 39, so there were two number 19s. I realised that I had to perform the swap here where I changed the positions of 'arr[i]' and 'arr[i + 1]' in the index. By doing this I was able to bring 39 back into the array, and correctly swapped 39 with 19. Initially, this problem seemed very difficult to figure out for me, but once I figured out the small changes needed to fix the problem, I realised how simple the issue was. I learnt a very valuable lesson from tackling this coding challenge. 
+&nbsp;
+&nbsp; 
 ## **Question - 14**
 
 Demonstrate your algorithmic thinking through completing the following two tasks, in order:
  1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
  2. Write pseudocode for the process outlined in your flowchart
+&nbsp;    
+&nbsp; 
+### **Flowchart** 
 &nbsp;  
-&nbsp;
+&nbsp;  
+### **Pseudo Code**
+&nbsp;  
+&nbsp;   
+### **Ruby Code**
+&nbsp;  
+&nbsp;  
+### **Explanation of my thought process**
+&nbsp;  
+&nbsp;  
 ## **Question - 15**
 
 Write pseudocode OR Ruby code for the following problem:
@@ -742,7 +787,7 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 puts "Is it raining? Please enter 'yes' or 'no':"
 raining = gets.chomp 
 
-puts "What is the temperature?"
+puts "What is the temperature? Please enter a whole number: "
 temperature = gets.chomp.to_i
 
 if raining == "yes" && temperature <= 15 
@@ -755,6 +800,16 @@ else
     puts "It's warm and raining"
 end 
 ```
+&nbsp;
+&nbsp;
+### **Explanation of my thought process**
+This was one of the easier challenges out of the programming challenges in the workbook, and I was able to complete this coding challenge in a significantly faster time than some of the more advanced questions. 
+
+Firstly, I ensured that there were clear questions posed to the user, so they knew exactly what they were being asked, and they were told how to answer the question. I also made sure to include '.to_i' for when the user needed to input a number for the second question. This ensured that the program would be converted into an integer.
+
+Secondly, I opted to use a simple conditional statement to make the program work. I wrote the if statement first, and decided to use the '==' and '&&' to execute my conditional statement. Initially I was going to variables 'true' and 'false' to attach to variables above the conditional statement, but I felt that the '==' and '&&' worked well for this scenario. The code is very easy to read, and it is very simple to understand, and most importantly, it works. 
+
+
 &nbsp;  
 &nbsp;
 ## **Question - 16**
@@ -876,12 +931,14 @@ end
 ```
 ### **Explanation of my thought process**
 
-To be completely honest, I struggled for more than 24 hours trying to figure out how to write this program - I am one of the weaker coders in the class at the moment. There were two main issues that I was having while trying to come up with a way to write this program: 
+To be completely honest, I struggled for more than 24 hours trying to figure out how to write this program. There were two main issues that I was having while trying to come up with a way to write this program: 
 &nbsp;  
 &nbsp;  
 
-1. I struggled to figure out a way to save the user's reponses, so they could be used later on after the quiz.
+1. I struggled to figure out a way to save the user's responses, so they could be used later on after the quiz.
 2. I also struggled to come up with a coding solution to fullfill the second part of the task, where I was tasked to tell the user at the end of the quiz what language they might want to learn in order to prove their score. 
+&nbsp;  
+&nbsp;  
 
 I eventually came up with an idea to use an empty hash (refer to the top of the code snippet) which would hold all of the responses inputted by the user. This hash would also include the points of the language, which would be stored as the "value" in the hash. This made it easy for me to be able to retrieve the user's accumulated point score simply by calculating the sum of all of the vlaues which were inserted into the new array. I'm not sure if this is the correct way to write the program, but it outputs the coding score perfectly. 
 
