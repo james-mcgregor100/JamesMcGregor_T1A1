@@ -227,7 +227,7 @@ The rendering engine goes through several steps in order to complete the process
 &nbsp;
 
 ![Rendering Engine Diagram](render.png)
-### *Image source - https://www.browserstack.com/guide/browser-rendering-engine*
+#### *Image source - https://www.browserstack.com/guide/browser-rendering-engine*
 
 From this diagram we can see that the rendering engine is completing a range of processes to make sure that the web browser is displaying the web page correctly. A basic overview of the steps required (seen in the diagram above) are outlined below: 
 &nbsp;    
@@ -704,8 +704,15 @@ puts "\nThe answer is: #{fahrenheit} " + "degrees fahrenheit."
 The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 &nbsp;  
 &nbsp;  
+### **Original Code Snippet**
+&nbsp;  
+&nbsp;  
+
 ![Q13_Snippet](13snippet.png)
 &nbsp;    
+&nbsp;  
+### **Fixed Code Snippet**
+&nbsp;  
 &nbsp;  
 ```ruby
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
@@ -732,7 +739,7 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 &nbsp;  
 &nbsp; 
 ```ruby
-puts "Is it raining?"
+puts "Is it raining? Please enter 'yes' or 'no':"
 raining = gets.chomp 
 
 puts "What is the temperature?"
@@ -867,5 +874,18 @@ end
 
     puts "\n\nThank you for taking our quiz. We will be in contact with you within the next two weeks to inform you if your application was successful or not."
 ```
+### **Explanation of my thought process**
 
+To be completely honest, I struggled for more than 24 hours trying to figure out how to write this program - I am one of the weaker coders in the class at the moment. There were two main issues that I was having while trying to come up with a way to write this program: 
+&nbsp;  
+&nbsp;  
+
+1. I struggled to figure out a way to save the user's reponses, so they could be used later on after the quiz.
+2. I also struggled to come up with a coding solution to fullfill the second part of the task, where I was tasked to tell the user at the end of the quiz what language they might want to learn in order to prove their score. 
+
+I eventually came up with an idea to use an empty hash (refer to the top of the code snippet) which would hold all of the responses inputted by the user. This hash would also include the points of the language, which would be stored as the "value" in the hash. This made it easy for me to be able to retrieve the user's accumulated point score simply by calculating the sum of all of the vlaues which were inserted into the new array. I'm not sure if this is the correct way to write the program, but it outputs the coding score perfectly. 
+
+Secondly, I had no idea how to implement lines of code which would allow the program to provide feedback to the user about what languages they might learn, and how many extra points it would give them. I came up with the idea of using the original hash as the hash that would provide feedback to the user about languages they might want to learn. The way I executed this was by deleting the name of the language (both the key and value) that the user inputed - by the end of the quiz, the only languages left in the hash were the langauges that the user had not included in their quiz responses. I was able to use the remaining languages (the key in the hash) and their corresponding values (the values in the hash), and decided to iterate over the hash, and produce an output which fulfilled the criteria for the second part of the question. 
+
+I am aware that my code for this question is most probably the incorrect way of writing this program, but instead of not answering the question, I decided to attempt to write the program and write the code which I am familiar with. 
 

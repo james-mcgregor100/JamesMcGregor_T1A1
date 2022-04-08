@@ -1,5 +1,5 @@
 ```ruby
-puts "Is it raining?"
+puts "Is it raining? Please enter 'yes' or 'no':"
 raining = gets.chomp 
 
 puts "What is the temperature?"
