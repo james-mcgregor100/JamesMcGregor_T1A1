@@ -767,12 +767,15 @@ Demonstrate your algorithmic thinking through completing the following two tasks
 &nbsp; 
 ### **Flowchart** 
 &nbsp;  
+&nbsp;
+![Flowchart](Q14flow.jpg)
+&nbsp;  
 &nbsp;  
 ### **Pseudo Code**
 &nbsp;  
 &nbsp;
 ```ruby
-#Implement require 'prime' module used to tell program what to do.
+#Implement require 'prime' module to use for checking prime numbers.
 #Create empty array (to be filled when running while loop).
 #Create variable named "max" and set max number to 100.
 #Set counter to (i) and start counting from 0.
@@ -783,7 +786,8 @@ Demonstrate your algorithmic thinking through completing the following two tasks
     #Add (i) to the array (arr)
     #End loop
     #After end loop, increment number count by 1, and begin loop again.
-#End while loop when (i) value is no longer smaller than or equal to max (100)
+#End and finish while loop when (i) value is no longer smaller than or equal to max (100)
+#Print array with prime numbers and finish program
 ```
 &nbsp;
 &nbsp;
@@ -810,6 +814,9 @@ puts
 &nbsp;  
 &nbsp;  
 ### **Explanation of my thought process**
+&nbsp;    
+&nbsp;   
+The rationale for writing the code (see above) was to produce a simplistic, easy to understand code, while producing the correst outcome. Through researching how to produce prime numbers using a programming language, I read various ways and methods of writing code to produce a list of prime numbers between 1 and 100. The problem with some of the methods used to produce this outcome was that the code was too complex, and required an excessive amount of lines of code to achieve the desired result. Therefore, I decided to use a very simple method by using the 'require' module in Ruby, which allows the while loop to check for prime numbers, without having to write several lines of code using arithmetic. The while loop is able to simply screen every number from 1 to 100, and simultaneously pushes every prime number it lands on into a new array. Once the first prime number seen in the list has been pushed to the array, the while loop increments the number counter by 1, and restarts the loop, until it finishes at 100. By using a simple while loop, several variables to create the array, the max number, and the counter number, I was able to successfully achieve what the task required. 
 &nbsp;  
 &nbsp;  
 ## **Question - 15**
