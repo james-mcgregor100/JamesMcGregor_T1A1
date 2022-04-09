@@ -770,7 +770,21 @@ Demonstrate your algorithmic thinking through completing the following two tasks
 &nbsp;  
 ### **Pseudo Code**
 &nbsp;  
-&nbsp;   
+&nbsp;
+#Implement require 'prime' module used to tell program what to do.
+#Create empty array (to be filled when running while loop).
+#Create variable named "max" and set max number to 100.
+#Set counter to (i) and start counting from 0.
+
+#Begin while loop
+#While index (i) is smaller than or equal to max number (100)
+    #If index (i) is a prime number?
+    #Add (i) to the array (arr)
+    #End loop
+    #After end loop, increment number count by 1, and begin loop again.
+#End while loop when (i) value is no longer smaller than or equal to max (100)
+&nbsp;
+&nbsp;
 ### **Ruby Code**
 &nbsp;  
 &nbsp;  
@@ -786,7 +800,10 @@ while i <= max
     end
     i += 1
 end 
-puts arr
+print arr
+puts "\n\n"
+puts
+
 ```
 &nbsp;  
 &nbsp;  

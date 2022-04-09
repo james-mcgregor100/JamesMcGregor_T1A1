@@ -3,7 +3,7 @@
 #
 #2. Write pseudocode for the process outlined in your #flowchart
 
-```ruby
+
 require 'prime'
 arr = []
 max = 100
@@ -16,4 +16,3 @@ while i <= max
     i += 1
 end 
 puts arr
-```
