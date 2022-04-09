@@ -771,6 +771,7 @@ Demonstrate your algorithmic thinking through completing the following two tasks
 ### **Pseudo Code**
 &nbsp;  
 &nbsp;
+```ruby
 #Implement require 'prime' module used to tell program what to do.
 #Create empty array (to be filled when running while loop).
 #Create variable named "max" and set max number to 100.
@@ -783,6 +784,7 @@ Demonstrate your algorithmic thinking through completing the following two tasks
     #End loop
     #After end loop, increment number count by 1, and begin loop again.
 #End while loop when (i) value is no longer smaller than or equal to max (100)
+```
 &nbsp;
 &nbsp;
 ### **Ruby Code**
