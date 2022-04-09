@@ -638,7 +638,6 @@ A string is a line of characters or words which usually represent a line of text
 Notice that the last string which is "50" looks like a number/integer. Although the number 50 is indeed a number, the presence of double quotation marks in the Ruby programming language means that the number is considered to be a string.
 &nbsp;    
 &nbsp;  
-
 ## **Question - 11**
 Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
  - Identify the classes you would use to solve the problem
@@ -648,30 +647,28 @@ Here’s the problem: “There is a restaurant serving a variety of food. The cu
 ### **Order Class**
 &nbsp;  
 &nbsp;  
-
+The application will need to have an order class so that the customers are able to use an order function to order their meals. The order class will use general variables, such as - item name, price, quantity, special requests, and table number (if dining in). These variables will allow the applicaiton to input and output the relevant information for when the customers are placing an order, and when they are also receiving their order. 
 &nbsp;  
 &nbsp;  
 ### **User Details Class**
 &nbsp;  
-&nbsp; 
-The user details class would be a class which asks for users to input various types of (non sensitive) information into instance variables. Some examples of the non sensitive information could include their first and last name, phone number , email address, table number. This class would be used to help users input their information, and they would then proceed to the payment section of the app to pay for their meal (see 'Payment Class' below). 
-&nbsp;  
-&nbsp;  
+The user details class would be a class which asks for users to input various types of (non sensitive) information into instance variables. Some examples of the non sensitive information could include their first and last name, phone number , email address. This class would be used to help users input their information, and they would then proceed to the payment section of the app to pay for their meal (see 'Payment Class' below). 
 
-### **Payment Class**
+I would use this class as it is fundamental for the application to work correctly. By storing the user's details the business would potentially be able to collect their customer's data and use it to improve their business practices in the future. Moreover, the business may need to store the customer's details in the event that they may need to contact their customer if a problem were to arise with their credit card details, if the customer needed to be contacted to discuss their dining experience, or if the business wanted to reach out to the customer to offer them a special discount. 
+&nbsp;  
+&nbsp;  
+### **Payment Class (Child/Sub class of the User Details Class)**
 &nbsp; 
-&nbsp; 
-The payment class would store variables relating to the payment a customer would make. The class would have variables such as - payment type, total cost of the meal, tips for staff, and also a rating variable. It would also take variables from the User Details Class to ensure the same details are used for the user's name. The 
+The payment class would store variables relating to the payment a customer would make. The class would have variables such as - payment type, total cost of the meal, tips for staff, and also a rating variable. The payment class will be designated as a child class of the "user details" parent class, and it will take variables from the "user etails" class to ensure the same details are used for the user's name. This allows for the application to be developed using the DRY principle (do not repeat yourself), and will hopefully reduce the amount of unnecessary and excessive lines of code in the program. 
 &nbsp; 
 &nbsp; 
 ### **Menu Class (Super Class)**
-The menu class would be used to store all of the general information about the food items. This would include instance variables such as - item name, price, availability, amount of calories. This would be used as a parent (super class) for the application, and there would be several child classes that would inheret the menu class' variables.
+The menu class would be used to store all of the general information about the food items. This would include instance variables such as - item name, price, availability, amount of calories. This would be used as a parent (super class) for the application, and there would be several child classes that would inheret the menu class' variables. Of course, a menu class must be implemented in this application as it will establish a blueprint for all of the food items that are available in the application.
 &nbsp;  
 &nbsp;  
  ### **Food Class (Child/Sub Class of Menu Class)**
-&nbsp;  
-&nbsp;  
-The food class will present all of the main meals that are availabe to order as the variables. The food class will inherit standard variables from the menu class, such as - item name, price, availability, and amount of calories. The food class will allow the user to choose from a range of main meals, such as noodles, stir frys, currys, and fried rice dishes. 
+&nbsp;
+The food class will present all of the main meals that are availabe to order as the variables. The food class will inherit standard variables from the menu class, such as - item name, price, availability, and amount of calories. The food class will allow the user to choose from a range of main meals, such as noodles, stir frys, currys, and fried rice dishes. The food class has been chosen to be used as one of the classes in the application as there will be a lot of data and input relating to food in general while a customer is ordering their meal, therefore a food class is necessary in this application. 
 &nbsp;  
 &nbsp;  
  ### **Drinks Class (Child/Sub Class of Menu Class)**
@@ -697,7 +694,6 @@ Identify and explain the error in the code snippet below that is preventing corr
 ![Q12_Snippet](12snippet.png)
 &nbsp;  
 &nbsp;  
-
 ### **Identify the error in the code snippet**
 The error in this code snippet is a very simple error. On line number 1 the gets method was taking in the input of a number into the variable called "celcius", which is not a number. The problem with this is that when celcius was being calculated on line 2, the number that was given as input to the "celsius" variable was not able to be calculated, because the number had not been converted to an integer. Therefore, when the program was ran, the program came up with an error on line 2, and could not execute the code. 
 &nbsp;  
