@@ -551,13 +551,19 @@ I have chosen to research the case study about the Volkswagen fraud scandal comm
 &nbsp; 
 ### **Discuss how an ethical IT professional should respond**
 
-It is clear that the actions by the staff at Volkswagen were unethical, and also illegal, but it is also difficult to discuss how an ethical IT professional should have approached the situation at Volkswagen while the scandal was occurring. It is difficult precisely because there is evidence to suggest, such as the article penned by Santos (2016), that the autocratic leadership that was at the helm of Volkswagen was one of the primary reasons the scandal took place. The head of Volkswagen (during the period of the scandal) was an "autocratic leader" who would never take no for an answer, and engineers were terminated from the company if they did not follow orders (Santos 2016). This leadership style seeped down into the corporate culture of the company, regardless of what was written in the company's Code of Conduct about upholding values and ethics in the workplace.
+It is clear that the actions by the staff at Volkswagen were unethical, and also illegal, but it is also difficult to discuss how an ethical IT professional should have approached the situation at Volkswagen while the scandal was occurring. It is difficult precisely because there is evidence to suggest, such as the article penned by Santos (2016), that Volkswagon's autocratic leadership style was one of the primary reasons the scandal took place. The head of Volkswagen (during the period of the scandal) was an "autocratic leader" who would never take no for an answer, and engineers had been known to be terminated from the company if they did not follow orders. This leadership style seeped down into the corporate culture of the company, regardless of what was written in the company's Code of Conduct about upholding values and ethics in the workplace (Santos 2016).
 &nbsp;  
 &nbsp;  
-If the case study is to be approached by using the highest of ethical 
-standards - regardless of the company's culture - then the IT professional involved could have taken ethical action in a variety of ways. If the IT professional had discovered illegal activity within the organisation, regardless of how much pressure they were under to complete their job, they could have blown the whistle and contacted the relevant authorities. 
+If the case study is to be approached by using the highest of ethical standards as a framework on how to act in such a situation - regardless of the company's culture - then the IT professional involved could have taken ethical action in a variety of ways. If the IT professional had discovered illegal activity within the organisation, regardless of how much pressure they were under to complete their job, they should have blown the whistle and contacted the relevant authorities. The Association for Computing Machinery (ACM) are self proclaimed as the "world's largest educational and scientific computing society", and they have their own code of ethics (ACM Code of Ethics and Professional Conduct) which stipulates how a software engineer should have acted in a situation similar to the VW scandal. The ACM's Code clearly states in its preamble that the IT professional must act to uphold, and serve the public good at all times. In the body of the Code, there are several important sections which act as guiding posts an IT professional. By using these points as a guideline in the case of the VW emissions scandal, the IT professional *should* have taken the appropriate steps to check the guidelines, and act according to the advice layed out in the Code (ACM 2018). 
+
+Firstly, the Code states in Section 1.1 that an IT professional must strive to minimize the effects negative effcts that computing (and in this case computing software) has on people's health, and it should minimize the negative effects on the environment. The IT professionals at VW would have known from the very first section of the ACM's Code that they were acting unethically, and should have began to raise their concerns with confidential sources in the media, or to government authorities. 
+
+In Section 1.2 of the Code, IT professionals are instructed to "minimize harm" to others, and to the environment. In this section, it is strictly advised that if the management team of the company are unwilling to fix the issue occuring, the IT professional is obliged (ethically) to "blow the whistle" to make sure that do everything possible to stop the harm from occuring. Again, this is a clear piece of advice from the ACM which states the responsibilities of an IT professional, regardless of what the company's culture or management team are like. They *should* have blown the whistle, and they had a chance to blow the whistle in the early stages of the scandal, when they knew the piece of software to deceive emissions tests would harm both the world's environment, and possibly also the health of the world's population. 
+
+  if a violation of law has taken place, and an IT professional has discovered illegal practices occuring in the workplace, they are 
 
 
+https://www.acm.org/code-of-ethics (2018)
 
 Source (Santos 2016) - https://ideas.darden.virginia.edu vw-emissions-and-the-3-factors-that-drive-ethical-breakdown 
 
@@ -613,7 +619,7 @@ Floats are different from integers in that they have decimal points, and thus ar
 &nbsp;  
 &nbsp;  
 ### **Boolean**
-A boolean is a data type which has two different values - true and false. These values are a fundamental data type in computer science, and they play an important role in programming. The boolean can be used when asking if two objects are the same as each other, or if they are not the same as each other. 
+A boolean is a data type which has two different values - true and false. These values are a fundamental data type in computer science, and they play an important role in programming. The boolean can be used when asking if two objects are the same as each other, or if they are not the same as each other (Castello 2019). 
 &nbsp;  
 &nbsp;  
 *Examples of booleans are:*
@@ -638,15 +644,19 @@ A string is a line of characters or words which usually represent a line of text
 Notice that the last string which is "50" looks like a number/integer. Although the number 50 is indeed a number, the presence of double quotation marks in the Ruby programming language means that the number is considered to be a string.
 &nbsp;    
 &nbsp;  
+Strings can also be added together with other strings to form a sentence. This process of putting strings together is called 'string interpolation' (Castello 2018). Here is a basic example below - 
+
+day = "Monday"
+puts "Today is my favourite day. My favourite day is #{day}"
+
+https://www.rubyguides.com/2018/01/ruby-string-methods/#Summary 
 ## **Question - 11**
 Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
  - Identify the classes you would use to solve the problem
  - Write a short explanation of why you would use the classes you have identified
 &nbsp;  
 &nbsp; 
-### **Order Class**
-&nbsp;  
-&nbsp;  
+### **Order Class** 
 The application will need to have an order class so that the customers are able to use an order function to order their meals. The order class will use general variables, such as - item name, price, quantity, special requests, and table number (if dining in). These variables will allow the applicaiton to input and output the relevant information for when the customers are placing an order, and when they are also receiving their order. 
 &nbsp;  
 &nbsp;  
@@ -658,7 +668,6 @@ I would use this class as it is fundamental for the application to work correctl
 &nbsp;  
 &nbsp;  
 ### **Payment Class (Child/Sub class of the User Details Class)**
-&nbsp; 
 The payment class would store variables relating to the payment a customer would make. The class would have variables such as - payment type, total cost of the meal, tips for staff, and also a rating variable. The payment class will be designated as a child class of the "user details" parent class, and it will take variables from the "user etails" class to ensure the same details are used for the user's name. This allows for the application to be developed using the DRY principle (do not repeat yourself), and will hopefully reduce the amount of unnecessary and excessive lines of code in the program. 
 &nbsp; 
 &nbsp; 
@@ -667,7 +676,6 @@ The menu class would be used to store all of the general information about the f
 &nbsp;  
 &nbsp;  
  ### **Food Class (Child/Sub Class of Menu Class)**
-&nbsp;
 The food class will present all of the main meals that are availabe to order as the variables. The food class will inherit standard variables from the menu class, such as - item name, price, availability, and amount of calories. The food class will allow the user to choose from a range of main meals, such as noodles, stir frys, currys, and fried rice dishes. The food class has been chosen to be used as one of the classes in the application as there will be a lot of data and input relating to food in general while a customer is ordering their meal, therefore a food class is necessary in this application. 
 &nbsp;  
 &nbsp;  
@@ -683,6 +691,7 @@ The drinks class will also inherit the basic variables from the menu super class
 The dessert class, will inherit all of the variables from the menu class (super class), and will also hold its own variables unique to the dessert class. The variables that will be used for the dessert class, are - mango & sticky rice, coconut icecream, and durian icecream.
 &nbsp; 
 &nbsp; 
+
 ## **Question - 12**
 Identify and explain the error in the code snippet below that is preventing correct execution of the program.
 &nbsp;    
