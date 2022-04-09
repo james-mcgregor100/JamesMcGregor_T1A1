@@ -633,13 +633,11 @@ A string is a line of characters or words which usually represent a line of text
 - ‘Hello World’
 - “I am 50 years old”
 - “50”
+&nbsp;    
 &nbsp;  
-&nbsp;
-
-
 Notice that the last string which is "50" looks like a number/integer. Although the number 50 is indeed a number, the presence of double quotation marks in the Ruby programming language means that the number is considered to be a string.
+&nbsp;    
 &nbsp;  
-&nbsp;
 
 ## **Question - 11**
 Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
@@ -647,33 +645,47 @@ Here’s the problem: “There is a restaurant serving a variety of food. The cu
  - Write a short explanation of why you would use the classes you have identified
 &nbsp;  
 &nbsp; 
-Enter User Details Class 
-    Dine in or takeaway?
-    Table Number (if eating in)
-    Card/Payment Details
+### **Order Class**
+&nbsp;  
+&nbsp;  
 
-Menu Class
-  Food Class
-    Stir-Fry Items
-    Stir-Fry Price
-    Curry Items
-    Curry Price
-    Chef Special Items
-    Chef Special Price
-    Fried Rice Items
-    Fried Rice Price
-  Drinks Class
-    Alcoholic Drink Items
-    Alcoholic Drink Price
-    Non-Alcoholic Drink Items
-    Alcoholic Drink Price
-  Dessert Class
-    Mango & Sticky Rice Item
-    Mango & Stick Rice Price
-    Coconut Icecream Item
-    Coconut Icecream Price 
+&nbsp;  
+&nbsp;  
+### **User Details Class**
+&nbsp;  
+&nbsp; 
+The user details class would be a class which asks for users to input various types of (non sensitive) information into instance variables. Some examples of the non sensitive information could include their first and last name, phone number , email address, table number. This class would be used to help users input their information, and they would then proceed to the payment section of the app to pay for their meal (see 'Payment Class' below). 
+&nbsp;  
+&nbsp;  
 
-Checkout Class 
+### **Payment Class**
+&nbsp; 
+&nbsp; 
+The payment class would store variables relating to the payment a customer would make. The class would have variables such as - payment type, total cost of the meal, tips for staff, and also a rating variable. It would also take variables from the User Details Class to ensure the same details are used for the user's name. The 
+&nbsp; 
+&nbsp; 
+### **Menu Class (Super Class)**
+The menu class would be used to store all of the general information about the food items. This would include instance variables such as - item name, price, availability, amount of calories. This would be used as a parent (super class) for the application, and there would be several child classes that would inheret the menu class' variables.
+&nbsp;  
+&nbsp;  
+ ### **Food Class (Child/Sub Class of Menu Class)**
+&nbsp;  
+&nbsp;  
+The food class will present all of the main meals that are availabe to order as the variables. The food class will inherit standard variables from the menu class, such as - item name, price, availability, and amount of calories. The food class will allow the user to choose from a range of main meals, such as noodles, stir frys, currys, and fried rice dishes. 
+&nbsp;  
+&nbsp;  
+ ### **Drinks Class (Child/Sub Class of Menu Class)**
+&nbsp;  
+&nbsp;  
+The drinks class will also inherit the basic variables from the menu super class, such as - item name, price, availability, and amount of calories. On top of this, the drinks class will have three variables specific to the drinks class, including - soft drink, water, and iced tea. 
+&nbsp;  
+&nbsp;  
+ ### **Dessert Class (Child/Sub Class of Menu Class)**
+&nbsp;  
+&nbsp;  
+The dessert class, will inherit all of the variables from the menu class (super class), and will also hold its own variables unique to the dessert class. The variables that will be used for the dessert class, are - mango & sticky rice, coconut icecream, and durian icecream.
+&nbsp; 
+&nbsp; 
 ## **Question - 12**
 Identify and explain the error in the code snippet below that is preventing correct execution of the program.
 &nbsp;    
