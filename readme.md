@@ -4,32 +4,27 @@ Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 &nbsp;  
 &nbsp;  
 &nbsp;  
-
-# Questions - 
 ## **Question 1 - Identify and explain common and important components and concepts of web development markup languages**
 Web development markup languages are different from computer programming languages. Web development markup languages are languages which arrange the elements on a page, and it decides how the page's elements should be formatted and structured. Markup languages are different from programming languages in that they do not use programming syntax - rather, they use standard human language. This question will be structured in two parts: the first part will list some common markup languages and important components of the specific languages; and the second part will identify the important concepts of markup languages *in general.*
 &nbsp;  
 &nbsp;  
 ## **Part One**  
 ### **HTML**
-HTML stands for Hyper Text Markup Language, which is the language which which allows the user to view all webpages in a web browser. The role of HTML is to visually display data on a web page, which differentiates HTML from other markup languages, as will be explained in the paragraphs below. The HTML language provides web pages with meaning, and achieves this by assigning specific HTML elements to the content which is being displayed on the web browser. For example, when an ordered list of items needs to be displayed, the HTML will use a specific element called "ordered list" to assign it to the list of items. The HTML languages uses something called a "tag" which is what encapsulates or wraps the piece of text, and the tag is assigned a specific element depending on what element the web developer would like to implement. Another important feature of the HTML language is its way of assigning specific areas of the website (top, bottom, left, right, center) to specific elements. This helps to provide a general structure for how the page will be displayed, and provides meaning to the developer and the user. 
+HTML stands for Hyper Text Markup Language, which is the language which which allows the user to view all webpages in a web browser. The role of HTML is to visually display data on a web page, which differentiates HTML from other markup languages, as will be explained in the paragraphs below. The HTML language provides web pages with meaning, and achieves this by assigning specific HTML elements to the content which is being displayed on the web browser. For example, when an ordered list of items needs to be displayed, the HTML will use a specific element called "ordered list" to assign it to the list of items. The HTML languages uses something called a "tag" which is what encapsulates or wraps the piece of text, and the tag is assigned a specific element depending on what element the web developer would like to implement. Another important feature of the HTML language is its way of assigning specific areas of the website (top, bottom, left, right, center) to specific elements. This helps to provide a general structure for how the page will be displayed, and provides meaning to the developer and the user (Vicente 2021). 
 &nbsp;  
 &nbsp;     
 On all HTML pages, there are a number of specific HTML components which must be used to provide a basic structure to the website, before more specific elements are added. 
 
 ![HTML snippet](html.png)
-#### ***Source - https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics***
+#### **Source - Mozilla Developer (refer to bibliography for official reference)**
 &nbsp;  
 The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The html tag is used to wrap the whole page in HTML language. The roll of the head tag is to have a title tag which will display a page title on the tabs of a browser window. And the meta tag communicates to the code editor what language the code is being written in. 
 
-Outside of the this are the body and image tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the image obviously wraps around an image of a link so that it can be displayed in the HTML document. Aside from these elements there are a range of other fundamental components which can be found in most HTML pages when they are constructed, including - h1, h2, h3 elements which indicate different sized headings, the p tag which indicates a paragraph of text, and the br tag which indicates a line break on the HTML page. 
+Outside of the this are the body and image tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the image obviously wraps around an image of a link so that it can be displayed in the HTML document. Aside from these elements there are a range of other fundamental components which can be found in most HTML pages when they are constructed, including - h1, h2, h3 elements which indicate different sized headings, the p tag which indicates a paragraph of text, and the br tag which indicates a line break on the HTML page (Abba 2022). 
 &nbsp;  
 &nbsp;  
-One of the main components that can be found in HTML pages are "links", which are written as "a" in a HTML page. The HTML pages are able to display hyperlinks in the HTML file which allows users to navigate from one page to another. An example of a "link" component in HTML is presented below - 
-
-
+One of the main components that can be found in HTML pages are "links", which are written as "a" in a HTML page. The HTML pages are able to display hyperlinks in the HTML file which allows users to navigate from one page to another (Abba 2022). 
 &nbsp;  
-&nbsp;
 ### **XML**
 &nbsp;  
 XML stands for Extensible Markup Language, and is one of the other main markup languages alongside HTML. One of the main differences between XML and HTML is that HTML is used to display data and text on the screen, whereas XML is used to store data as "structured information" (Loshin, Linthicum, Giza). Some important features of XML, which differentiate it from HTML, include: XML's tags are not predefined like HTML tags, and closing tags must be implemented throughout the document, whereas HTML is not as strict with the use of closing tags.   
@@ -37,18 +32,18 @@ XML stands for Extensible Markup Language, and is one of the other main markup l
 &nbsp;
 ### **SGML** 
 &nbsp;  
-SGML (Standard Generalized Markup Language), and is known as the "standard for defining generelized markup language for documents (GeeksForGeeks 2021). HTML is said to have been developed from the SGML language. In other words, HTML is just one kind of a markup language according to the standards outlined in the SGML standards (Muellner and Walsh 1999). SGML code looks similar to HTML and XML, but its components have its own unique characteristics, and differs from HTML and XML. SGML code has the following components: 
+SGML (Standard Generalized Markup Language), and is known as the "standard for defining generelized markup language for documents (van Herwijnen 1994, 3). HTML is said to have been developed from the SGML language. In other words, HTML is just one kind of a markup language according to the standards outlined in the SGML standards (Muellner and Walsh 1999). SGML code looks similar to HTML and XML, but its components have its own unique characteristics, and differs from HTML and XML. SGML code has the following components: 
 
 #### ***Components of SGML***
 &nbsp;    
 &nbsp;   
 
 **SGML Declaration**
-The SGML document declaration is typically found at the beginning of a SGML document, but can also be found in a separate SGML file. The SGML is essentially a declaration which specificies the various default tags which will be used in the SGML document, what names will be attributed to them, the length of names and numbers, and which (if any) abbreviations are to be allowed in the document (Waslh and Muellner 1999, Page 16).
+The SGML document declaration is typically found at the beginning of a SGML document, but can also be found in a separate SGML file. The SGML is essentially a declaration which specificies the various default tags which will be used in the SGML document, what names will be attributed to them, the length of names and numbers, and which (if any) abbreviations are to be allowed in the document (Waslh and Muellner 1999, 16).
 &nbsp;  
 &nbsp;
 **Document Type Definition**
-Similar to a HTML document, a SGML document must state at the beginning of the document that it is indeed a SGML document. This is done by using the "DOCTYPE" tag, and a different keyword must be used in the doctype tag depending on what kind of file structure is being created, for example - a book, an article or a memorandum (Herwijnen, 1994, page 25-26 ). 
+Similar to a HTML document, a SGML document must state at the beginning of the document that it is indeed a SGML document. This is done by using the "DOCTYPE" tag, and a different keyword must be used in the doctype tag depending on what kind of file structure is being created, for example - a book, an article or a memorandum (Herwijnen, 1994, 25-26). 
 &nbsp;  
 &nbsp;
 **Document Instance** 
@@ -59,28 +54,13 @@ Finally, the document instance is actually the SGML file, with all of the code c
 
 The basic concepts found in the SGML/XML markup languages are: semantic markup, elements, attributes, and entities. 
 
-Semantic markup is an important feature of markup languages, gives meaning to the content, and allows intepreting software to interpret the meaning of the content accurately. One example of this is the software which helps people with reading disabilities to interpret what is on a HTML page. Another main reason for including semantic markup in markup languages is to optimize a page for SEO purposes. Search engines are able to access the meaningful tags and elements used throughout the document in order to feed this information into the search engine's algorithms. Depending on the quality of semantic markup used in the document, the page may realise a higher or a lower ranking compared to other pages (Walsh and Muellner 1999, page 8). 
+Semantic markup is an important feature of markup languages, gives meaning to the content, and allows intepreting software to interpret the meaning of the content accurately. One example of this is the software which helps people with reading disabilities to interpret what is on a HTML page. Another main reason for including semantic markup in markup languages is to optimize a page for SEO purposes. Search engines are able to access the meaningful tags and elements used throughout the document in order to feed this information into the search engine's algorithms. Depending on the quality of semantic markup used in the document, the page may realise a higher or a lower ranking compared to other pages (Walsh and Muellner 1999, 8). 
 
-Elements and Attributes are the individual tags which are used throughout the pages created from markup languages. They are typically created with an openining and closing tag, however, in some instances, particularly with HTML, closing tags are not always required. Inside of an element, a class or ID name might be given in order to increase specificity to a particular element, or set of elements. Using IDs and classes can be beneficial for the developer when coding a markup language page as it helps to separate specific elements, and makes the code more readable (Walsh and Muellner 1999, page 9).
+Elements and Attributes are the individual tags which are used throughout the pages created from markup languages. They are typically created with an openining and closing tag, however, in some instances, particularly with HTML, closing tags are not always required. Inside of an element, a class or ID name might be given in order to increase specificity to a particular element, or set of elements. Using IDs and classes can be beneficial for the developer when coding a markup language page as it helps to separate specific elements, and makes the code more readable (Walsh and Muellner 1999, 9).
 
-General entities are used in markup languages to specifiy special characters, and other pieces of text found in a document. Special characters such as the "copyright" symbol are able to be typed using the "&" symbol along with several characters, which allows the user who is coding the document to easily insert special characters into the document. Also, specific pieces of text which may need to be used many times over throughout a document may be  given something similar to a "variable" which will be written in place of the text, to allow for efficiency and simplicity in coding out the content of the page. Similar to a variable, an entity must be stated explicitly at the beginning of the document, so the document is aware that these entities will be used later on throughout the document (Walsh and Muellner 1999, page 10). 
-
-
-
-
-van Herwijnen, E. (1994). Components of an SGML system. In: Practical SGML. Springer, Boston, MA. https://doi.org/10.1007/978-1-4615-2752-7_3  - Source for SGML, website - https://link.springer.com/chapter/10.1007/978-1-4615-2752-7_3?noAccess=true 
-https://www.geeksforgeeks.org/sgml-full-form/ (2021)
-https://www.google.com.au/books/edition/DocBook_The_Definitive_Guide/wQ3a1kBygkcC?hl=en&gbpv=0 - Walsh, Muellner (1999)
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics 
-Source - https://developer.mozilla.org/en-US/docs/Web/HTML 
-Source - https://www.semrush.com/blog/markup-language/
-Source - https://www.howtogeek.com/721685/what-is-a-markup-language/ 
-Source - Loshin, Linthicum, Giza (https://whatis.techtarget.com/definition/XML-Extensible-Markup-Language)
-&nbsp;
-&nbsp; 
+General entities are used in markup languages to specifiy special characters, and other pieces of text found in a document. Special characters such as the "copyright" symbol are able to be typed using the "&" symbol along with several characters, which allows the user who is coding the document to easily insert special characters into the document. Also, specific pieces of text which may need to be used many times over throughout a document may be  given something similar to a "variable" which will be written in place of the text, to allow for efficiency and simplicity in coding out the content of the page. Similar to a variable, an entity must be stated explicitly at the beginning of the document, so the document is aware that these entities will be used later on throughout the document (Walsh and Muellner 1999, 10). 
 &nbsp;  
 &nbsp;  
-
 ## **Question 2 - Define the features of the following technologies that are essential in terms of the development of the internet:**
 &nbsp;
 ### **Introduction**
@@ -92,18 +72,17 @@ IP addresses, or Internet Protocols (both IPv4 and IPv6) are an address used by 
 
 Most people think of website domain names as being the primary address for a website in the ecosystem of the internet, however, the website domain name is used for reasons of simplicity and expediency. Behind every domain name for a website exists a unique IP address, which is considered to be the actual address for a website. 
 
-The main difference between the IPv4 IP address and the IPv6 IP address is the amount of IP addresses that are able to be created on the network. It is believed that the IPv4 style of IP addresses will eventually run out of space to create new addresses, and this will lead to the adoption of the new, larger scale version of IP addresses, which is known as IPv6. For comparison, the IPv4 style of IP address has 32bits, where as IPv6 has 128bits (Lawrence Williams 2022). Due to the explosion of the human population, increasing technological adoption by the world’s population, and increasing number of computers, the IPv6 style of address will need to be used. It is believed that the IPv6 style will be able to hold a larger number of addresses than IPv4, which IT experts believe will be a sufficient amount for the foreseeable future (Josh Fruhlinger 2022).
+The main difference between the IPv4 IP address and the IPv6 IP address is the amount of IP addresses that are able to be created on the network. It is believed that the IPv4 style of IP addresses will eventually run out of space to create new addresses, and this will lead to the adoption of the new, larger scale version of IP addresses, which is known as IPv6. For comparison, the IPv4 style of IP address has 32bits, where as IPv6 has 128bits (Lawrence Williams 2019). Due to the explosion of the human population, increasing technological adoption by the world’s population, and increasing number of computers, the IPv6 style of address will need to be used. It is believed that the IPv6 style will be able to hold a larger number of addresses than IPv4, which IT experts believe will be a sufficient amount for the foreseeable future (Shaw and Fruhlinger 2018).
 &nbsp;  
 &nbsp;
 ## **Explain how IP Addresses have contributed to the development of the internet.**
 If one thinks about this in terms of the development of the internet, the invention of Internet Protocols has allowed the world to become more interconnected technologically, and has allowed for communication barriers to be removed between people around the world. IP addresses in general have allowed information to be sent from its original sender to its destination. It has given unique identities for each device on the internet and allows a seamless way for data or information to be sent to one device to another without it being lost, or sent to the wrong device.
 &nbsp;  
 &nbsp;     
-Laurence Williams - https://www.guru99.com/difference-ipv4-vs-ipv6.html 
 ### **Packets**
 When one enquires into the information and data being sent to and from these IP addresses in the digital world, it will become apparent that this “data” or “information” is not just an abstract idea. A piece of data is a very real thing, and in order for this data to be able to travel through digital space and time through the internet, it must be broken down into something called “packets”. For the data to be sent more efficiently over the internet, it must be broken down into packets. This process of breaking data down into packets allows for more data to be sent over the internet simultaneously. By allowing multiple packet from the same piece of data to be sent over the network at the same time - a process called "packet switching" - data is able to flow freely over the network without being caught in a backlog (Cloudfare).
 
-When the data is broken up in to multiple packets to be sent and received over the internet, the data is not simply broken up until a random series of data packets. Rather, the data packets are split up into a logical set of packets, which contain special information. Packets include a variety of components, with the main one being a packet "header". The header is given specific information pertaining to the packet's sender and receiver addresses (Gralla 1998, page 14-15). The information found in the header allows the packet to travel to its intended destination, and is also able to be sent back to the origin of the sender in case the data packet is corrupted and needs to be resent. Without the help of routers, the packets would struggle to travel in the right direction to their final destination. Routers play an important role in intercepting packets along the journey over the network, by interpreting their contents, and forwarding them on to the next router, and finally to help send it on to its final destination. 
+When the data is broken up in to multiple packets to be sent and received over the internet, the data is not simply broken up until a random series of data packets. Rather, the data packets are split up into a logical set of packets, which contain special information. Packets include a variety of components, with the main one being a packet "header". The header is given specific information pertaining to the packet's sender and receiver addresses. The information found in the header allows the packet to travel to its intended destination, and is also able to be sent back to the origin of the sender in case the data packet is corrupted and needs to be resent. Without the help of routers, the packets would struggle to travel in the right direction to their final destination (Gralla 1998, 14-15). Routers play an important role in intercepting packets along the journey over the network, by interpreting their contents, and forwarding them on to the next router, and finally to help send it on to its final destination. 
 &nbsp; 
 &nbsp; 
 ## **Explain how Packets have contributed to the development of the internet.**
@@ -115,7 +94,7 @@ https://computer.howstuffworks.com/question525.htm
 &nbsp;   
 &nbsp;  
 ### **Routers and Routing**
-The words ‘router’ and ‘routing’ give us clues already as to what they are, and what their function is in relation to the internet. Routers play an integral part of the internet by acting as intermediaries between a sender and a receiver of information, and data. The routers are responsible for initially analyzing the contents of the packets once it arrives at the router, and once analyzed, they are then forwarded on to the next router on the route to its destination. In order for a packet of information to be sent from one computer to another, it must travel along digital pathways, and on these digital pathways there are a number of routers spread at different points throughout the network to receive and forward on data. However, the pathways that data travels from its sender to its receiver do not always occur in straight line from point A to point B, and sometimes data may need be ‘re-routed’ to a router which may branch off in a different direction, and eventually, it will be ‘rerouted’ onwards to its final destination. (Page 37, How the Internet Works by Preston Gralla, 1998)
+The words ‘router’ and ‘routing’ give us clues already as to what they are, and what their function is in relation to the internet. Routers play an integral part of the internet by acting as intermediaries between a sender and a receiver of information, and data. The routers are responsible for initially analyzing the contents of the packets once it arrives at the router, and once analyzed, they are then forwarded on to the next router on the route to its destination. In order for a packet of information to be sent from one computer to another, it must travel along digital pathways, and on these digital pathways there are a number of routers spread at different points throughout the network to receive and forward on data. However, the pathways that data travels from its sender to its receiver do not always occur in straight line from point A to point B, and sometimes data may need be ‘re-routed’ to a router which may branch off in a different direction, and eventually, it will be ‘rerouted’ onwards to its final destination. (Gralla, 1998, 37)
 &nbsp;  
 &nbsp; 
 ## **Explain how Routers and Routing have contributed to the development of the internet.**
@@ -125,76 +104,61 @@ Routers and routing's main contribution to the development of the internet have 
 &nbsp;
 
 ### **Domains and DNS**
-As mentioned above, IP addresses are the addresses which are the actual addresses of websites, and websites have been given domain names in order to help people remember easily how to find a particular website. Try to imagine for a moment if you were required to remember a random string of numbers instead of the phrase ‘www.facebook.com’. It would make remembering website names much more complex if we were to use IP addresses as opposed to domain names. 
-An important component of DNS is ‘caching’. Caching is essentially a repository of data on your computer which stores information of previously visited websites. This data is kept on your computer for a fixed amount of time, and allows your computer to open up the cache files to find the details of a website that you are trying to connect to. If your computer does have this data stored in its cache, then it will be able to connect to a website quicker than if it had to find the details of the website externally, which would involve a process of anywhere between five to eight steps in order to successfully fulfill the user’s request. 
+As mentioned above, IP addresses are the addresses which are the actual addresses of websites, and websites have been given domain names in order to help people remember easily how to find a particular website. Try to imagine for a moment if you were required to remember a random string of numbers instead of the phrase ‘www.facebook.com’. It would make remembering website names much more complex if we were to use IP addresses as opposed to domain names. An important component of DNS is ‘caching’. Caching is essentially a repository of data on your computer which stores information of previously visited websites. This data is kept on your computer for a fixed amount of time, and allows your computer to open up the cache files to find the details of a website that you are trying to connect to. If your computer does have this data stored in its cache, then it will be able to connect to a website quicker than if it had to find the details of the website externally, which would involve a process of anywhere between five to eight steps in order to successfully fulfill the user’s request (National Research Council 2005, 47). 
 &nbsp;  
 &nbsp;
 ## **Explain how Domains and DNS have contributed to the development of the internet.**
-The domain and DNS have played a crucial role in the development of the internet since they they were invented in the 1980s. Due to the growing number of users on the internet, the number of IP addresses grew exponentially, and a solution was needed to store and identify. Initially, all devices connected to the internet were recorded on a .TXT file titled HOSTS.txt. Over time the 
-.TXT file was unable to handle the large amount of records being kept in the file, and subsequently, technologists designed what we now call the Domain Name System to mitigate 
-scalability issues (Shaw and Fruhlinger 2020). The domain name system was invented in the 1980s to deal with this issue of scaling IP addresses by storing all of the IP addresses and its computer host name in a structured list (Danielle Kehl 2015). This allowed the number of IP addresses to grow into the millions, and is the reason for allowing computers to connect to specific IP addresses without the user needing to remember each individual IP address when visiting websites. 
-https://nap.nationalacademies.org/read/11258/chapter/4 
-https://slate.com/technology/2015/05/icann-transition-the-interesting-history-of-the-internet-domain-name-system.html
+The domain and DNS have played a crucial role in the development of the internet since they they were invented in the 1980s. Due to the growing number of users on the internet, the number of IP addresses grew exponentially, and a solution was needed to store and identify. Initially, all devices connected to the internet were recorded on a .TXT file titled HOSTS.txt. Over time the .TXT file was unable to handle the large amount of records being kept in the file, and subsequently, technologists designed what we now call the Domain Name System to mitigate scalability issues (Shaw and Fruhlinger 2020). The domain name system was invented in the 1980s to deal with this issue of scaling IP addresses by storing all of the IP addresses and its computer host name in a structured list (Kehl 2015). This allowed the number of IP addresses to grow into the millions, and is the reason for allowing computers to connect to specific IP addresses without the user needing to remember each individual IP address when visiting websites. 
 &nbsp;
 &nbsp;  
 ## **Question 3 - Define the features of the following technologies that are essential in terms of the development of the internet:**
 &nbsp;  
 ### **TCP**
-TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish (Bodner 2021). A unique feature of the TCP/IP protocol is that it allows any device (regardless of its OS) to connect to the network, and also allows a range of different networks to connect together around the world by using the same protocol (Hunt 2010). 
+TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish (Bodner 7-9). A unique feature of the TCP/IP protocol is that it allows any device (regardless of its OS) to connect to the network, and also allows a range of different networks to connect together around the world by using the same protocol (Hunt 2010, 7-9). 
 
-https://www.google.com.au/books/edition/TCP_IP_Network_Administration/A_LL2LQASdoC?hl=en&gbpv=1&dq=tcp/ip+model&printsec=frontcover - Hunt 2010. 
 &nbsp;
 The TCP/IP architecture consists of four important layers. The layers are - the link layer, the internet layer, the transport layer, and the application layer. The layers are structured systematically, and determine how the data passes through each layer. A brief explanation will be given below regarding the role that each layer plays in the TCP/IP architecture: 
 
 #### **Data Link/Network Access Layer/Physical Layer**
 The Network Access Layer is the layer which is responsible for transferring data over the network. It allows two computers to be able to communicate with each other, and facilitates the sending and receiving of data. The data sent on this layer is usually between computers on a local network, or computers which are connected to the same network (Bodnar 2021).
 
-https://www.avg.com/en/signal/what-is-tcp-ip#:~:text=There%20are%20four%20layers%20of,when%20the%20data%20is%20received. - (Bodnar 2021)
 #### **Internet/Network Layer**
-The Internet/Network Layer is primarily responsible for ensuring that packets are sent from the sender device, to the receiver device over a network. It also assumes the role of determining how the data packets are sent to the receiving device, and also makes sure the data packets are put back together before they are opened and read on the receiving end. By determining the routing method and which routers the packets will pass through, the internet/network layer efficiently takes care of the data packets while they are travelling from state to finish.  (Williams 2021).
-
-https://www.guru99.com/tcp-ip-model.html - Williams (2021)
+The Internet/Network Layer is primarily responsible for ensuring that packets are sent from the sender device, to the receiver device over a network. It also assumes the role of determining how the data packets are sent to the receiving device, and also makes sure the data packets are put back together before they are opened and read on the receiving end. By determining the routing method and which routers the packets will pass through, the internet/network layer efficiently takes care of the data packets while they are travelling from state to finish.  (Williams 2019).
 
 #### **Transport Layer**
-The transport layer is responsible for providing the stable delivery of data packets from the sender to the receiver. If errors are not found in the packets being delivered, the transport layer process the next data packet to be sent over the network. If errors are found in the data packets for whatever reason, the transport layer will send a request for the data packet to be retransmitted again. The transport layer also acts as a signalling device which determines when the data packet has been sent and received. This allows the transport layer to make its next decision to either send the next data packet in line, or to resend a data packet that is corrupted or unable to be opened (Williams 2022).
+The transport layer is responsible for providing the stable delivery of data packets from the sender to the receiver. If errors are not found in the packets being delivered, the transport layer process the next data packet to be sent over the network. If errors are found in the data packets for whatever reason, the transport layer will send a request for the data packet to be retransmitted again. The transport layer also acts as a signalling device which determines when the data packet has been sent and received. This allows the transport layer to make its next decision to either send the next data packet in line, or to resend a data packet that is corrupted or unable to be opened (Williams 2019).
 
 #### **Application Layer**
 The application layer is the closest layer to the actual user who is using the device and network. The user interacts with the application layer by interacting with several protocols, including - the HTTP protocol to interact with internet websites, the FTP protocol which allows file sharing over a network, the SMTP protocol which allows the user to send and receive mail, and the DNS which translates IP addresses to domain names to the user (Richard 2018).
 
-https://www.tutorialspoint.com/The-Application-Layer-in-TCP-IP-Model#:~:text=The%20application%20layer%20is%20the,layer%20of%20the%20OSI%20model. Paul Richard 2018 
-
 &nbsp;  
-&nbsp;
 ### **Explain how TCP has contributed to the development of client and server communication over the internet (50 - 150 words for TCP)** 
-The TCP has contributed immensely to the development of the internet by providing an architecture which would allow any kind of computer to communicate with another computer (Edwards 2021). This was a big breakthrough which allowed interoperability between different computers, regardless of what operating system each computer is running (Williams 2022).  TCP's main legacy is the fact it has achieved to provide an architecture to allow communication of data on the internet, from all over the world, to any device connected to the internet (Edwards 2021).
-
-*Source - Edwards (2021) - https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
-*Source - https://www.ibm.com/docs/en/aix/7.1?topic=management-transmission-control-protocolinternet-protocol* 
+The TCP has contributed immensely to the development of the internet by providing an architecture which would allow any kind of computer to communicate with another computer (Edwards 2021). This was a big breakthrough which allowed interoperability between different computers, regardless of what operating system each computer is running (Williams 2019).  TCP's main legacy is the fact it has achieved to provide an architecture to allow communication of data on the internet, from all over the world, to any device connected to the internet (Edwards 2021).
 &nbsp;  
 &nbsp;  
 
 ### **HTTP and HTTPS**
-HTTPS is different from HTTP in that it provides a layer of encryption, and thus is more secure than the HTTP protocol. If a similar form were to be submitted on both HTTP and HTTPS, someone attempting to hack the form would find it easier to access the information from the HTTP protocol, and would have trouble accessing the information via HTTPS. The encryption feature in HTTPS is an invaluable tool for websites, as it gives the company running the website an extra layer of trust and reputability.  
+HTTPS is different from HTTP in that it provides a layer of encryption, and thus is more secure than the HTTP protocol. If a similar form were to be submitted on both HTTP and HTTPS, someone attempting to hack the form would find it easier to access the information from the HTTP protocol, and would have trouble accessing the information via HTTPS. The encryption feature in HTTPS is an invaluable tool for websites, as it gives the company running the website an extra layer of trust and reputability (Cloudfare).  
 **Source** https://www.cloudflare.com/learning/ssl/why-use-https/ 
 &nbsp;  
 &nbsp;  
 ![Diagram of http vs https](https.png)
-##### _Image Source - https://cheapsslsecurity.com/blog/http-vs-https-security-the-differences-between-these-protocols/_
+##### _Image Source - Savvy Security (Please check bibliography for full reference)_
 &nbsp; 
-From the diagram above, we can see that a HTTP website sends plaintext data over the internet to a website server, however, there is no data encryption taking place. These packets of data being sent over the internet are vulnerable to being exploited by hositle actors. HTTPS websites, on the other hand, encrypt their packets of data when they are sent from the website to the server. HTTPS websites are designed for protecting the user's sensitive data, such as their credit card details, passwords, and other sensitive personal information which should not be shared with third parties. The easiest way to determine whether a website is HTTP or HTTPS is whether or not a small padlock symbol is placed in front of the website's url. If the symbol is present, the website is secure - if there is no symbol, the website is not secure. 
+From the diagram above, we can see that a HTTP website sends plaintext data over the internet to a website server, however, there is no data encryption taking place. These packets of data being sent over the internet are vulnerable to being exploited by hositle actors. HTTPS websites, on the other hand, encrypt their packets of data when they are sent from the website to the server. HTTPS websites are designed for protecting the user's sensitive data, such as their credit card details, passwords, and other sensitive personal information which should not be shared with third parties. The easiest way to determine whether a website is HTTP or HTTPS is whether or not a small padlock symbol is placed in front of the website's url. If the symbol is present, the website is secure - if there is no symbol, the website is not secure (Savvy Security). 
 &nbsp;
 #### **TLS and SSL Encryption**
-The main feature of a HTTPS website which facilitates the encryption process is called "Transport Layer Security", or TLS. Before the TLS protocol was implemented, the Security Socket Layer (SSL) was the main security protocol responsible for providing encryption of data sent over the internet. 
+The main feature of a HTTPS website which facilitates the encryption process is called "Transport Layer Security", or TLS. Before the TLS protocol was implemented, the Security Socket Layer (SSL) was the main security protocol responsible for providing encryption of data sent over the internet (Olenski 2020). 
 
 &nbsp;  
 &nbsp;
 
-This layer of trust is an important development of client and server communication. With the development of the internet, the number of  hackers has also grown, and therefore, the invention of HTTPS is a fundamental feature in the development of the internet over time. Since the early days of the internet, more and more websites have made the change from HTTP to HTTPS for obvious reasons, and the security protocols layers protecting the HTTPS websites have also gone through its own development.
+This layer of trust is an important development of client and server communication. With the development of the internet, the number of  hackers has also grown, and therefore, the invention of HTTPS is a fundamental feature in the development of the internet over time. Since the early days of the internet, more and more websites have made the change from HTTP to HTTPS for obvious reasons, and the security protocols layers protecting the HTTPS websites have also gone through its own development (Olenski 2020).
 &nbsp;
 &nbsp;
 
 ### **Explain how HTTP/HTTPS has contributed to the development of client and server communication over the internet (50 - 150 words for HTTP/HTTPS)** 
-HTTP from its inception was designed for the purpose of allowing document exchange, and document retrieval (MDN Contributers (Mozilla) 2022). This allowed for exchange over the internet, particularly data exchange, which was not possible before Tim Berners Lee came up with the idea of the Hyper Text Transfer Protocol. 
+HTTP from its inception was designed for the purpose of allowing document exchange, and document retrieval (MDN Contributers Mozilla 2022). This allowed for exchange over the internet, particularly data exchange, which was not possible before Tim Berners Lee came up with the idea of the Hyper Text Transfer Protocol. 
 
 https://kinsta.com/knowledgebase/tls-vs-ssl/ 
 https://aboutssl.org/ssl-guide/ 
@@ -206,24 +170,24 @@ https://www.acunetix.com/blog/articles/tls-security-what-is-tls-ssl-part-1/
 &nbsp;
 ### **Web Browsers (requests, rendering and developer tools)**
 Web browsers have made many strides in their development since some of the first browsers were developed and used in 1994, such as Mosaic and Nexus. Today, some of the most popular web browsers used are Google Chrome, Internet Explorer, Mozilla Firefox, and Microsoft Edge. 
-For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page. There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
+For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page (Steel 2021). There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
 &nbsp;  
 &nbsp;  
 ![Image of Web Browser Components Diagram](browserengine.png)
-##### _Image Source - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Resources_
+##### _Image Source - Garsiel and Irish 2011_
 &nbsp; 
 &nbsp; 
 ### **User Interface**
 &nbsp;
-The user interface is responsible for displaying what the user can interact with when they open the web browser. The components of the user interface include elements such as toolbars, address bars, and home buttons.  It must be noted here that the user interface does not include the actual web page display. It only includes the components that are in the browser whether a web page loads or not. 
+The user interface is responsible for displaying what the user can interact with when they open the web browser. The components of the user interface include elements such as toolbars, address bars, and home buttons.  It must be noted here that the user interface does not include the actual web page display. It only includes the components that are in the browser whether a web page loads or not (Garsiel and Irish 2011). 
 &nbsp;  
 &nbsp;  
 ### **Browser Engine**
-The browser engine is located behind the user interface and is considered to be a sort of intermediary which helps to connect the user interface with the rendering engine. 
+The browser engine is located behind the user interface and is considered to be a sort of intermediary which helps to connect the user interface with the rendering engine (Garsiel and Irish 2011). 
 &nbsp;  
 &nbsp; 
 ### **Rendering Engine**
-The rendering engine is responsible for displaying the elements and code which are written in HTML, XML, CSS, and Javascript. In order for the rendering engine to be able to translate the code into a visual display form on the web browser, the rendering engine must complete a  series of steps. The rendering engine is an important component of a web browser, and without it, the user would not be able to view anything upon opening a web page. Each browser uses a different kind of rendering engine, some of the major rendering engines, according to Neild (2020), are: 
+The rendering engine is responsible for displaying the elements and code which are written in HTML, XML, CSS, and Javascript. In order for the rendering engine to be able to translate the code into a visual display form on the web browser, the rendering engine must complete a  series of steps. The rendering engine is an important component of a web browser, and without it, the user would not be able to view anything upon opening a web page. Each browser uses a different kind of rendering engine, some of the major rendering engines, according to (Neild 2020), are: 
 
 - Webkit (used in Safari)
 - Gecko (used in Firefox)
@@ -244,36 +208,22 @@ From this diagram we can see that the rendering engine is completing a range of 
 
 1. The HTML must be parsed initially, which means that the HTML code must be interpreted and broken down into small chunks (or nodes) in order to create what is called a DOM tree. The CSS is also constructed into its own tree called the CSSOM.
 2. Secondly, render tree is constructed, whereby the rendering engine determine what kind of order the DOM tree will be displayed in. 
-4. Once the layout of the tree has been finalized, the rending engine moves onto the last step of painting the rener tree. This involves colorization of pixels, and converts the information in the render tree to actual visible pictures which are visible in the browser (Unadkat 2019)(Grigorik). 
+4. Once the layout of the tree has been finalized, the rending engine moves onto the last step of painting the rener tree. This involves colorization of pixels, and converts the information in the render tree to actual visible pictures which are visible in the browser (Unadkat 2019)(Grigorik 2014). 
 &nbsp;    
 &nbsp;  
-
-The rendering engine does not pull the data and code from any random place, but it is constantly communicating with the networking component of the web browser in order to receive the information to begin rendering. 
-
-**Unadkat (2019)**https://www.browserstack.com/guide/browser-rendering-engine 
-
-**Grigorik** https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction 
-
-
-Neild (2020) https://www.gizmodo.com.au/2020/12/which-browser-engine-powers-your-web-browsingand-why-does-it-matter/ 
- 
-
-https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda Zlatkov (2018)
+The rendering engine does not pull the data and code from any random place, but it is constantly communicating with the networking component of the web browser in order to receive the information to begin rendering (Zlatkov 2018). 
+&nbsp;  
+&nbsp;
 ### **Networking**
-The networking
-layer plays a crucial part in delivering load speed and 
-response times when loading web pages, or particular 
-elements on web pages. The networking component is used for undertaking requests and calls to the network using protocols such as HTTP. Before making this request, however, web browsers will check to see if the local computer has a HTTP cache, which allows the page to load quicker. If a user has cleared their cache files previously, or if they have never visited a particular website, the networking layer will need to
+The networking layer plays a crucial part in delivering load speed and response times when loading web pages, or particular elements on web pages. The networking component is used for undertaking requests and calls to the network using protocols such as HTTP. Before making this request, however, web browsers will check to see if the local computer has a HTTP cache, which allows the page to load quicker. If a user has cleared their cache files previously, or if they have never visited a particular website, the networking layer will need to begin collecting new data from the user again (Garsiel and Irish 2011).
 &nbsp;  
 &nbsp;
 ### **Javascript Interpreter** 
-The Javascript intepreter is responsible for implementing the code written in Javascript to be displayed correctly in a web browser. Before the Javascript interpreter allows the Javascript code to be displayed, it must go through a process of evaluating the code to best decide how the 
-
-**Source - Conrad (2018) https://softwareengineeringdaily.com/2018/10/03/javascript-and-the-inner-workings-of-your-browser/**
+The Javascript intepreter is responsible for implementing the code written in Javascript to be displayed correctly in a web browser. Before the Javascript interpreter allows the Javascript code to be displayed, it must go through a process of evaluating the code to best decide how the code will be rendered in the browser for the user to see (Conrad 2018)
 &nbsp;
 &nbsp;
 ### **UI Backend**
-The UI backend component plays the simple roll of displaying and drawing certain elements in the browser, such as check boxs, windows, and widgets. The operating system is what powers this process underneath the UI functions. 
+The UI backend component plays the simple roll of displaying and drawing certain elements in the browser, such as check boxs, windows, and widgets. The operating system is what powers this process underneath the UI functions (Ramamoorthy 2017). 
 
 &nbsp;
 &nbsp;
@@ -284,52 +234,33 @@ The data storage component is responsible for storing various types of data rela
 - Session storage
 - Local storage
 - Cookies
- 
-*source for local storage - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage* 
-
-*source for session storage - https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage*
-
 &nbsp;  
-The first type of data storage is session storage, where the data is stored in each tab in a browser. If a browser is closed, the data that was entered into or retrieved from the browser will be erased. Session storage thus only provides a temporary form of storage in the browser. Local Storage is similar to session storage, however its expiration date is much longer; it does not expire, even after the user has closed the browser or ended the session.
+The first type of data storage is session storage, where the data is stored in each tab in a browser. If a browser is closed, the data that was entered into or retrieved from the browser will be erased. Session storage thus only provides a temporary form of storage in the browser. Local Storage is similar to session storage, however its expiration date is much longer; it does not expire, even after the user has closed the browser or ended the session (MDN Web Docs 2019 ).
 &nbsp;  
 &nbsp;  
-Cookies are also a form of storage used to enable faster load times. When  user visits a page, the history of their visit, and their activity on the website is stored in cookies. If the user is to return in the future to the same webpage, these cookies will allow the browser to remember the user, and thus will provide a streamlined experience. The storing of cookies can bring into question possible security risks or data breaches for the user, as they are having their every movement tracked in a web browser. However, over the years browsers and web pages have implemented a permission form that pop-up asking users if they wish to have their cookies stored or not. 
+Cookies are also a form of storage used to enable faster load times. When  user visits a page, the history of their visit, and their activity on the website is stored in cookies. If the user is to return in the future to the same webpage, these cookies will allow the browser to remember the user, and thus will provide a streamlined experience. The storing of cookies can bring into question possible security risks or data breaches for the user, as they are having their every movement tracked in a web browser. However, over the years browsers and web pages have implemented a permission form that pop-up asking users if they wish to have their cookies stored or not (Kaspersky). 
 
-*source - https://www.kaspersky.com/resource-center/definitions/cookies*
 &nbsp;  
 &nbsp;
 ### **Developer Tools**
 One important feature of web browsers that are used by many developers around the world are the developer tools. The developer tools function in modern day web browsers allows users to inspect the source code that makes up the webpage they are currently viewing. When developers are having problems with certain areas of their code, developer tools allows developers to inspect very specific areas of the web page in order to debug a problem if there is a problem with their code. Developer tools don’t only allow for inspecting code to spot errors or bugs, but they allow for users to change certain elements in the code in real time, and they output the code changes in real time in the browser for the developer to see. 
 
-
-Steel 2021 https://au.pcmag.com/browsers/85834/30-years-of-browsers-a-quick-history 
-About J Query - Web Browsershttps://books.google.com.au/books?id=mRdLDQAAQBAJ&dq=browsers+nexus+mosaic&source=gbs_navlinks_s 
-Client and server communication over the internet through web browsers occurs when a client and a server are required to interact with each other. In the case of the web, clients are considered to be computers or devices, and servers are the servers in the backend of the web applications where data is stored. The client interacts with the browser by giving it a command or a request, and the browser subsequently relays that information (if necessary) to the server on the other end. The server then 
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works 
-
-
-Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
-Client-Server Model - an overview | ScienceDirect Topics
-https://www.browserstack.com/guide/browser-rendering-engine - Browser Source - Unadkat (2019)
-https://plg.uwaterloo.ca/~migod/papers/2006/jsme-browserRefArch.pdf - A reference Architecture for Web Browsers - Alan Grosskurth
+Client and server communication over the internet through web browsers occurs when a client and a server are required to interact with each other. In the case of the web, clients are considered to be computers or devices, and servers are the servers in the backend of the web applications where data is stored. The client interacts with the browser by giving it a command or a request, and the browser subsequently relays that information (if necessary) to the server on the other end (MDN Web Docs).
 &nbsp;  
 &nbsp;  
 ### **Explain how the Web Browser has contributed to the development of client and server communication over the internet (50 - 150 words for Web Browser)** 
-The contribution to client and server communication that web browers is a significant one. The web browser has been responsible for allowing the client to interact with the server by making requests to pull images and data from the server, and the web browser is then responsible for displaying those images and data once the request has been fulfilled (Ionos). One of the specific contributions was the development of the Mosaic browser in the 1990s, which allowed for images, video clips, and graphics to be displayed on the client side instead of the previous browers which only displayed plain text websites (Hart 2004). 
+The contribution to client and server communication that web browers is a significant one. The web browser has been responsible for allowing the client to interact with the server by making requests to pull images and data from the server, and the web browser is then responsible for displaying those images and data once the request has been fulfilled (Ionos 2022). One of the specific contributions was the development of the Mosaic browser in the 1990s, which allowed for images, video clips, and graphics to be displayed on the client side instead of the previous browers which only displayed plain text websites (Hart 2004). 
 
-
-https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100274&org=NSF 
-https://www.ionos.com/digitalguide/websites/web-development/server-side-and-client-side-scripting-the-differences/ 
 &nbsp;  
 &nbsp;
 ## **Q4 Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.**
-Data structures in programming languages contain collections of data, big or small, and have a number of use cases. Primarily, the data structures that hold groups of data are there for someone to access the data, retrieve a piece of data, delete a piece of data, or insert a piece of data. In programming, there are more than one way to store and collate data, and these different methods of structuring and storing data are called “data structures”. Three commonly known data structures in the Ruby programming language are: arrays, hashes, and binary trees. 
+Data structures in programming languages contain collections of data, big or small, and have a number of use cases. Primarily, the data structures that hold groups of data are there for someone to access the data, retrieve a piece of data, delete a piece of data, or insert a piece of data. In programming, there are more than one way to store and collate data, and these different methods of structuring and storing data are called “data structures”. Three commonly known data structures in the Ruby programming language are: arrays, hashes, and binary trees (Castello 2019). 
 &nbsp;  
 &nbsp;  
 ### **Arrays**
 &nbsp;
 #### **Identify**
-Arrays are a data structure which holds a list of variables in an index. An important note to make about arrays is that they are not the same as arrays in other programming languages. Arrays in other programming languages are considered to be static, while arrays in Ruby are considered to be dynamic. This means that static arrays in other programming languages must input the specific size of the array when it is first being added, and its size cannot be modified once it has been created. However, in Ruby’s case, a dynamic array is able to be modified and changed, long after the array has been created. 
+Arrays are a data structure which holds a list of variables in an index. An important note to make about arrays is that they are not the same as arrays in other programming languages. Arrays in other programming languages are considered to be static, while arrays in Ruby are considered to be dynamic. This means that static arrays in other programming languages must input the specific size of the array when it is first being added, and its size cannot be modified once it has been created. However, in Ruby’s case, a dynamic array is able to be modified and changed, long after the array has been created (Castello 2019). 
 A basic array data structure may look something like this:
 &nbsp;    
 &nbsp; 
@@ -350,17 +281,10 @@ Arrays are an important data structure to use in programming as they allow the p
 
 Arrays are a particularly great data structure to use to store a group of data that are related to each other. For example, if a program were created about selling animals online, an array may be used to store the data of all dog breeds, or all cat breeds that are bought and sold on the website or application. Moreover, arrays only use one variable to give a value to the array, as opposed to a list of individual variables, and this uses less memory in the program and allows for faster search times.
 
-Although there are several reasons for opting to use an array to store and retrieve data, a Hash could also be a good option, depending on the use cases and the requirements of the company needing access to the data. 
-
-
-Source for Arrays - https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf - page 10-page 11 
-Source for Arrays - https://www.google.com.au/books/edition/Learning_Ruby/pYS_Fm5LqUYC?hl=en&gbpv=1&dq=introduction+to+ruby&printsec=frontcover page 93 
-Source for Arrays - https://www.google.com.au/books/edition/Ruby_Programming_for_Beginners/3lWSzQEACAAJ?hl=en - page 142 
-
-
+Although there are several reasons for opting to use an array to store and retrieve data, a Hash could also be a good option, depending on the use cases and the requirements of the company needing access to the data (Fitzgerald 2007, 93). 
 
 ### **Hashes**
-Hashes are similar to arrays, in that they store a group of data. There are two main diffences between hashes and array. Firstly, the elements within an array do not need to be assigned a value or key. Secondly, the hashes are in an unordered index, unlike arrays. For a hash to be correctly written in code, the elements within the hash must be assigned both a value and a key. The keys and values within the hashes are called upon when writing the code to retrieve a piece of data from within the hash. Acording to Castello (2020) some basic use cases for hashes include: listening vocabulary in languages which provide a varieyty of definitions. Each definition would be a new value/key pair. Also, lists of people's names, or usernames. 
+Hashes are similar to arrays, in that they store a group of data. There are two main diffences between hashes and array. Firstly, the elements within an array do not need to be assigned a value or key. Secondly, the hashes are in an unordered index, unlike arrays. For a hash to be correctly written in code, the elements within the hash must be assigned both a value and a key. The keys and values within the hashes are called upon when writing the code to retrieve a piece of data from within the hash. Acording to Castello (2020) some basic use cases for hashes include: listening vocabulary in languages which provide a varieyty of definitions. Each definition would be a new value/key pair. Also, lists of people's names, or usernames (Fitzgerald 107)(Castello 2020). 
 Here is a basic example of what a basic hash data structure may look like: 
 &nbsp;  
 &nbsp;
@@ -374,49 +298,30 @@ In the above example, the word "Day" is the name of the hash, the word "Monday" 
 #### **Reasons for using a Hash**
 Similar to arrays, hashes also use an index to allow retrieval of individual data items, except the index for an array is different to the index hash's index. In a hash, the index is the "value" (refer to above), as opposed to the strictly set out index numbers that are set out automatically by the programming language.
 
-A reason for opting to use a hash instead of an array might be because of the programmer's choice to set whatever string or integer of their choice to the hash's values. This gives the programmer more freedom in deciding how the hash will be indexed, and how it's "values" will be labeled. For specific circumstances, a programmer might feel this is a better option when building out a data structure for their program. 
-
-
-
-*Source for hashes - https://www.google.com.au/books/edition/Learning_Ruby/pYS_Fm5LqUYC?hl=en&gbpv=1&dq=introduction+to+ruby&printsec=frontcover - Chapter 7, page 107*
-
-*Source for hashes -https://books.google.com.au/books/about/Ruby_Programming_for_Beginners.html?id=3lWSzQEACAAJ&redir_esc=y* page 158 
-
-*Castello (2020) - https://www.rubyguides.com/2020/05/ruby-hash-methods/* 
+A reason for opting to use a hash instead of an array might be because of the programmer's choice to set whatever string or integer of their choice to the hash's values. This gives the programmer more freedom in deciding how the hash will be indexed, and how it's "values" will be labeled. For specific circumstances, a programmer might feel this is a better option when building out a data structure for their program (Fitzgerald 107)(Castello 2020). 
 
 ### **Trees**
 &nbsp;
 &nbsp;  
-Trees are another common data structure in the Ruby programming language, and they play a similar role as an array and hash data structure. However, trees are different from arrays and hashes by the way that they store and structure the stored data in a non-linear way. A tree data structure is a top down structure, unlike the arrays and hashes which are left to right. The tree is structured with a root at the very top, and with nodes branching off the root below to the left, and to the right. The nodes which branch off the branches above are called children, as they are descendents of the branches above. Because the tree is structured literally like the structure of a tree in the real world, the term used for searching the tree is "tree traversal", which is different from searching a linear index like a hash or an array. 
+Trees are another common data structure in the Ruby programming language, and they play a similar role as an array and hash data structure. However, trees are different from arrays and hashes by the way that they store and structure the stored data in a non-linear way. A tree data structure is a top down structure, unlike the arrays and hashes which are left to right. The tree is structured with a root at the very top, and with nodes branching off the root below to the left, and to the right. The nodes which branch off the branches above are called children, as they are descendents of the branches above. Because the tree is structured literally like the structure of a tree in the real world, the term used for searching the tree is "tree traversal", which is different from searching a linear index like a hash or an array (Programiz). 
 &nbsp;  
 &nbsp;  
 #### **Reasons for using a Tree**
-A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. Another reason a programmer may opt to us a tree over other data structure types is due to the hierarchical nature of a tree. If a particular data set requires the the data to be structured in a hierarchical manner, the tree might be the perfect option for this use case (Indeed 2021). Indeed, it is important to weigh the pros and cons of using a tree, and to determine if your data set requires a more linear approach like a hash and array, or a hierarchical structure like a tree.
+A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. Another reason a programmer may opt to us a tree over other data structure types is due to the hierarchical nature of a tree. If a particular data set requires the the data to be structured in a hierarchical manner, the tree might be the perfect option for this use case (Indeed 2021). Indeed, it is important to weigh the pros and cons of using a tree, and to determine if your data set requires a more linear approach like a hash and array, or a hierarchical structure like a tree (Programiz).
 
-
-
-
-https://in.indeed.com/career-advice/finding-a-job/what-is-tree-data-structure 
-*Source https://www.programiz.com/dsa/trees*
-Source for Trees - https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf - page 93
-http://www.cs.uni.edu/~wallingf/teaching/agile-may2010/ruby/programming-ruby.pdf (page 14 for hashes and arrays)
-https://www.rubyguides.com/2019/04/ruby-data-structures/ 
-https://www.google.com.au/books/edition/Computer_Science_Programming_Basics_in_R/T84ocHBqvEUC?hl=en&gbpv=0 
 ## **Question 5 -  Describe the features of interpreters and compilers and how they are different.**
-Computer programs are written using high-level language, meaning its language is similar to that of human languages; more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs such as *interpreters* and *compilers* to convert the high-level language code into low-level language code, otherwise known as "machine language". According to Interviewbit (Interviewbit 2022), interpreters and compilers share similar features, with some
-exceptions. 
+Computer programs are written using high-level language, meaning its language is similar to that of human languages; more specifically, the English language (among others). The problem with computer programs being written in high-level language is that computers are not able to understand this type of language. Therefore, computers require programs such as *interpreters* and *compilers* to convert the high-level language code into low-level language code, otherwise known as "machine language". According to Interviewbit (InterviewBit 2022), interpreters and compilers share similar features, with some exceptions. 
 &nbsp;  
 &nbsp;
 ### **Features of Compilers and Interpreters**
 &nbsp;  
 &nbsp;  
 #### **Compiler**
-The compiler is a program which translates source code into machine code. It goes through single cycle, starting from the reading of the source code, the assembling of the source code, and then the output into machine language. The compiler must go through one full cycle of this before it can produce any feedback on any errors that were found during the compiling process. Once the errors are communicated at the end of the compiling process, they must be resolved by the compiler can perform its next compile cycle, and before it finally produces the machine language. The compiler typically runs through each cycle quickly, as it does not need to stop to check for errors whenever they are discovered. Another feature of the the compiler is that it must go through the entire process of compiling the language before the program can be run. It cannot run the program line by line as it is compiling the language. If any errors are discovered, only after the adjustments are made, and the compiling process has been completed a second time will the compiler be able to produce the new output. Depending on what the requirements are for the programmer, the execution speed could be fast, because it does not stop at every line - however, it could also be slow for debugging and testing purposes as the errors cannot be found and fixed line by line (John Smith 2022).
+The compiler is a program which translates source code into machine code. It goes through single cycle, starting from the reading of the source code, the assembling of the source code, and then the output into machine language. The compiler must go through one full cycle of this before it can produce any feedback on any errors that were found during the compiling process. Once the errors are communicated at the end of the compiling process, they must be resolved by the compiler can perform its next compile cycle, and before it finally produces the machine language. The compiler typically runs through each cycle quickly, as it does not need to stop to check for errors whenever they are discovered. Another feature of the the compiler is that it must go through the entire process of compiling the language before the program can be run. It cannot run the program line by line as it is compiling the language. If any errors are discovered, only after the adjustments are made, and the compiling process has been completed a second time will the compiler be able to produce the new output. Depending on what the requirements are for the programmer, the execution speed could be fast, because it does not stop at every line - however, it could also be slow for debugging and testing purposes as the errors cannot be found and fixed line by line (John Smith 2019).
 &nbsp;  
 &nbsp;
-https://www.guru99.com/difference-compiler-vs-interpreter.html 
 #### **Interpreter**
-The Interpreter is also a program which translates the source code into machine code. However, the method which the interpreter uses is different from the compiler's method. One of the interpreter's main feature lies in the way it executes the process from intepreting source code to outputting machine code. The interpreter carefully goes through the source code in a line by line fashion, and provides information every time an error is found on a line of code. The interpreter does this line by line until it reaches the end of the code, and finally outputs the code into machine code. Because the interpreter uses a line by line method to interpret the code, it allows the source code to be adjusted during the intepretation process. Depending on the programmer's objectives, the line by line method that the interpreter uses could be very beneficial in helping the programmer find and fix any bugging issues as they arise. Because of the unique characteristics of the interpreter, it may be suitable for developing websites, where fast load times are necessary. The instant feedback from the interpreter can be a huge benefit to programmers needing to make quick changes to their program (John Smith 2022).
+The Interpreter is also a program which translates the source code into machine code. However, the method which the interpreter uses is different from the compiler's method. One of the interpreter's main feature lies in the way it executes the process from intepreting source code to outputting machine code. The interpreter carefully goes through the source code in a line by line fashion, and provides information every time an error is found on a line of code. The interpreter does this line by line until it reaches the end of the code, and finally outputs the code into machine code. Because the interpreter uses a line by line method to interpret the code, it allows the source code to be adjusted during the intepretation process. Depending on the programmer's objectives, the line by line method that the interpreter uses could be very beneficial in helping the programmer find and fix any bugging issues as they arise. Because of the unique characteristics of the interpreter, it may be suitable for developing websites, where fast load times are necessary. The instant feedback from the interpreter can be a huge benefit to programmers needing to make quick changes to their program (John Smith 2019).
 &nbsp;  
 &nbsp; 
 *Source https://www.guru99.com/compiler-design-phases-of-compiler.html* - John Smith 
@@ -433,20 +338,9 @@ Since the interpreter and compiler both use different methods to convert the sou
 &nbsp;  
 &nbsp;
 #### **Compatible Programming Languages** 
-Finally, the other distinct difference between the interpreter and the compiler is the issue of compatibility of languages. Not all languages are compatible with the interpreter and the compiler. The interpreter is compatible with programming languages such as: Python, Ruby, Javascript and MATLAB. And the compiler is compatible with programming languages such as: C, C++, and C#. 
+Finally, the other distinct difference between the interpreter and the compiler is the issue of compatibility of languages. Not all languages are compatible with the interpreter and the compiler. The interpreter is compatible with programming languages such as: Python, Ruby, Javascript and MATLAB. And the compiler is compatible with programming languages such as: C, C++, and C# (Tripathi 2021). 
 &nbsp;  
 &nbsp; 
-
-Source - https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
-https://www.businessinsider.in/difference-between-compiler-and-interpreter/articleshow/69523408.cms#:~:text=Interpreter%20translates%20just%20one%20statement,the%20process%20is%20much%20slower 
-
-Source - https://www.programiz.com/article/difference-compiler-interpreter 
-
-https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/ 
-
-Source - https://www.interviewbit.com/blog/difference-between-compiler-and-interpreter/
-
-
 ## **Question 6 - Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.**
 &nbsp;  
 ## **Identify two commonly used programming languages**
@@ -473,27 +367,14 @@ Javascript is known for being programming language which can be used effectively
 Javascript is known for its speed compared to other languages such as python. This is because it uses client side script, which means that the Javascript code is actually in the client’s browser, and thus allows the developer to create an entire website with just a single programming language (Lasn 2019). This highlights how flexible Javascript is for a programming language, and it provides beginner programmers a pathway into both front end and back end development without having to learn other languages. 
 
 Another benefit of using Javascript is the amount of libraries and frameworks which can be used when building websites and
-applications. Javascript has a range of frameworks which allow developers to implement while developing front end and back end programs. Front end libraries such as Angular, React and Vue are all related to Javascript, and these allow the developer to streamline the process of writing code (Pandit 2021). 
+applications. Javascript has a range of frameworks which allow developers to implement while developing front end and back end programs. Front end libraries such as Angular, React and Vue are all related to Javascript, and these allow the developer to streamline the process of writing code (Pandit 2018). 
 
-
-https://www.c-sharpcorner.com/article/what-and-why-reactjs/#:~:text=js%3F-,React.,to%20create%20reusable%20UI%20components. 
-https://betterprogramming.pub/what-makes-javascript-javascript-b9ab51ad983a 
-https://opensource.com/article/20/11/javascript-popular - Mukherjee
-https://www.tutorialspoint.com/javascript/javascript_overview.htm 
-https://data-flair.training/blogs/advantages-disadvantages-javascript/ 
-&nbsp;
-&nbsp;
-
-https://itechnolabs.ca/millions-of-developers-use-javascript-for-frontend/ 
 ### **Drawbacks**
 Although Javascript is one of the most popular programming languages in the world, it is still a language that has flaws - particularly when it comes to security. One of the major cons of Javascript is that Javascript code on the front end is written in the browser, and this can leave the client-side open to security threats from hackers or hostile actors. If the programmer who designed the front-end of a website or application with Javascript neglected to implement specific security precautions, there is the potential for malicious code to be injected into the web browser. This could result in user's passwords or sensitive information being stolen from a website, or even more seriously, a computer may be taken over by a hacker (Agarwal 2017).
 
-Another drawback when using Javascript the problem of interoperability between different browsers. Javascript is known for producing different results on the web browser, depending on which version browser the website is being viewed on. Although this is a drawback of Javascript, there are ways to solve this issue, such as implementing a jQuery into the code (Mozilla 2022).
+Another drawback when using Javascript the problem of interoperability between different browsers. Javascript is known for producing different results on the web browser, depending on which version browser the website is being viewed on. Although this is a drawback of Javascript, there are ways to solve this issue, such as implementing a jQuery into the code (Mozilla 2019).
 &nbsp;  
 &nbsp;  
-https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript - (Mozilla 2022)
-https://www.algoworks.com/blog/security-concerns-with-javascript-development/ 
-https://weeklyhow.com/pros-and-cons-of-javascript/ - Polidario 2020 
 ## **Python**
 ### **Benefits**
 
@@ -501,15 +382,13 @@ One of the main benefits of using Python is its popularity among tech communitie
 
 
 ### **Drawbacks**
-One of Python’s main drawbacks is that it is considered by many in the tech industry to be a “slow” language. It must pass through a process of interpretation between writing the code and implementing the code. According to Hull (2021) a dynamically typed language such as Python needs to have its code interpreted by an interpreter before transforming into executed code. Other static languages do not have this issue as their variables are 
-https://towardsdatascience.com/why-is-python-so-slow-and-how-to-speed-it-up-485b5a84154e 
-https://www.geeksforgeeks.org/what-makes-python-a-slow-language/#:~:text=Internally%20Python%20code%20is%20interpreted,PVM%20(Python%20Virtual%20Machine). 
-Further research regarding the slow processing speed of Python suggests that the main cause of Python’s slow speed as a dynamically typed language (compared to other dynamically typed languages) is because of its Global Interpreter Lock (GIL). According to McCurdy (McCurdy) Python has issues with processing speeds when it is undertaking multi-threaded processes, processing multiple threads simultaneously (McCurdy). However, although Python does have issues relating to processing speeds of multi-threads, people such as McCurdy have figured out ways to get around these issues, such as multiprocessing.
-https://www.infoworld.com/article/3637073/python-stands-to-lose-its-gil-and-gain-a-lot-of-speed.html 
-Although Python and Javascript both have their own unique drawbacks, they are both very powerful languages, and are also able to compliment each other. As Berga and Ferreira (2021) noted, Python is used on the back-end of Instagram, and Javascript is used on the front-end. This is a perfect example of both languages being used in one of the most popular applications in the world while complimenting each other. 
-Source - https://www.imaginarycloud.com/blog/python-vs-javascript/ - 2021
-Source (Kumar 2021) - https://www.rtinsights.com/why-python-is-best-for-ai-ml-and-deep-learning/#:~:text=The%20benefits%20of%20making%20Python,the%20popularity%20of%20the%20language. 
-Source - -https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python)  - McCurdy 
+One of Python’s main drawbacks is that it is considered by many in the tech industry to be a “slow” language. It must pass through a process of interpretation between writing the code and implementing the code. According to (Huls 2022) a dynamically typed language such as Python needs to have its code interpreted by an interpreter before transforming into executed code. Other static languages do not have this issue as their variables are 
+
+
+Further research regarding the slow processing speed of Python suggests that the main cause of Python’s slow speed as a dynamically typed language (compared to other dynamically typed languages) is because of its Global Interpreter Lock (GIL). According to McCurdy (McCurdy 2018) Python has issues with processing speeds when it is undertaking multi-threaded processes, processing multiple threads simultaneously (McCurdy 2018). However, although Python does have issues relating to processing speeds of multi-threads, people such as McCurdy (2018) have figured out ways to get around these issues, such as multiprocessing. 
+
+Although Python and Javascript both have their own unique drawbacks, they are both very powerful languages, and are also able to compliment each other. As Berga and Ferreira (2021) noted, Python is used on the back-end of Instagram, and Javascript is used on the front-end. This is a perfect example of both languages being used in one of the most popular applications in the world while complimenting each other (Berga and Ferreira 2021). 
+
 ## **Q7 Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.**
 &nbsp;
 &nbsp;
@@ -544,7 +423,7 @@ According to the Australian Computer Society's Code of Conduct, and Code of Ethi
 &nbsp;    
 &nbsp;  
 ### ***Identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)*** 
-The Australian Consumer Law (2010) (ACL) is a federal law in Australia which aims to protect the Australian public from businesses engaging in misleading product marketing, product safety, unfair market practices, and a range of other activities (Australian Government 2021). The ACL (2010) would be the most appropriate law for assisting IT professionals in Australia to act in an ethical way while perform their duties as an IT professional. The Australian government has passed this law in Australia to ensure that businesses have a set of guidelines explaining what is considered fair and unfair trading practices in Australian business. The problem with a law such as the ACL (2010) is that many businesses often engage in unethical behaviour when selling or promoting their products to the market, and sometimes the issue goes under the radar. 
+The Australian Consumer Law (2010) (ACL) is a federal law in Australia which aims to protect the Australian public from businesses engaging in misleading product marketing, product safety, unfair market practices, and a range of other activities (Australian Government 2020). The ACL (2010) would be the most appropriate law for assisting IT professionals in Australia to act in an ethical way while perform their duties as an IT professional. The Australian government has passed this law in Australia to ensure that businesses have a set of guidelines explaining what is considered fair and unfair trading practices in Australian business. The problem with a law such as the ACL (2010) is that many businesses often engage in unethical behaviour when selling or promoting their products to the market, and sometimes the issue goes under the radar. 
 
 If a software developer is committed to working in an ethical manner, they must refer to, and follow the the information set out in the Act whenever they may be unsure, or worried about whether they are acting unethically, or worse, committing a crime. The Act is helpful for developers to understand what they can and cannot do while contributing to the design process of a software program. If the developer feels that they may be creating software that may be falsely promoted or marketed to the public, the Act stipulates what is considered a violation of the Act.
 &nbsp;  
@@ -573,22 +452,8 @@ Section 2.2 of the Code states that an IT professional must abide by all laws, f
 The IT professionals in the VW scandal should have also followed Section 3.1 of the Code, which states that the public good is the most important principle that they must abide by. The software engineering team who installed the secret software in the VW vehilces knew that they were committing a crime, and that the crime was contradictory to the public good. Therefore, the IT professionals should have abided by 3.1 of the Code, and taken action against their employer, or refused to install the software (ACM 2018).
 
 It is clear that all of the IT professionals involved in the scandal should have at least refused to work on developing and installing the illegal software into the VW vehicles, and ultimately, they should have blown the whistle on the illegal operation. The ACM's Code of Conduct and Ethics (2018) is extremely clear in its explanation of how IT professionals should conduct themselves while working in the profession, and it the IT professionals in this instance failed to uphold and undertake the duties as per the obligations written in the Code. IT professionals must learn from this catastrophic mistake in the case of the VW scandal, and must be urged by the tech community, and the general public, to adhere to these obligations moving forward. This will ultimately reduce the number of fraudulent and criminal acts being committed by professionals in the information technology industry.
-
-
-https://business.gov.au/products-and-services/fair-trading/fair-trading-laws#:~:text=The%20Competition%20and%20Consumer%20Act%202010%20(the%20Act)%20is%20a,that%20consumers%20are%20treated%20fairly. (Australian government 2021)
-
-https://www.acm.org/code-of-ethics (2018)
-
-Source (Santos 2016) - https://ideas.darden.virginia.edu vw-emissions-and-the-3-factors-that-drive-ethical-breakdown 
-
-https://europe.autonews.com/automakers/german-engineering-firm-iav-pleads-guilty-vw-emissions-scandal 
-
-Robert Merkel and Oliver Burmeister (2015)https://theconversation.com/a-code-of-ethics-in-it-just-lip-service-or-something-with-bite-32807 
-5 Ethical Issues in Technology to Watch for in 2021 | CompTIA 
-Ethical Issues in Information Technology (IT) – GeeksforGeeks 
-https://www.natlawreview.com/article/australia-s-online-privacy-bill-and-privacy-act-discussion-paper-first-steps-towards 
- 
-
+&nbsp;  
+&nbsp;  
 ## **Q8 Explain control flow, using examples from the Ruby programming language**
 According to Mozilla, control is the order in which statements, or lines of code are executed in a program (Mozilla, MDN Contributers). Depending on which language you are using, there will be statements which are specific to that language, which have the ability to alter the control flow in a unique way. Some examples of different control flow statements that are found in the Ruby programming language, are - 'if' statements, 'if/else' statements, 'unless' statements, 'while' statements. These particular statements can be found in a control structure called a "loop" in Ruby (Bodnar 2007). Two examples will be provided below to demonstrate control flow, and control flow statements. 
 &nbsp;
@@ -618,7 +483,8 @@ while num <= 50
     num += 1
 end  
 ```
-This code snippet shows a basic while loop in the Ruby language. The control flow begins with the variable "num" being set to "0". The while loop begins with setting out a condition. While the current number is smaller than or equal to 50, it must print out a string. Once the string has been printed, the current number (num) will then increment by 1, and if the number is still less than or equal to 50, the while loop will run again, this time using number "1". The loop keeps executing this code until the "num" is less than or equal to 50. Once the "num" reaches 50, the "end" command will stop the flow of the code. 
+
+This code snippet shows a basic while loop in the Ruby language. The control flow begins with the variable "num" being set to "0". The while loop begins with setting out a condition. While the current number is smaller than or equal to 50, it must print out a string. Once the string has been printed, the current number (num) will then increment by 1, and if the number is still less than or equal to 50, the while loop will run again, this time using number "1". The loop keeps executing this code until the "num" is less than or equal to 50. Once the "num" reaches 50, the "end" command will stop the flow of the code (Bodnar 2007). 
 &nbsp;
 &nbsp; 
 https://zetcode.com/lang/rubytutorial/flowcontrol/ - Jan Bodnar (2007)
@@ -634,6 +500,8 @@ Type coercion can also be used to change the data type of a number into a string
 ```ruby
 25.to_s
 Output: “25”
+```
+
 As you can see, the integer has now changed into a string and it is surrounded by the double quotation marks. 
 &nbsp;  
 &nbsp;   
@@ -670,8 +538,6 @@ A boolean is a data type which has two different values - true and false. These 
 - True
 - False
 
-https://developer.mozilla.org/en-US/docs/Glossary/Boolean 
-https://www.rubyguides.com/2019/02/ruby-booleans/ 
 
 ### **String**
 A string is a line of characters or words which usually represent a line of text. When strings are used in programming they are surrounded by either single quotation, or double quotation marks.  
@@ -693,7 +559,6 @@ Strings can also be added together with other strings to form a sentence. This p
 day = "Monday"
 puts "Today is my favourite day. My favourite day is #{day}"
 
-https://www.rubyguides.com/2018/01/ruby-string-methods/#Summary 
 ## **Question - 11**
 Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
  - Identify the classes you would use to solve the problem
@@ -1049,3 +914,123 @@ Secondly, I had no idea how to implement lines of code which would allow the pro
 
 I am aware that my code for this question is most probably the incorrect way of writing this program, but instead of not answering the question, I decided to attempt to write the program and write the code which I am familiar with. 
 
+## **Bibliography**
+
+Reference list
+Abba, I.V. (2022). HTML Cheat Sheet – HTML Elements List Reference. [online] freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/html-cheat-sheet-html-elements-list-reference/ [Accessed 10 Apr. 2022].
+
+ACM (2018). ACM Code of Ethics and Professional Conduct. [online] Acm.org. Available at: https://www.acm.org/code-of-ethics.
+
+Agarwal, R. (2017). Security Concerns With Javascript Development - Secure Practices And Tips. [online] Algoworks. Available at: https://www.algoworks.com/blog/security-concerns-with-javascript-development/.
+
+Australian Government (2020). Fair trading laws | business.gov.au. [online] business.gov.au. Available at: https://business.gov.au/products-and-services/fair-trading/fair-trading-laws.
+
+Baran, P. and Baran, P. (1964). On Distributed Communications: I. Introduction to Distributed Communications Networks. [online] Rand.org. Available at: https://www.rand.org/pubs/research_memoranda/RM3420.html [Accessed 8 Apr. 2022].
+
+Berga, M. and Ferreira, R. (2021). Python vs JavaScript: why not both? [online] Blog | Imaginary Cloud. Available at: https://www.imaginarycloud.com/blog/python-vs-javascript/.
+
+Bodnar, D. (2021a). What Is TCP/IP? [online] What Is TCP/IP? Available at: https://www.avg.com/en/signal/what-is-tcp-ip.
+
+Bodnar, J. (2021b). Flow control in Ruby - control program flow in Ruby. [online] Zet Code. Available at: https://zetcode.com/lang/rubytutorial/flowcontrol/.
+
+Burmeister, O. and Merkel, R. (2015). A code of ethics in IT: just lip service or something with bite? [online] The Conversation. Available at: https://theconversation.com/a-code-of-ethics-in-it-just-lip-service-or-something-with-bite-32807.
+
+Castello, J. (2018). Ruby String Methods (Ultimate Guide). [online] RubyGuides. Available at: https://www.rubyguides.com/2018/01/ruby-string-methods/#Summary [Accessed 10 Apr. 2022].
+
+Castello, J. (2019a). An Overview of Data Structures For Ruby Developers. [online] RubyGuides. Available at: https://www.rubyguides.com/2019/04/ruby-data-structures/.
+
+Castello, J. (2019b). Understanding Boolean Values in Ruby. [online] Ruby Guides. Available at: https://www.rubyguides.com/2019/02/ruby-booleans/.
+
+Castello, J. (2020). Ruby Hash Methods: The Ultimate Guide. [online] RubyGuides. Available at: https://www.rubyguides.com/2020/05/ruby-hash-methods/.
+
+Chandra Steele (2021). 30 Years of Browsers: A Quick History. [online] PCMag Australia. Available at: https://au.pcmag.com/browsers/85834/30-years-of-browsers-a-quick-history [Accessed 10 Apr. 2022].
+
+Cloudfare (n.d.). What is a packet? | Network packet definition. [online] Cloudfare. Available at: https://www.cloudflare.com/en-au/learning/network-layer/what-is-a-packet/.
+
+Cloudfare (n.d.). Why use HTTPS? [online] Available at: https://www.cloudflare.com/en-gb/learning/ssl/why-use-https/ [Accessed 10 Apr. 2022].
+
+Conrad, A. (2018). JavaScript and the Inner Workings of your Browser. [online] Software Engineering Daily. Available at: https://softwareengineeringdaily.com/2018/10/03/javascript-and-the-inner-workings-of-your-browser/ [Accessed 10 Apr. 2022].
+
+Edwards, B. (2021). The Foundation of the Internet: TCP/IP Turns 40. [online] How-To Geek. Available at: https://www.howtogeek.com/751880/the-foundation-of-the-internet-tcpip-turns-40/ [Accessed 10 Apr. 2022].
+
+Fitzgerald, M. (2007). Learning Ruby:  The Language that Powers Rails. [online] Google Books. ‘O’Reilly Media, Inc.’ Available at: https://www.google.com.au/books/edition/Learning_Ruby/pYS_Fm5LqUYC?hl=en&gbpv=0 [Accessed 10 Apr. 2022].
+
+Garsiel, T. and Irish, P. (2011). How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks. [online] HTML5 Rocks - A resource for open web HTML5 developers. Available at: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/.
+
+Gralla, P. (1998). How the Internet Works. [online] Google Books. Que Publishing. Available at: https://www.google.com.au/books/edition/How_the_Internet_Works/iCMCwXLLdscC?hl=en&gbpv=0 [Accessed 10 Apr. 2022].
+
+Gregorik, I. (2014). Render-tree Construction, Layout, and Paint. [online] web.dev. Available at: https://web.dev/critical-rendering-path-render-tree-construction/ [Accessed 10 Apr. 2022].
+
+Hart, D. (2004). Mosaic Launches an Internet Revolution. [online] www.nsf.gov. Available at: https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100274&org=NSF [Accessed 10 Apr. 2022].
+
+Huls, M. (2022). Why Python is so slow and how to speed it up. [online] Towards Data Science. Available at: https://towardsdatascience.com/why-is-python-so-slow-and-how-to-speed-it-up-485b5a84154e [Accessed 10 Apr. 2022].
+
+Hunt, C. (2002). TCP/IP Network Administration: Help for Unix System Administrators. [online] Google Books, ‘O’Reilly Media, Inc.’, pp.7–9. Available at: https://www.google.com.au/books/edition/TCP_IP_Network_Administration/A_LL2LQASdoC?hl=en&gbpv=0 [Accessed 10 Apr. 2022].
+
+InterviewBit (2021). Difference Between Compiler and Interpreter: Compiler Vs Interpreter. [online] InterviewBit. Available at: https://www.interviewbit.com/blog/difference-between-compiler-and-interpreter/.
+
+Ionos (2022). Server-side and client-side scripting: the differences. [online] IONOS Digitalguide. Available at: https://www.ionos.com/digitalguide/websites/web-development/server-side-and-client-side-scripting-the-differences/.
+
+Kaspersky (2018). What Are Cookies? [online] www.kaspersky.com. Available at: https://www.kaspersky.com/resource-center/definitions/cookies.
+
+Kehl, D. (2015). The Surprisingly Interesting History of the Internet Domain System. [online] Slate Magazine. Available at: https://slate.com/technology/2015/05/icann-transition-the-interesting-history-of-the-internet-domain-name-system.html [Accessed 10 Apr. 2022].
+
+Kumar, S. (2021). Why Python is Best for AI, ML, and Deep Learning. [online] RTInsights. Available at: https://www.rtinsights.com/why-python-is-best-for-ai-ml-and-deep-learning/ [Accessed 10 Apr. 2022].
+
+Lasn, T.-I. (2019). What Makes JavaScript Popular. [online] Medium - Better Programming. Available at: https://betterprogramming.pub/what-makes-javascript-javascript-b9ab51ad983a [Accessed 10 Apr. 2022].
+
+Loshin, P., Linthicum, D. and Giza, M. (2021). What is XML (Extensible Markup Language)? [online] WhatIs.com. Available at: https://www.techtarget.com/whatis/definition/XML-Extensible-Markup-Language [Accessed 10 Apr. 2022].
+
+McCurdy, M. (2018). Python Multithreading and Multiprocessing Tutorial. [online] Toptal Engineering Blog. Available at: https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python [Accessed 12 Aug. 2019].
+
+MDN Contributors (2019). HTML basics. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics.
+
+MDN Web Docs (2019a). Client-Server Overview. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview.
+
+MDN Web Docs (2019b). Handling Common JavaScript Problems. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript.
+
+MDN Web Docs (2019c). Window.localStorage. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage.
+
+Mukherje, N. (2020). Reasons Why JavaScript Is So Popular. [online] Open Source. Available at: https://opensource.com/article/20/11/javascript-popular.
+
+National Research Council (2005). Signposts in Cyberspace: The Domain Name System and Internet Navigation. [online] nap.nationalacademies.org. Washington, DC: The National Academies Press. Available at: https://nap.nationalacademies.org/catalog/11258/signposts-in-cyberspace-the-domain-name-system-and-internet-navigation [Accessed 10 Apr. 2022].
+
+Nield, D. (2020). Which Browser Engine Powers Your Web Browsing, And Why Does It Matter? [online] Gizmodo Australia. Available at: https://www.gizmodo.com.au/2020/12/which-browser-engine-powers-your-web-browsingand-why-does-it-matter/ [Accessed 10 Apr. 2022].
+
+Olenski, J. (2020). SSL vs TLS - What’s the Difference? [online] GlobalSign GMO Internet, Inc. Available at: https://www.globalsign.com/en/blog/ssl-vs-tls-difference.
+
+Pandit, N. (2018). What Is  ReactJS and Why Should We Use It? [online] C Sharp Corner. Available at: https://www.c-sharpcorner.com/article/what-and-why-reactjs/.
+
+Programiz (n.d.). Tree Data Structure. [online] Programiz. Available at: https://www.programiz.com/dsa/trees.
+
+Ramamoorthy, V. (2017). Behind the Browser, Part 1: The Basics - DZone Web Dev. [online] dzone.com. Available at: https://dzone.com/articles/behind-browser-basicspart-1 [Accessed 10 Apr. 2022].
+
+Richard, P. (2018). The Application Layer in TCP/IP Model. [online] www.tutorialspoint.com. Available at: https://www.tutorialspoint.com/The-Application-Layer-in-TCP-IP-Model.
+
+Santos, C. (2016). VW Emissions and the 3 Factors That Drive Ethical Breakdown | Darden Ideas to Action. [online] Uva Darden Ideas to Action. Available at: https://ideas.darden.virginia.edu/vw-emissions-and-the-3-factors-that-drive-ethical-breakdown.
+
+Security, S. (2021). Available at: https://cheapsslsecurity.com/blog/http-vs-https-security-the-differences-between-these-protocols/ [Accessed 10 Apr. 2022].
+
+Shaw, K. and Fruhlinger, J. (2018a). What is DNS and how does it work? [online] Network World. Available at: https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html.
+
+Shaw, K. and Fruhlinger, J. (2018b). What is IPv6, and why aren’t we there yet? [online] Network World. Available at: https://www.networkworld.com/article/3254575/what-is-ipv6-and-why-aren-t-we-there-yet.html.
+
+Smith, J. (2019). Compiler vs Interpreter: Complete Difference Between Compiler and Interpreter. [online] Guru99.com. Available at: https://www.guru99.com/difference-compiler-vs-interpreter.html.
+
+Tripathi, S. (2021). Scaler Topics. [online] Scaler. Available at: https://www.scaler.com/topics/c/difference-between-compiler-and-interpreter/ [Accessed 10 Apr. 2022].
+
+Unadkat, J. (2019). Role of Rendering Engines in Browsers. [online] BrowserStack. Available at: https://www.browserstack.com/guide/browser-rendering-engine.
+
+van Herwijnen, E. (1994a). Components of an SGML system. Practical SGML, pp.25–30.
+
+van Herwijnen, E. (1994b). Introduction. Practical SGML, [online] pp.3–16. Available at: https://link.springer.com/chapter/10.1007/978-1-4615-2752-7_1 [Accessed 10 Apr. 2022].
+
+Vicente, V. (2018). What Is a Markup Language? [online] How-To Geek. Available at: https://www.howtogeek.com/721685/what-is-a-markup-language/.
+
+Walsh, N. and Muellner, L. (1999). DocBook: The Definitive Guide. [online] Google Books. ‘O’Reilly Media, Inc.’ Available at: https://www.google.com.au/books/edition/DocBook_The_Definitive_Guide/wQ3a1kBygkcC?hl=en&gbpv=0 [Accessed 10 Apr. 2022].
+
+Williams, L. (2019a). IPv4 vs IPv6: What’s the Difference? [online] Guru99.com. Available at: https://www.guru99.com/difference-ipv4-vs-ipv6.html.
+
+Williams, L. (2019b). TCP/IP Model: What is TCP IP Stack? Protocol Layers, Advantages. [online] Guru99.com. Available at: https://www.guru99.com/tcp-ip-model.html.
+
+Zlatkov, A. (2018). How JavaScript works: the rendering engine and tips to optimize its performance. [online] Medium. Available at: https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda [Accessed 10 Apr. 2022].
