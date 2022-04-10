@@ -1,5 +1,10 @@
 # James McGregor Workbook T1A1
-##* Special Note - If the markers would like to view the code
+
+### **Important Note - For some reason when I view the PDF version of the markdown file, I can't view any of the images that are in the markdown file? So this means the markers will not be able to see my flow chart for Question 14. I don't know how the teachers will be able to mark this? If you are unable to view the flow chart for Question 14 in the PDF file, please click on my github link below. The flow chart is uploaded as a jpeg file and the file name is called "Q14flow.jpg"**
+
+### **Important Note - If the markers would like to view the code snippets in their original RB files, please feel free to click my github link below to view them.** 
+&nbsp;  
+&nbsp;  
 ## Link to Assignment
 Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 &nbsp;  
