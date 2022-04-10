@@ -1,4 +1,5 @@
 # James McGregor Workbook T1A1
+##* Special Note - If the markers would like to view the code
 ## Link to Assignment
 Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 &nbsp;  
@@ -16,7 +17,7 @@ HTML stands for Hyper Text Markup Language, which is the language which which al
 On all HTML pages, there are a number of specific HTML components which must be used to provide a basic structure to the website, before more specific elements are added. 
 
 ![HTML snippet](html.png)
-#### **Source - Mozilla Developer (refer to bibliography for official reference)**
+#### **Source - Mozilla Web Docs (refer to bibliography for official reference)**
 &nbsp;  
 The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The html tag is used to wrap the whole page in HTML language. The roll of the head tag is to have a title tag which will display a page title on the tabs of a browser window. And the meta tag communicates to the code editor what language the code is being written in. 
 
@@ -36,16 +37,16 @@ SGML (Standard Generalized Markup Language), and is known as the "standard for d
 
 #### ***Components of SGML***
 &nbsp;    
-&nbsp;   
 
 **SGML Declaration**
 The SGML document declaration is typically found at the beginning of a SGML document, but can also be found in a separate SGML file. The SGML is essentially a declaration which specificies the various default tags which will be used in the SGML document, what names will be attributed to them, the length of names and numbers, and which (if any) abbreviations are to be allowed in the document (Waslh and Muellner 1999, 16).
 &nbsp;  
-&nbsp;
+&nbsp;  
 **Document Type Definition**
 Similar to a HTML document, a SGML document must state at the beginning of the document that it is indeed a SGML document. This is done by using the "DOCTYPE" tag, and a different keyword must be used in the doctype tag depending on what kind of file structure is being created, for example - a book, an article or a memorandum (Herwijnen, 1994, 25-26). 
 &nbsp;  
-&nbsp;
+&nbsp;  
+
 **Document Instance** 
 Finally, the document instance is actually the SGML file, with all of the code contained inside of it. The document will comprise of markup language, and of course, the contents of the document (Herwijnen, 1994, page 25-26). 
 &nbsp;  
@@ -86,11 +87,8 @@ When the data is broken up in to multiple packets to be sent and received over t
 &nbsp; 
 &nbsp; 
 ## **Explain how Packets have contributed to the development of the internet.**
-Packet switching (previously known as "message blocks) came out of the Cold War era, which was developed by people such as Paul Baran. The idea came from Paul's career at the RAND corporation and was initially implemented on local networks, however packet switching eventually became used on ARPANET, and of course, the internet as it is known today. The main idea behind packet switching was so switch from a centralized network, to a distributed network, where nodes (and later routers) were distributed throughout the network, with no centralized node running the network. Packets were also a part of this development and were designed to be able to travel along other nodes, if certain nodes were attacked and wiped out by the United States' enemys during the height of the Cold War (Paul Baran, 1964).
+Packet switching (previously known as "message blocks) came out of the Cold War era, which was developed by people such as Paul Baran. The idea came from Paul's career at the RAND corporation and was initially implemented on local networks, however packet switching eventually became used on ARPANET, and of course, the internet as it is known today. The main idea behind packet switching was so switch from a centralized network, to a distributed network, where nodes (and later routers) were distributed throughout the network, with no centralized node running the network. Packets were also a part of this development and were designed to be able to travel along other nodes, if certain nodes were attacked and wiped out by the United States' enemys during the height of the Cold War (Paul Baran, 1964)
 
-https://www.rand.org/pubs/research_memoranda/RM3420.html 
-https://www.cloudflare.com/en-au/learning/network-layer/what-is-a-packet/ 
-https://computer.howstuffworks.com/question525.htm 
 &nbsp;   
 &nbsp;  
 ### **Routers and Routing**
@@ -123,7 +121,7 @@ The TCP/IP architecture consists of four important layers. The layers are - the 
 The Network Access Layer is the layer which is responsible for transferring data over the network. It allows two computers to be able to communicate with each other, and facilitates the sending and receiving of data. The data sent on this layer is usually between computers on a local network, or computers which are connected to the same network (Bodnar 2021).
 
 #### **Internet/Network Layer**
-The Internet/Network Layer is primarily responsible for ensuring that packets are sent from the sender device, to the receiver device over a network. It also assumes the role of determining how the data packets are sent to the receiving device, and also makes sure the data packets are put back together before they are opened and read on the receiving end. By determining the routing method and which routers the packets will pass through, the internet/network layer efficiently takes care of the data packets while they are travelling from state to finish.  (Williams 2019).
+The Internet/Network Layer is primarily responsible for ensuring that packets are sent from the sender device, to the receiver device over a network. It also assumes the role of determining how the data packets are sent to the receiving device, and also makes sure the data packets are put back together before they are opened and read on the receiving end. By determining the routing method and which routers the packets will pass through, the internet/network layer efficiently takes care of the data packets while they are travelling from state to finish (Williams 2019).
 
 #### **Transport Layer**
 The transport layer is responsible for providing the stable delivery of data packets from the sender to the receiver. If errors are not found in the packets being delivered, the transport layer process the next data packet to be sent over the network. If errors are found in the data packets for whatever reason, the transport layer will send a request for the data packet to be retransmitted again. The transport layer also acts as a signalling device which determines when the data packet has been sent and received. This allows the transport layer to make its next decision to either send the next data packet in line, or to resend a data packet that is corrupted or unable to be opened (Williams 2019).
@@ -133,7 +131,7 @@ The application layer is the closest layer to the actual user who is using the d
 
 &nbsp;  
 ### **Explain how TCP has contributed to the development of client and server communication over the internet (50 - 150 words for TCP)** 
-The TCP has contributed immensely to the development of the internet by providing an architecture which would allow any kind of computer to communicate with another computer (Edwards 2021). This was a big breakthrough which allowed interoperability between different computers, regardless of what operating system each computer is running (Williams 2019).  TCP's main legacy is the fact it has achieved to provide an architecture to allow communication of data on the internet, from all over the world, to any device connected to the internet (Edwards 2021).
+The TCP has contributed immensely to the development of the internet by providing an architecture which would allow any kind of computer to communicate with another computer (Edwards 2021). This was a big breakthrough which allowed interoperability between different computers, regardless of what operating system each computer is running (Williams 2019). TCP's main legacy is the fact it has achieved to provide an architecture to allow communication of data on the internet, from all over the world, to any device connected to the internet (Edwards 2021). The TCP has allowed for a level of interoperability on a scale not seen before since the inception of the internet. And finally, the TCP has allowed for the flow of data to occur over the internet, due to the detailed work that goes on in the backfround from the transport layer and the network layer of the TCP. These two layers have allowed data to be shared from one user to another accurately and reliably, whether that be on an intranet network, or on the open worldwide internet. The TCP is really one of the foundational pieces of architecture which has allowed data sharing to occur as seamlessly as it does in the twenty-first century.
 &nbsp;  
 &nbsp;  
 
@@ -153,24 +151,17 @@ The main feature of a HTTPS website which facilitates the encryption process is 
 &nbsp;  
 &nbsp;
 
-This layer of trust is an important development of client and server communication. With the development of the internet, the number of  hackers has also grown, and therefore, the invention of HTTPS is a fundamental feature in the development of the internet over time. Since the early days of the internet, more and more websites have made the change from HTTP to HTTPS for obvious reasons, and the security protocols layers protecting the HTTPS websites have also gone through its own development (Olenski 2020).
+This layer of trust is an important development of client and server communication. With the development of the internet, the number of hackers has also grown, and therefore, the invention of HTTPS is a fundamental feature in the development of the internet over time. Since the early days of the internet, more and more websites have made the change from HTTP to HTTPS for obvious reasons, and the security protocols layers protecting the HTTPS websites have also gone through its own development (Olenski 2020).
 &nbsp;
 &nbsp;
 
 ### **Explain how HTTP/HTTPS has contributed to the development of client and server communication over the internet (50 - 150 words for HTTP/HTTPS)** 
-HTTP from its inception was designed for the purpose of allowing document exchange, and document retrieval (MDN Contributers Mozilla 2022). This allowed for exchange over the internet, particularly data exchange, which was not possible before Tim Berners Lee came up with the idea of the Hyper Text Transfer Protocol. 
+HTTP from its inception was designed for the purpose of allowing document exchange, and document retrieval (MDN Contributers Mozilla 2022). This allowed for exchange over the internet, particularly data exchange, which was not possible before Tim Berners Lee came up with the idea of the Hyper Text Transfer Protocol. Moreover, the evolution from HTTP to HTTPS, which provided ended to end encryption of user's data while on a HTTPS page, was an extremely important contributiont to client server communication over the internet. HTTPS websites have significantly increased the amount of protection that user's are provided with when they browse on the internet. This new feature of websites has led to increased user confidence when using websites to input or use sensitive data, and subsequently, this has allowed sensitive data to be stored and sent across the internet by companies and users without the same amount of risk compared to using an older version HTTP page.
 
-https://kinsta.com/knowledgebase/tls-vs-ssl/ 
-https://aboutssl.org/ssl-guide/ 
-https://cheapsslsecurity.com/blog/http-vs-https-security-the-differences-between-these-protocols/ 
-https://www.globalsign.com/en/blog/ssl-vs-tls-difference 
-https://www.cloudflare.com/en-gb/learning/ssl/why-use-https/ 
-https://www.acunetix.com/blog/articles/tls-security-what-is-tls-ssl-part-1/ 
 &nbsp;  
 &nbsp;
 ### **Web Browsers (requests, rendering and developer tools)**
-Web browsers have made many strides in their development since some of the first browsers were developed and used in 1994, such as Mosaic and Nexus. Today, some of the most popular web browsers used are Google Chrome, Internet Explorer, Mozilla Firefox, and Microsoft Edge. 
-For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page (Steel 2021). There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
+Web browsers have made many strides in their development since some of the first browsers were developed and used in 1994, such as Mosaic and Nexus. Today, some of the most popular web browsers used are Google Chrome, Internet Explorer, Mozilla Firefox, and Microsoft Edge. For a web browser to be able to display contents on the page, there are a series of steps that must take place before the user is able to see the fully loaded web page (Steele 2021). There are a range of components which are needed in order for a web browser to work. A list of components which make up the web browser are as follows: 
 &nbsp;  
 &nbsp;  
 ![Image of Web Browser Components Diagram](browserengine.png)
@@ -235,7 +226,7 @@ The data storage component is responsible for storing various types of data rela
 - Local storage
 - Cookies
 &nbsp;  
-The first type of data storage is session storage, where the data is stored in each tab in a browser. If a browser is closed, the data that was entered into or retrieved from the browser will be erased. Session storage thus only provides a temporary form of storage in the browser. Local Storage is similar to session storage, however its expiration date is much longer; it does not expire, even after the user has closed the browser or ended the session (MDN Web Docs 2019 ).
+The first type of data storage is session storage, where the data is stored in each tab in a browser. If a browser is closed, the data that was entered into or retrieved from the browser will be erased. Session storage thus only provides a temporary form of storage in the browser. Local Storage is similar to session storage, however its expiration date is much longer; it does not expire, even after the user has closed the browser or ended the session (MDN Web Docs 2019).
 &nbsp;  
 &nbsp;  
 Cookies are also a form of storage used to enable faster load times. When  user visits a page, the history of their visit, and their activity on the website is stored in cookies. If the user is to return in the future to the same webpage, these cookies will allow the browser to remember the user, and thus will provide a streamlined experience. The storing of cookies can bring into question possible security risks or data breaches for the user, as they are having their every movement tracked in a web browser. However, over the years browsers and web pages have implemented a permission form that pop-up asking users if they wish to have their cookies stored or not (Kaspersky). 
@@ -324,8 +315,6 @@ The compiler is a program which translates source code into machine code. It goe
 The Interpreter is also a program which translates the source code into machine code. However, the method which the interpreter uses is different from the compiler's method. One of the interpreter's main feature lies in the way it executes the process from intepreting source code to outputting machine code. The interpreter carefully goes through the source code in a line by line fashion, and provides information every time an error is found on a line of code. The interpreter does this line by line until it reaches the end of the code, and finally outputs the code into machine code. Because the interpreter uses a line by line method to interpret the code, it allows the source code to be adjusted during the intepretation process. Depending on the programmer's objectives, the line by line method that the interpreter uses could be very beneficial in helping the programmer find and fix any bugging issues as they arise. Because of the unique characteristics of the interpreter, it may be suitable for developing websites, where fast load times are necessary. The instant feedback from the interpreter can be a huge benefit to programmers needing to make quick changes to their program (John Smith 2019).
 &nbsp;  
 &nbsp; 
-*Source https://www.guru99.com/compiler-design-phases-of-compiler.html* - John Smith 
-
 ### **Differences betwen Interpreters and Compilers**
 &nbsp;
 &nbsp;
@@ -360,7 +349,6 @@ Two commonly used programming languages are Python and Javascript. Both Python a
 
 ## **Javascript**
 ### **Benefits**
-
 Javascript is known for being programming language which can be used effectively both on the front-end and on the back-end. Its versatility of use cases means that people can essentially use Javascript by itself, without having to rely on another language for the front-end of the web application, or vice versa with the back-end. This is a major benefit of choosing to program using Javascript. Although Javascript is used on the back-end in development, the main reason for its popularity is its effectiveness on the front-end, and developers are able to build beautiful, dynamic, and responsive websites (Mukherjee 2020).
 &nbsp;  
 &nbsp;  
@@ -377,15 +365,11 @@ Another drawback when using Javascript the problem of interoperability between d
 &nbsp;  
 ## **Python**
 ### **Benefits**
-
 One of the main benefits of using Python is its popularity among tech communities, because it is open source and free for everyone to use. Surveys suggest that Python is one of the most popular programming languages in the world. It is a versatile language which can be used for a variety of purposes, including: web development, machine learning, data analysis. However, it really excels with machine learning, data analysis and artificial intelligence. Kumar (2021) explains that Python is one of the better languages to use for AI and machine learning because of its access to a wide array of libraries and communities of developers. They facilitate an increase in the language being widely used, and the knowledge base grows as a result. Unlike some other languages, it is also available on a range of operating systems, and as such, developers who are using specific operating systems are not excluded from programming with Python. Python is considered to be a high-level language, meaning its syntax is close to the syntax of human languages, and is considered an easy programming language to learn (Kumar 2021). This allows more people to get involved in the community, and the amount of people contributing to the development of AI and machine learning algorithms in the Python libraries expand as a result. 
 
 
 ### **Drawbacks**
-One of Python’s main drawbacks is that it is considered by many in the tech industry to be a “slow” language. It must pass through a process of interpretation between writing the code and implementing the code. According to (Huls 2022) a dynamically typed language such as Python needs to have its code interpreted by an interpreter before transforming into executed code. Other static languages do not have this issue as their variables are 
-
-
-Further research regarding the slow processing speed of Python suggests that the main cause of Python’s slow speed as a dynamically typed language (compared to other dynamically typed languages) is because of its Global Interpreter Lock (GIL). According to McCurdy (McCurdy 2018) Python has issues with processing speeds when it is undertaking multi-threaded processes, processing multiple threads simultaneously (McCurdy 2018). However, although Python does have issues relating to processing speeds of multi-threads, people such as McCurdy (2018) have figured out ways to get around these issues, such as multiprocessing. 
+One of Python’s main drawbacks is that it is considered by many in the tech industry to be a “slow” language. It must pass through a process of interpretation between writing the code and implementing the code. According to (Huls 2022) a dynamically typed language such as Python needs to have its code interpreted by an interpreter before transforming into executed code. Further research regarding the slow processing speed of Python suggests that the main cause of Python’s slow speed as a dynamically typed language (compared to other dynamically typed languages) is because of its Global Interpreter Lock (GIL). According to McCurdy (McCurdy 2018) Python has issues with processing speeds when it is undertaking multi-threaded processes, processing multiple threads simultaneously (McCurdy 2018). However, although Python does have issues relating to processing speeds of multi-threads, people such as McCurdy (2018) have figured out ways to get around these issues, such as multiprocessing. 
 
 Although Python and Javascript both have their own unique drawbacks, they are both very powerful languages, and are also able to compliment each other. As Berga and Ferreira (2021) noted, Python is used on the back-end of Instagram, and Javascript is used on the front-end. This is a perfect example of both languages being used in one of the most popular applications in the world while complimenting each other (Berga and Ferreira 2021). 
 
@@ -733,8 +717,6 @@ while i <= max
     i += 1
 end 
 print arr
-puts "\n\n"
-puts
 ```
 &nbsp;  
 &nbsp;  
@@ -775,8 +757,6 @@ This was one of the easier challenges out of the programming challenges in the w
 Firstly, I ensured that there were clear questions posed to the user, so they knew exactly what they were being asked, and they were told how to answer the question. I also made sure to include '.to_i' for when the user needed to input a number for the second question. This ensured that the program would be converted into an integer.
 
 Secondly, I opted to use a simple conditional statement to make the program work. I wrote the if statement first, and decided to use the '==' and '&&' to execute my conditional statement. Initially I was going to variables 'true' and 'false' to attach to variables above the conditional statement, but I felt that the '==' and '&&' worked well for this scenario. The code is very easy to read, and it is very simple to understand, and most importantly, it works. 
-
-
 &nbsp;  
 &nbsp;
 ## **Question - 16**
@@ -898,7 +878,6 @@ end
 ```
 ### **Explanation of my thought process**
 
-
 There were two main issues that I was having while trying to come up with a way to write this program: 
 &nbsp;  
 &nbsp;  
@@ -913,10 +892,11 @@ I eventually came up with an idea to use an empty hash (refer to the top of the 
 Secondly, I had no idea how to implement lines of code which would allow the program to provide feedback to the user about what languages they might learn, and how many extra points it would give them. I came up with the idea of using the original hash as the hash that would provide feedback to the user about languages they might want to learn. The way I executed this was by deleting the name of the language (both the key and value) that the user inputed - by the end of the quiz, the only languages left in the hash were the langauges that the user had not included in their quiz responses. I was able to use the remaining languages (the key in the hash) and their corresponding values (the values in the hash), and decided to iterate over the hash, and produce an output which fulfilled the criteria for the second part of the question. 
 
 I am aware that my code for this question is most probably the incorrect way of writing this program, but instead of not answering the question, I decided to attempt to write the program and write the code which I am familiar with. 
-
+&nbsp;  
+&nbsp;  
 ## **Bibliography**
-
-Reference list
+&nbsp;  
+&nbsp;  
 Abba, I.V. (2022). HTML Cheat Sheet – HTML Elements List Reference. [online] freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/html-cheat-sheet-html-elements-list-reference/ [Accessed 10 Apr. 2022].
 
 ACM (2018). ACM Code of Ethics and Professional Conduct. [online] Acm.org. Available at: https://www.acm.org/code-of-ethics.

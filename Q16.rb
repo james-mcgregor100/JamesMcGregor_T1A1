@@ -1,4 +1,3 @@
-```ruby
 
 skills = {"python" => 1, "ruby" => 2, "bash" => 4, "git" => 8, "html" => 16, "tdd" => 32, "css" => 64, "javascript" => 128}
 update = Hash.new
@@ -99,4 +98,3 @@ end
     end
 
     puts "\n\nThank you for taking our quiz. We will be in contact with you within the next two weeks to inform you if your application was successful or not."
-```
