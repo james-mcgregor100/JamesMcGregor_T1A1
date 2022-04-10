@@ -15,3 +15,14 @@ end
     arr[i] = arr[i + 1]
     arr[i + 1] = arr[i]
 puts arr
+
+```ruby 
+puts "Before you enter, you must show your ID card to prove you are over 18."
+age = gets.chomp.to_i
+
+if > 18 
+    puts "Feel free to enter the bar"
+else 
+    puts "You are under the age of 18, you cannot enter"
+end 
+```

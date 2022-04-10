@@ -579,8 +579,27 @@ https://www.natlawreview.com/article/australia-s-online-privacy-bill-and-privacy
  
 
 ## **Q8 Explain control flow, using examples from the Ruby programming language**
+According to Mozilla, control is the order in which statements, or lines of code are executed in a program (Mozilla, MDN Contributers). Depending on which language you are using, there will be statements which are specific to that language, which have the ability to alter the control flow in a unique way. Some examples of different control flow statements that are found in the Ruby programming language, are - 'if' statements, 'if/else' statements, 'unless' statements, 'while' statements. These particular statements can be found in a control structure called a "loop" in Ruby (Bodnar 2007). Two examples will be provided below to demonstrate control flow, and control flow statements. 
+&nbsp;
+&nbsp;
+
+1. If/else statement
+```ruby 
+puts "Before you enter, you must show your ID card to prove you are over 18."
+age = gets.chomp.to_i
+
+if > 18 
+    puts "Feel free to enter the bar"
+else 
+    puts "You are under the age of 18, you cannot enter"
+end 
+```
+
+2. While statement
+
 &nbsp;
 &nbsp; 
+https://zetcode.com/lang/rubytutorial/flowcontrol/ - Jan Bodnar (2007)
 ## **Q9 Explain type coercion**
 Type coercion is an action which converts one data type into another data type, for example, an integer into a string, or a string into an integer. 
 If one needed to convert an integer into a float by using type coercion, they would write the following code - 
@@ -829,7 +848,6 @@ end
 print arr
 puts "\n\n"
 puts
-
 ```
 &nbsp;  
 &nbsp;  
@@ -993,7 +1011,8 @@ end
 ```
 ### **Explanation of my thought process**
 
-To be completely honest, I struggled for more than 24 hours trying to figure out how to write this program. There were two main issues that I was having while trying to come up with a way to write this program: 
+
+There were two main issues that I was having while trying to come up with a way to write this program: 
 &nbsp;  
 &nbsp;  
 
