@@ -142,12 +142,12 @@ The TCP has contributed immensely to the development of the internet by providin
 
 ### **HTTP and HTTPS**
 HTTPS is different from HTTP in that it provides a layer of encryption, and thus is more secure than the HTTP protocol. If a similar form were to be submitted on both HTTP and HTTPS, someone attempting to hack the form would find it easier to access the information from the HTTP protocol, and would have trouble accessing the information via HTTPS. The encryption feature in HTTPS is an invaluable tool for websites, as it gives the company running the website an extra layer of trust and reputability (Cloudfare).  
-**Source** https://www.cloudflare.com/learning/ssl/why-use-https/ 
 &nbsp;  
 &nbsp;  
 ![Diagram of http vs https](https.png)
 ##### _Image Source - Savvy Security (Please check bibliography for full reference)_
-&nbsp; 
+&nbsp;  
+ 
 From the diagram above, we can see that a HTTP website sends plaintext data over the internet to a website server, however, there is no data encryption taking place. These packets of data being sent over the internet are vulnerable to being exploited by hositle actors. HTTPS websites, on the other hand, encrypt their packets of data when they are sent from the website to the server. HTTPS websites are designed for protecting the user's sensitive data, such as their credit card details, passwords, and other sensitive personal information which should not be shared with third parties. The easiest way to determine whether a website is HTTP or HTTPS is whether or not a small padlock symbol is placed in front of the website's url. If the symbol is present, the website is secure - if there is no symbol, the website is not secure (Savvy Security). 
 &nbsp;
 #### **TLS and SSL Encryption**
