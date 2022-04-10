@@ -137,21 +137,27 @@ https://nap.nationalacademies.org/read/11258/chapter/4
 https://slate.com/technology/2015/05/icann-transition-the-interesting-history-of-the-internet-domain-name-system.html
 &nbsp;
 &nbsp;  
-**source** - (Signposts in Cyberspace: The Domain Name System and Internet Navigation, 2005 - page 41, 42 file on my PC*******) 
-&nbsp;  
-&nbsp;  
 ## **Question 3 - Define the features of the following technologies that are essential in terms of the development of the internet:**
 &nbsp;  
 ### **TCP**
-TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish.
+TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish (Bodner 2021). A unique feature of the TCP/IP protocol is that it allows any device (regardless of its OS) to connect to the network, and also allows a range of different networks to connect together around the world by using the same protocol (Hunt 2010). 
+
+https://www.google.com.au/books/edition/TCP_IP_Network_Administration/A_LL2LQASdoC?hl=en&gbpv=1&dq=tcp/ip+model&printsec=frontcover - Hunt 2010. 
 &nbsp;    
 &nbsp;
-The TCP/IP architecture consists of four important layers. The layers are - the link layer, the internet layer, the transport layer, and the application layer. A brief explanation will be given below regarding the role that each layer plays in the TCP/IP architecture: 
+The TCP/IP architecture consists of four important layers. The layers are - the link layer, the internet layer, the transport layer, and the application layer. The layers are structured systematically, and determine how the data passes through each layer. A brief explanation will be given below regarding the role that each layer plays in the TCP/IP architecture: 
 
-#### **Link Layer**
-#### **Internet Layer**
+#### **Data Link/Network Access Layer/Physical Layer**
+The Network Access Layer is the layer which is responsible for transferring data over the network. It allows two computers to be able to communicate with each other, and facilitates the sending and receiving of data. The data sent on this layer is usually between computers on a local network, or computers which are connected to the same network (Bodnar 2021).
+
+https://www.avg.com/en/signal/what-is-tcp-ip#:~:text=There%20are%20four%20layers%20of,when%20the%20data%20is%20received. - (Bodnar 2021)
+#### **Internet/Network Layer**
+The Internet/Network Layer is primarily responsible for ensuring that packets are sent from the sender device, to the receiver device over a network. It also assumes the role of determining how the data packets are sent to the receiving device, and also makes sure the data packets are put back together before they are opened and read on the receiving end. By determining the routing method and which routers the packets will pass through, the internet/network layer efficiently takes care of the data packets while they are travelling from state to finish.  (Williams 2021).
+
+https://www.guru99.com/tcp-ip-model.html - Williams (2021)
 
 #### **Transport Layer**
+The transport layer is responsible for providing the stable delivery of data packets from the sender to the receiver. If errors are not found in the packets being delivered, the transport layer process the next data packet to be sent over the network. If errors are found in the data packets for whatever reason, the transport layer will send a request for the data packet to be retransmitted again. The transport layer also acts as a signalling device which 
 
 #### **Application Layer**
 &nbsp;  
@@ -383,6 +389,8 @@ Trees are another common data structure in the Ruby programming language, and th
 &nbsp;  
 #### **Reasons for using a Tree**
 A reason for using a tree over a linear data structure such as a hash or an array is because the tree traversal takes a short amount of time to insert and delete data. On the other hand, trees may become lopsided (on the left or the right side) and this could lead to problems with the data structure. Another reason a programmer may opt to us a tree over other data structure types is due to the hierarchical nature of a tree. If a particular data set requires the the data to be structured in a hierarchical manner, the tree might be the perfect option for this use case (Indeed 2021). Indeed, it is important to weigh the pros and cons of using a tree, and to determine if your data set requires a more linear approach like a hash and array, or a hierarchical structure like a tree.
+
+
 
 
 https://in.indeed.com/career-advice/finding-a-job/what-is-tree-data-structure 
@@ -620,9 +628,9 @@ outcome: 105.0
 This code has transformed the whole number 105 into a decimal number. 
 
 Type coercion can also be used to change the data type of a number into a string. The following code shows this example - 
-
+```ruby
 25.to_s
-Outcome: “25”
+Output: “25”
 As you can see, the integer has now changed into a string and it is surrounded by the double quotation marks. 
 &nbsp;  
 &nbsp;   
