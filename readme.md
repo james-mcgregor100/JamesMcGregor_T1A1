@@ -1,4 +1,4 @@
-# Workbook T1A1
+# James McGregor Workbook T1A1
 ## Link to Assignment
 Github: https://github.com/james-mcgregor100/JamesMcGregor_T1A1
 &nbsp;  
@@ -20,12 +20,12 @@ On all HTML pages, there are a number of specific HTML components which must be 
 ![HTML snippet](html.png)
 #### ***Source - https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics***
 &nbsp;  
-The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The <html> tag is used to wrap the whole page in HTML language. The roll of the <head> tag is to have a title <title> tag which will display a page title on the tabs of a browser window. And the <meta> tag communicates to the code editor what language the code is being written in. 
+The snippet above shows the basic layout of a HTML webpage, with the most fundamental elements included. Firstly, the !DOCTYPE html tag tells the code editor that the document is a HTML document. The html tag is used to wrap the whole page in HTML language. The roll of the head tag is to have a title tag which will display a page title on the tabs of a browser window. And the meta tag communicates to the code editor what language the code is being written in. 
 
-Outside of the this are the <body> and <image> tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the <image> obviously wraps around an image of a link so that it can be displayed in the HTML document. Aside from these elements there are a range of other fundamental components which can be found in most HTML pages when they are constructed, including: <h1>, <h2>, <h3> elements which indicate different sized headings, the <p> tag which indicates a paragraph of text, and the <br> tag which indicates a line break on the HTML page. 
+Outside of the this are the body and image tags. The body element holds all of the information for the page inside of it, from the top to the bottom of the page. And the image obviously wraps around an image of a link so that it can be displayed in the HTML document. Aside from these elements there are a range of other fundamental components which can be found in most HTML pages when they are constructed, including - h1, h2, h3 elements which indicate different sized headings, the p tag which indicates a paragraph of text, and the br tag which indicates a line break on the HTML page. 
 &nbsp;  
 &nbsp;  
-One of the main components that can be found in HTML pages are "links", which are written as <a> in a HTML page. The HTML pages are able to display hyperlinks in the HTML file which allows users to navigate from one page to another. An example of a "link" component in HTML is presented below - 
+One of the main components that can be found in HTML pages are "links", which are written as "a" in a HTML page. The HTML pages are able to display hyperlinks in the HTML file which allows users to navigate from one page to another. An example of a "link" component in HTML is presented below - 
 
 
 &nbsp;  
@@ -95,7 +95,7 @@ Most people think of website domain names as being the primary address for a web
 The main difference between the IPv4 IP address and the IPv6 IP address is the amount of IP addresses that are able to be created on the network. It is believed that the IPv4 style of IP addresses will eventually run out of space to create new addresses, and this will lead to the adoption of the new, larger scale version of IP addresses, which is known as IPv6. For comparison, the IPv4 style of IP address has 32bits, where as IPv6 has 128bits (Lawrence Williams 2022). Due to the explosion of the human population, increasing technological adoption by the world’s population, and increasing number of computers, the IPv6 style of address will need to be used. It is believed that the IPv6 style will be able to hold a larger number of addresses than IPv4, which IT experts believe will be a sufficient amount for the foreseeable future (Josh Fruhlinger 2022).
 &nbsp;  
 &nbsp;
-## **Explain how Packets have contributed to the development of the internet.**
+## **Explain how IP Addresses have contributed to the development of the internet.**
 If one thinks about this in terms of the development of the internet, the invention of Internet Protocols has allowed the world to become more interconnected technologically, and has allowed for communication barriers to be removed between people around the world. IP addresses in general have allowed information to be sent from its original sender to its destination. It has given unique identities for each device on the internet and allows a seamless way for data or information to be sent to one device to another without it being lost, or sent to the wrong device.
 &nbsp;  
 &nbsp;     
@@ -143,7 +143,6 @@ https://slate.com/technology/2015/05/icann-transition-the-interesting-history-of
 TCP stands as Transmission Control Protocol, which is a protocol which standardizes, or sets out the method for how data is sent and transmitted across the internet. The Transmission Control Protocol and Internet Protocol (IP) work together in tandem to facilitate the sending, receiving, and travel of data across the internet. The IP address sets out the addresses from the sender and the receiver devices, and the TCP decides how the data will get transmitted throughout the journey of a packet of data, from start to finish (Bodner 2021). A unique feature of the TCP/IP protocol is that it allows any device (regardless of its OS) to connect to the network, and also allows a range of different networks to connect together around the world by using the same protocol (Hunt 2010). 
 
 https://www.google.com.au/books/edition/TCP_IP_Network_Administration/A_LL2LQASdoC?hl=en&gbpv=1&dq=tcp/ip+model&printsec=frontcover - Hunt 2010. 
-&nbsp;    
 &nbsp;
 The TCP/IP architecture consists of four important layers. The layers are - the link layer, the internet layer, the transport layer, and the application layer. The layers are structured systematically, and determine how the data passes through each layer. A brief explanation will be given below regarding the role that each layer plays in the TCP/IP architecture: 
 
@@ -157,9 +156,13 @@ The Internet/Network Layer is primarily responsible for ensuring that packets ar
 https://www.guru99.com/tcp-ip-model.html - Williams (2021)
 
 #### **Transport Layer**
-The transport layer is responsible for providing the stable delivery of data packets from the sender to the receiver. If errors are not found in the packets being delivered, the transport layer process the next data packet to be sent over the network. If errors are found in the data packets for whatever reason, the transport layer will send a request for the data packet to be retransmitted again. The transport layer also acts as a signalling device which 
+The transport layer is responsible for providing the stable delivery of data packets from the sender to the receiver. If errors are not found in the packets being delivered, the transport layer process the next data packet to be sent over the network. If errors are found in the data packets for whatever reason, the transport layer will send a request for the data packet to be retransmitted again. The transport layer also acts as a signalling device which determines when the data packet has been sent and received. This allows the transport layer to make its next decision to either send the next data packet in line, or to resend a data packet that is corrupted or unable to be opened (Williams 2022).
 
 #### **Application Layer**
+The application layer is the closest layer to the actual user who is using the device and network. The user interacts with the application layer by interacting with several protocols, including - the HTTP protocol to interact with internet websites, the FTP protocol which allows file sharing over a network, the SMTP protocol which allows the user to send and receive mail, and the DNS which translates IP addresses to domain names to the user (Richard 2018).
+
+https://www.tutorialspoint.com/The-Application-Layer-in-TCP-IP-Model#:~:text=The%20application%20layer%20is%20the,layer%20of%20the%20OSI%20model. Paul Richard 2018 
+
 &nbsp;  
 &nbsp;
 ### **Explain how TCP has contributed to the development of client and server communication over the internet (50 - 150 words for TCP)** 
