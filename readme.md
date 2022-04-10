@@ -594,9 +594,20 @@ else
     puts "You are under the age of 18, you cannot enter"
 end 
 ```
+This code snippet shows a basic if/else statement in the Ruby language. The control flow begins with a string asking a question, and then a gets.chomp statement to ask for the user to input their age. Once this has been completed, the program moves on to the if statement where the flow begins to be altered, depending on two conditions. Firstly, if the user has inputted that they are over the age of 18, they can enter, and the program will finish running. This means that if the first condition is met, the program will finish running. Secondly, if the user is not over 18, the program will move to the "else" statement, and print out that the user is not allowed to enter the premises. If the first condition is not met, the second condition will become true and will be executed. Once the else statement has been executed, the control flow will move to the end of the program and the program will finish running. 
+&nbsp;  
+&nbsp;  
 
 2. While statement
+```ruby 
+num = 0
 
+while num <= 50
+    puts "The current number is #{num}. This program will keep running until the number hits 50"
+    num += 1
+end  
+```
+This code snippet shows a basic while loop in the Ruby language. The control flow begins with the variable "num" being set to "0". The while loop begins with setting out a condition. While the current number is smaller than or equal to 50, it must print out a string. Once the string has been printed, the current number (num) will then increment by 1, and if the number is still less than or equal to 50, the while loop will run again, this time using number "1". The loop keeps executing this code until the "num" is less than or equal to 50. Once the "num" reaches 50, the "end" command will stop the flow of the code. 
 &nbsp;
 &nbsp; 
 https://zetcode.com/lang/rubytutorial/flowcontrol/ - Jan Bodnar (2007)
